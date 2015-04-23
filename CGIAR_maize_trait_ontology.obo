@@ -1,0 +1,4309 @@
+format-version: 1.2
+date: 23:09:2014 16:08
+saved-by: RSHRESTHA
+auto-generated-by: OBO-Edit 2.1.1-beta7
+default-namespace: maize_trait
+remark: Maize trait ontology is prepared by Rosemary Shrestha, CIMMYT for the Generation Challenge Program (GCP).It is revised by Julian Pietragalla and Rosemary Shrestha in September, 2014.
+
+[Term]
+id: CO_322:0000000
+name: Maize trait ontology
+def: "Defines traits that are being used in the International Maize Information System (IMIS) database, CIMMYT and the Descriptors for maize published by CIMMYT/IBPGR, Rome 1991(ISBN 9290431891)." [CO:rs]
+
+[Term]
+id: CO_322:0000001
+name: Anthesis silking interval
+def: "Determined by (i) measuring the number of days after planting until 50 % of the plants shed pollen (anthesis date, AD) and show silks (silking date, SD), respectively, and (ii) calculating: ASI = SD - AD." [CO:rs]
+comment: If it is measured under drought or N stress, small or negative values indicate stress tolerance. Unit/precision: 1 day.
+synonym: "ASI, ANTSKIT, FLWSLKINTER" RELATED []
+xref: Gramene Plant Trait Ontology:TO\:0000463
+xref: IMIS_TRAITID:2004
+is_a: CO_322:0000002 ! Agronomic trait
+relationship: derived_from CO_322:0000030 ! Days to anthesis
+relationship: derived_from CO_322:0000031 ! Days to silking
+
+[Term]
+id: CO_322:0000002
+name: Agronomic trait
+relationship: part_of CO_322:0000000 ! Maize trait ontology
+
+[Term]
+id: CO_322:0000003
+name: Chlorophyll content
+def: "Measurement of chlorophyll amount in green tissue of plant or plant part." [CO:rs]
+synonym: "CHLCN, CHLO" RELATED []
+synonym: "CHLOCON" RELATED []
+xref: Gramene Plant Trait Ontology:TO\:0000495
+xref: IMIS_TRAITID:2058
+is_a: CO_322:0000006 ! Physiological trait
+
+[Term]
+id: CO_322:0000004
+name: Female flowering
+def: "Traits associated with the timing of the female flowering." [CO:rs]
+synonym: "female flowering anthesis" RELATED []
+xref: Gramene Plant Trait Ontology:TO\:0000359
+is_a: CO_322:0000023 ! Phenological trait
+
+[Term]
+id: CO_322:0000005
+name: Grain yield
+def: "Shelled grain weight per plot adjusted to 12.5% grain moisture and converted to tons per hectare." [CO:rs]
+comment: 80 % shelling percentage is assumed when ear weight reported.
+synonym: "GRYLD, GY, seed yield" RELATED []
+xref: Gramene Plant Trait Ontology:TO\:0000396
+xref: IMIS_TRAITID:2034
+xref: IMIS_TRAITID:2035
+xref: IMIS_TRAITID:2090
+xref: IMIS_TRAITID:2091
+xref: IMIS_TRAITID:2098
+is_a: CO_322:0000002 ! Agronomic trait
+
+[Term]
+id: CO_322:0000006
+name: Physiological trait
+synonym: "SOI" RELATED []
+relationship: part_of CO_322:0000000 ! Maize trait ontology
+
+[Term]
+id: CO_322:0000007
+name: Plant height
+def: "Height between the base of a plant to the insertion of the first tassel branch of the same plant in centimeter (cm)." [CO:rs]
+synonym: "PHT, PlantH, PTHT, shoot height" RELATED []
+xref: Gramene Plant Trait Ontology:TO\:0000207
+xref: IMIS_TRAITID:2050
+is_a: CO_322:0000002 ! Agronomic trait
+
+[Term]
+id: CO_322:0000008
+name: Plant number
+def: "Number of harvested plants per plot." [CO:rs]
+synonym: "PNO" RELATED []
+is_a: CO_322:0000002 ! Agronomic trait
+
+[Term]
+id: CO_322:0000009
+name: Male flowering
+def: "Traits associated with the timing of the male flowering." [CO:rs]
+synonym: "male flower anthesis" RELATED []
+xref: Gramene Plant Trait Ontology:TO\:0000365
+is_a: CO_322:0000023 ! Phenological trait
+
+[Term]
+id: CO_322:0000010
+name: Kernel number
+def: "Calculated as grain weight divided by a single kernel weight." [CO:rs]
+synonym: "grain number, GRNB, KNO" RELATED []
+xref: Gramene Plant Trait Ontology:TO\:0002759
+is_a: CO_322:0000002 ! Agronomic trait
+
+[Term]
+id: CO_322:0000011
+name: Plant aspect
+def: "Qualitative score of the visual appeal (ideotype) of the plant. In another word, it rates characteristics such as plant and ear height, uniformity of plants, disease and insect damage, and lodging on a scale of 1 to 5 where 1 is excellent and 5 is poor." [CO:rs]
+synonym: "PlantA" RELATED []
+xref: IMIS_TRAITID:2049
+is_a: CO_322:0000002 ! Agronomic trait
+
+[Term]
+id: CO_322:0000012
+name: Senescence
+def: "Leaf senescence score on a scale from 0 to 10. Taken during grain-filling by estimating the percentage of dead leaf area and dividing it by 10 (i.e. 0 = 0% dead leaf area, 1 = 10% dead leaf area etc)." [CO:rs]
+comment: If taken under drought or N stress, small scores indicate stress tolerance. Leaf senescence is scored on 2 occasions (20 and 30 days after female flowering).
+synonym: "SEN, Senesc" RELATED []
+xref: IMIS_TRAITID:2057
+is_a: CO_322:0000002 ! Agronomic trait
+
+[Term]
+id: CO_322:0000013
+name: Silk length
+def: "Measurement of growth of silk in centimeters." [CO:rs]
+synonym: "SG" RELATED []
+is_a: CO_322:0000174 ! Morphological trait
+
+[Term]
+id: CO_322:0000014
+name: Silk growth rate
+def: "Measurement of growth rate of silk." [CO:rs]
+synonym: "SGR" RELATED []
+is_a: CO_322:0000002 ! Agronomic trait
+
+[Term]
+id: CO_322:0000015
+name: Ear length
+def: "Measurement of ear length in centimeter." [CO:rs]
+synonym: "EG" RELATED []
+is_a: CO_322:0000174 ! Morphological trait
+
+[Term]
+id: CO_322:0000016
+name: Ear growth rate
+def: "Measure of growth rate of ear in percentage." [CO:rs]
+synonym: "EGR" RELATED []
+is_a: CO_322:0000002 ! Agronomic trait
+
+[Term]
+id: CO_322:0000017
+name: Ear height
+def: "Height between the base of a plant to the insertion of the top (uppermost) ear of the same plant in centimeter (cm)." [CO:rs]
+synonym: "EarHei, EARHT, EHT" RELATED []
+xref: Gramene Plant Trait Ontology:TO\:0000683
+xref: IMIS_TRAITID:2023
+is_a: CO_322:0000174 ! Morphological trait
+
+[Term]
+id: CO_322:0000018
+name: Ear aspect
+def: "Visual rating of harvested ears based on some morphological and agronomical characters such as ear size, total numbers of ear harvested per plot, ear damaged caused by insects or/and diseases. " [CO:rs]
+synonym: "EarAsp" RELATED []
+xref: IMIS_TRAITID:2022
+is_a: CO_322:0000002 ! Agronomic trait
+
+[Term]
+id: CO_322:0000019
+name: Ear leaf length
+def: "Measurement of length ear leaf (blade) in centimeter." [CO:rs]
+synonym: "ELL" RELATED []
+is_a: CO_322:0000174 ! Morphological trait
+
+[Term]
+id: CO_322:0000020
+name: Ear position
+def: "A ratio of ear height to plant height. Small values indicate low ear position; large values indicate high ear position." [CO:rs]
+synonym: "EPO" RELATED []
+xref: IMIS_TRAITID:2024
+is_a: CO_322:0000002 ! Agronomic trait
+
+[Term]
+id: CO_322:0000021
+name: Ear number per plant
+def: "Number of ears per plant. Counted as number of ears with at least one fully developed grain divided by the number of harvested plants. An EPP of below 1.0 indicates partial barreness, an EPP of above 1.0 indicates partial prolificacy." [CO:rs]
+synonym: "ears per plant" RELATED []
+synonym: "ENO, EPPNo" RELATED []
+xref: IMIS_TRAITID:2031
+is_a: CO_322:0000002 ! Agronomic trait
+
+[Term]
+id: CO_322:0000022
+name: Ear dry weight
+def: "Weight of ear taken after drying at 60-70 degree celsius for 1-2 days." [CO:rs]
+synonym: "EDW0D" RELATED []
+is_a: CO_322:0000002 ! Agronomic trait
+
+[Term]
+id: CO_322:0000023
+name: Phenological trait
+relationship: part_of CO_322:0000000 ! Maize trait ontology
+
+[Term]
+id: CO_322:0000024
+name: Young leaf chlorophyll content
+def: "Amount of chlorophyll content in the young leaf measured at the beginning and the end of the stress using a SPAD meter." [CO:rs]
+comment: Chlorophyll content measured in the middle of the target leaf.
+synonym: "YLCH" RELATED []
+is_a: CO_322:0000003 ! Chlorophyll content
+
+[Term]
+id: CO_322:0000025
+name: Leaf length
+def: "Measurement of leaf length in centimeter." [CO:rs]
+synonym: "LLNG" RELATED []
+is_a: CO_322:0000174 ! Morphological trait
+
+[Term]
+id: CO_322:0000026
+name: Leaf width
+def: "Measurement of leaf width in centimeter." [CO:rs]
+synonym: "LWID" RELATED []
+is_a: CO_322:0000174 ! Morphological trait
+
+[Term]
+id: CO_322:0000027
+name: Tassel branches dry weight
+def: "The dry weight of tassel branches just prior to pollen shed." [CO:rs]
+is_a: CO_322:0000002 ! Agronomic trait
+
+[Term]
+id: CO_322:0000028
+name: Tassel branches number
+def: "Number of branches on tassel." [CO:rs]
+is_a: CO_322:0000002 ! Agronomic trait
+
+[Term]
+id: CO_322:0000029
+name: Quality trait
+relationship: part_of CO_322:0000000 ! Maize trait ontology
+
+[Term]
+id: CO_322:0000030
+name: Days to anthesis
+def: "Number of days from sowing to when 50% of the plants shed pollen." [CO:rs]
+synonym: "days to tasseling" RELATED []
+synonym: "DAYSAN" RELATED []
+synonym: "DTA" RELATED []
+synonym: "male flowering" RELATED []
+synonym: "AD" RELATED []
+xref: IMIS_TRAITID:2001
+is_a: CO_322:0000009 ! Male flowering
+
+[Term]
+id: CO_322:0000031
+name: Days to silking
+def: "Number of days from sowing to when 50% of the plants silk." [CO:rs]
+synonym: "DTS" RELATED []
+synonym: "DTSLK" RELATED []
+synonym: "female flowering" RELATED []
+synonym: "FFLW" RELATED []
+synonym: "SD" RELATED []
+xref: Gramene Plant Trait Ontology:TO\:0000658
+xref: IMIS_TRAITID:2018
+is_a: CO_322:0000004 ! Female flowering
+
+[Term]
+id: CO_322:0000032
+name: Days to maturity
+def: "Number of days required from seeding to seed/grain ripening." [Gramene Plant Trait Ontology:TO\:0000469]
+synonym: "DTM" RELATED []
+synonym: "DTMT, Maturi" RELATED []
+synonym: "MD" RELATED []
+xref: IMIS_TRAITID:2096
+is_a: CO_322:0000023 ! Phenological trait
+
+[Term]
+id: CO_322:0000033
+name: Grain moisture
+def: "Percentage of grain moisture as measured at harvest." [CO:rs]
+synonym: "GrainM" RELATED []
+xref: Gramene Plant Trait Ontology:TO\:0000057
+xref: IMIS_TRAITID:2032
+is_a: CO_322:0000002 ! Agronomic trait
+
+[Term]
+id: CO_322:0000034
+name: Root lodging
+def: "Measured as percentage of plants that show root lodging, i.e. those stems that are inclining by more than 45 degree." [CO:rs]
+comment: Counted late in the grain filling period or two weeks before harvest or just prior to harvest.
+synonym: "Rlodg, RootLo" RELATED []
+xref: IMIS_TRAITID:2055
+is_a: CO_322:0000002 ! Agronomic trait
+
+[Term]
+id: CO_322:0000035
+name: Stem lodging
+def: "Measured as percentage of plants that show stem lodging, i.e. those stems that are broken below the ear." [CO:rs]
+synonym: "Slodg, StemLo" RELATED []
+synonym: "stalk lodging" RELATED []
+xref: IMIS_TRAITID:2063
+is_a: CO_322:0000002 ! Agronomic trait
+
+[Term]
+id: CO_322:0000036
+name: Growing degree units to anthesis
+def: "Heat units (growing-degree units) between planting and 50% anthesis; commercial model (10,30)." [CO:rs]
+synonym: "Anthesis GDU" RELATED []
+xref: IMIS_TRAITID:2073
+is_a: CO_322:0000002 ! Agronomic trait
+
+[Term]
+id: CO_322:0000037
+name: Growing degree units to maturity
+def: "Heat units (growing-degree units) between planting and black-layer formation, commercial model (10,30)." [CO:rs]
+synonym: "maturity GDU" RELATED []
+xref: IMIS_TRAITID:2097
+is_a: CO_322:0000002 ! Agronomic trait
+
+[Term]
+id: CO_322:0000038
+name: Tassel size
+def: "Visual rating of tassel size after milk stage. The higher the rating the larger the tassel." [CO:rs]
+xref: IMIS_TRAITID:2122
+is_a: CO_322:0000174 ! Morphological trait
+
+[Term]
+id: CO_322:0000039
+name: Grain texture
+def: "A measure of the variation of the intensity of a surface, quantifying properties such as smoothness, coarseness and regularity of the grain. It is rated on a scale from 1 (= flint) to 5 (=dent)." [CO:rs]
+synonym: "GrainT" RELATED []
+xref: IMIS_TRAITID:2033
+is_a: CO_322:0000002 ! Agronomic trait
+
+[Term]
+id: CO_322:0000040
+name: Seed viability
+def: "Seed viability is measured after 3 month at 100% relative humidity and 30 degree, 1 = 100-80% germination, 5 = 0-20% germination." [CO:rs]
+synonym: "SDVIA, SeedVi" RELATED []
+xref: Gramene Plant Trait Ontology:TO\:0000345
+xref: IMIS_TRAITID:2115
+is_a: CO_322:0000002 ! Agronomic trait
+
+[Term]
+id: CO_322:0000041
+name: Endosperm hardness
+def: "Measurement of quality of endosperm, usually rated on a scale 1-5 where 1, hard and transparent grains; 5, soft and opaque grains." [CO:rs]
+synonym: "Endosp" RELATED []
+xref: IMIS_TRAITID:2030
+is_a: CO_322:0000029 ! Quality trait
+
+[Term]
+id: CO_322:0000042
+name: Stress trait
+relationship: part_of CO_322:0000000 ! Maize trait ontology
+
+[Term]
+id: CO_322:0000043
+name: Abiotic stress trait
+is_a: CO_322:0000042 ! Stress trait
+
+[Term]
+id: CO_322:0000044
+name: Biotic stress trait
+is_a: CO_322:0000042 ! Stress trait
+
+[Term]
+id: CO_322:0000045
+name: Bacterial disease
+def: "Scored for the response to the diseases caused by several bacteria." [CO:rs]
+is_a: CO_322:0000044 ! Biotic stress trait
+
+[Term]
+id: CO_322:0000046
+name: Fungal disease
+def: "The trait is scored for the response to the diseases caused by several fungi." [CO:rs]
+comment: A generic trait, used when casual pathogen at genus or species level cannot be identified.
+is_a: CO_322:0000044 ! Biotic stress trait
+
+[Term]
+id: CO_322:0000047
+name: Viral disease
+def: "Scored for the response to the diseases caused by several viruses." [CO:rs]
+is_a: CO_322:0000044 ! Biotic stress trait
+
+[Term]
+id: CO_322:0000048
+name: Insect damage
+def: "Scored for the response to the damages caused by insects." [CO:rs]
+is_a: CO_322:0000044 ! Biotic stress trait
+
+[Term]
+id: CO_322:0000049
+name: Corn stunt
+def: "Corn stunt complex (corn stunt spiroplasma, maize bushy stunt phytoplasma [= mycoplasma], maize rayado fino virus) measured as percentage of plants affected." [CO:rs]
+comment: Symptoms: Stunting, shortened internodes; axillary bud development; excessive root branching; leaf reddening and/or marginal yellowing, chlorotic streaks at bases of leaves.
+synonym: "corn stunt spiroplasma" RELATED []
+synonym: "CornSt" RELATED []
+xref: IMIS_TRAITID:2014
+xref: IMIS_TRAITID:2015
+is_a: CO_322:0000045 ! Bacterial disease
+
+[Term]
+id: CO_322:0000050
+name: Stewarts wilt
+def: "Stewart wilt (Erwinia stewartii) measured as percentage of plants affected." [CO:rs]
+comment: Symptoms: Stunting, shortened internodes; axillary bud development; excessive root branching; leaf reddening and/or marginal yellowing, chlorotic streaks at bases of leaves.
+synonym: "bacterial wilt" RELATED [http://www.apsnet.org/online/common/names/corn.asp]
+synonym: "StewartsWiltPer" RELATED []
+xref: IMIS_TRAITID:2120
+is_a: CO_322:0000045 ! Bacterial disease
+
+[Term]
+id: CO_322:0000051
+name: Bacterial leaf stripe
+def: "Bacterial leaf stripe (Pseudomonas rubrilinians) symptoms rated on a scale from 1 (= clean, no infection) to 5 (= severely diseased)." [CO:rs]
+comment: Symptoms: Lesions, pale green along veins developing to stripes, later becoming grayish white to brown and shredding.
+synonym: "bactrialLeafStripe1_5" RELATED []
+xref: IMIS_TRAITID:2075
+is_a: CO_322:0000045 ! Bacterial disease
+
+[Term]
+id: CO_322:0000052
+name: Bacterial stalk rot
+def: "Bacterial stalk rot (Erwinia chrysanthemi) measured as percentage of plants affected." [CO:rs]
+comment: Symptoms: Water-soaked, dark areas at base of stalk; unpleasant odor, lodging.
+xref: IMIS_TRAITID:2116
+is_a: CO_322:0000045 ! Bacterial disease
+
+[Term]
+id: CO_322:0000053
+name: Maize bushy stunt
+def: "Maize bushy stunt (caused by mycoplasma like organism, MLO) symptoms rated on a scale from 1 (= clean, no infection) to 5 (= severely diseased)." [CO:rs]
+comment: Symptoms: Chlorotic and reddish leaves; stunting; plant may be bushy with many tillers.
+synonym: "maizeB" RELATED []
+xref: IMIS_TRAITID:2045
+is_a: CO_322:0000045 ! Bacterial disease
+
+[Term]
+id: CO_322:0000054
+name: Rust
+def: "Multiple rust pathogens measured on scale 1_5." [CO:rs]
+synonym: "rust" RELATED []
+xref: IMIS_TRAITID:2113
+is_a: CO_322:0000046 ! Fungal disease
+
+[Term]
+id: CO_322:0000055
+name: Polysora rust
+def: "Polysora rust (in lowlands Puccinia polysora) symptoms rated on a scale from 1 (= clean, no infection) to 5 (= severely diseased)." [CO:rs]
+comment: Symptoms: Pustules, small, round, powdery light orange; later, turning black.
+synonym: "Polyso, rust" RELATED []
+synonym: "southern rust" RELATED []
+xref: IMIS_TRAITID:2052
+is_a: CO_322:0000054 ! Rust
+
+[Term]
+id: CO_322:0000056
+name: Tropical rust
+def: "Tropical rust (Physopella zeae) symptoms rated on a scale from 1 (= clean, no infection) to 5 (= severely diseased)." [CO:rs]
+comment: Symptoms: Pustules, small, round- to-oval, surrounded by black rim.
+synonym: "Tropic" RELATED []
+xref: IMIS_TRAITID:2067
+is_a: CO_322:0000054 ! Rust
+
+[Term]
+id: CO_322:0000057
+name: Maydis leaf blight
+def: "Maydis leaf blight (Bipolaris maydis = Helminthosporium maydis) symptoms rated on a scale from 1 (= clean, no infection) to 5 (= severely diseased)." [CO:rs]
+comment: Symptoms: Lesions, small, light brown in color, elongating along secondary veins, and often coalescing.
+synonym: "LeafBl; SCBL" RELATED []
+synonym: "southern corn leaf blight" RELATED []
+xref: IMIS_TRAITID:2041
+is_a: CO_322:0000046 ! Fungal disease
+
+[Term]
+id: CO_322:0000058
+name: Anthracnose leaf blight
+def: "Anthracnose (Colletotrichum graminicola) measured as percentage of plants affected." [CO:rs]
+synonym: "ALB" RELATED []
+synonym: "ANTHRA" RELATED []
+xref: IMIS_TRAITID:2074
+is_a: CO_322:0000046 ! Fungal disease
+
+[Term]
+id: CO_322:0000059
+name: Tillering index
+def: "Number of tillers per plant." [CO:rs]
+comment: Average of more than 20 representative plants. \nAt growth stage: at flowering.
+is_a: CO_322:0000002 ! Agronomic trait
+created_by: RSHRESTHA
+creation_date: 2010-08-31T10:57:34Z
+
+[Term]
+id: CO_322:0000060
+name: Black bundle
+def: "Black bundle (Acremonium strictum) measured as percentage of plants affected." [CO:rs]
+comment: Symptoms: Nubbins, or ears with underdeveloped, shrunken kernels.
+synonym: "BlackBundlediseasePer" RELATED []
+xref: IMIS_TRAITID:2076
+is_a: CO_322:0000046 ! Fungal disease
+
+[Term]
+id: CO_322:0000061
+name: Stalk rot
+def: "Stalk rot from multiple pathogens or an unidentified pathogen measured as percentage of plants affected." [CO:rs]
+comment: A generic trait, used when casual pathogen at genus or species level cannot be identified.
+synonym: "StalkR" RELATED []
+xref: IMIS_TRAITID:2060
+is_a: CO_322:0000046 ! Fungal disease
+
+[Term]
+id: CO_322:0000062
+name: Charcoal rot
+def: "Charcoal rot or (Macrophomina phaseolina) measured as percentage of plants affected." [CO:rs]
+comment: Symptoms: Black discoloration of stem; shredding of interior; bundles of black material. In leaf, firing of upper leaves beginning at tasseling. Lightweight, chaffy ears; loose, discolored kernels, black specks on kernels and cob resulted due to charcoal rot in ear.
+synonym: "CharcoalRotPer" RELATED []
+xref: IMIS_TRAITID:2078
+is_a: CO_322:0000046 ! Fungal disease
+
+[Term]
+id: CO_322:0000063
+name: Fusarium stalk rot
+def: "Fusarium stalk rot measured as percentage of plants affected." [CO:rs]
+comment: Symptoms: The symptoms produced by Fusarium spp. resemble to those caused by Stenocarpella or Cephalosporium, and cannot be differentiated until spore-producing structures are observed. Wilted plants remain standing when dry, and small, dark-brown lesions develop in the lowest internodes. When infected stalks are split, the phloem appears dark brown, and there is a general conspicuous browning of tissues. In the final stages of infection, pith is shredded and surrounding tissues become discolored.\nNote: Used when casual pathogen at species level is unidentified.
+is_a: CO_322:0000061 ! Stalk rot
+
+[Term]
+id: CO_322:0000064
+name: Fusarium moniliforme stalk rot
+def: "Fusarium moniliforme stalk rot measured as percentage of plants affected." [CO:rs]
+synonym: "StalkRotFusMoniPer" RELATED []
+xref: IMIS_TRAITID:2117
+is_a: CO_322:0000063 ! Fusarium stalk rot
+
+[Term]
+id: CO_322:0000065
+name: Fusarium graminearum stalk rot
+def: "Fusarium graminearum stalk rot measured as percentage of plants affected." [CO:rs]
+synonym: "StalkRotFusGram" RELATED []
+xref: IMIS_TRAITID:2059
+xref: IMIS_TRAITID:2102
+is_a: CO_322:0000063 ! Fusarium stalk rot
+
+[Term]
+id: CO_322:0000066
+name: Stenocarpella stalk rot
+def: "Stenocarpella (=Diplodia) stalk rot measured as percentage of plants affected." [CO:rs]
+comment: Symptoms: Broken stalks; brownish pith; later, abundant spore-producing structures.
+synonym: "StalkRotStenocarPer" RELATED []
+xref: IMIS_TRAITID:2118
+is_a: CO_322:0000061 ! Stalk rot
+
+[Term]
+id: CO_322:0000067
+name: Pythium stalk rot
+def: "Pythium stalk rot (Pythium spp.) measured as percentage of plants affected." [CO:rs]
+comment: Twisting; dark internodes, soft and water soaked; lodging.
+synonym: "StalkRotPythiumPer" RELATED []
+xref: IMIS_TRAITID:2061
+is_a: CO_322:0000061 ! Stalk rot
+
+[Term]
+id: CO_322:0000068
+name: Ear rot
+def: "Percentage of all ears that are rotten." [CO:rs]
+comment: A generic trait, used when casual pathogen at genus or species level is unidentified.
+synonym: "ear rot total" RELATED []
+xref: IMIS_TRAITID:2028
+is_a: CO_322:0000046 ! Fungal disease
+
+[Term]
+id: CO_322:0000069
+name: Fusarium ear rot
+def: "Fusarium ear rot symptoms rated on a scale from 1 (= clean, no infection) to 5 (= severely diseased)." [CO:rs]
+comment: Used when casual pathogen at species level is unidentified.
+synonym: "EarRot" RELATED []
+is_a: CO_322:0000068 ! Ear rot
+
+[Term]
+id: CO_322:0000070
+name: Fusarium graminearum ear rot
+def: "Fusarium graminearum ear rot symptoms rated on a scale from 1 (= clean, no infection) to 5 (= severely diseased)." [CO:rs]
+synonym: "EarRot" RELATED []
+xref: IMIS_TRAITID:2085
+is_a: CO_322:0000069 ! Fusarium ear rot
+
+[Term]
+id: CO_322:0000071
+name: Fusarium moniliforme ear rot
+def: "Fusarium moniliforme ear rot symptoms rated on a scale from 1 (= clean, no infection) to 5 (= severely diseased)." [CO:rs]
+comment: Symptoms: Cottony, white-to-pink growth; some germination on the cob; white streaks on the pericarp; scattered kernels on the ear with pink fungal growth.
+synonym: "EarRot" RELATED []
+xref: IMIS_TRAITID:2026
+is_a: CO_322:0000069 ! Fusarium ear rot
+
+[Term]
+id: CO_322:0000072
+name: Aspergillus flavus ear rot
+def: "Aspergillus flavus ear rot symptoms rated on a scale from 1 (= clean, no infection) to 5 (= severely diseased)." [CO:rs]
+comment: Symptoms: Damaged kernels with black, yellow-green, ivy green or whitish, powdery spore masses.
+synonym: "EarRot" RELATED []
+xref: IMIS_TRAITID:2005
+xref: IMIS_TRAITID:2006
+xref: IMIS_TRAITID:2025
+is_a: CO_322:0000068 ! Ear rot
+
+[Term]
+id: CO_322:0000073
+name: Stenocarpella ear rot
+def: "Stenocarpella (=Diplodia) ear rot symptoms rated on a scale from 1 (= clean, no infection) to 5 (= severely diseased)." [CO:rs]
+comment: Symptoms: White fungal growth; gray-brown ear; black pycnidia; husks adhering to ear.
+synonym: "Diplodia ear rot, EarRot, white ear rot" RELATED []
+xref: IMIS_TRAITID:2027
+is_a: CO_322:0000068 ! Ear rot
+
+[Term]
+id: CO_322:0000074
+name: Penicillium ear rot
+def: "Penicillium ear rot symptoms rated on a scale from 1 (= clean, no infection) to 5 (= severely diseased). " [CO:rs]
+comment: Symptoms: Blue-green powder on cob; streaked and bleached kernels.
+synonym: "EarRot" RELATED []
+xref: IMIS_TRAITID:2086
+is_a: CO_322:0000068 ! Ear rot
+
+[Term]
+id: CO_322:0000075
+name: Downy mildew
+def: "Downy mildews (several species of the genera Peronosclerospora, Sclerospora, and Sclerophthora) symptoms rated on a scale from 1 (= clean, no infection) to 5 (= severely diseased)." [CO:rs]
+comment: Symptoms: Downy growth on upper or lower leaf surface, striping, partial leaf symptom or general chlorosis; narrow, abnormally erect leaves.
+is_a: CO_322:0000046 ! Fungal disease
+
+[Term]
+id: CO_322:0000076
+name: Philippine downy mildew
+def: "Philippine downy mildew (Peronosclerospora philippinensis) measured as percentage of plants affected." [CO:rs]
+synonym: "DMPhilippinePer" RELATED []
+xref: IMIS_TRAITID:2083
+is_a: CO_322:0000075 ! Downy mildew
+
+[Term]
+id: CO_322:0000077
+name: Sugarcane downy mildew
+def: "Sugarcane downy mildew (Peronosclerospora sacchari) measured as percentage of plants affected. " [CO:rs]
+synonym: "DMSugarcanePer" RELATED []
+xref: IMIS_TRAITID:2084
+is_a: CO_322:0000075 ! Downy mildew
+
+[Term]
+id: CO_322:0000078
+name: Brown stripe downy mildew
+def: "Brown stripe downy mildew (Sclerophthora rayssiae var. zeae) measured as percentage of plants affected." [CO:rs]
+synonym: "DMBrow" RELATED []
+xref: IMIS_TRAITID:2082
+is_a: CO_322:0000075 ! Downy mildew
+
+[Term]
+id: CO_322:0000079
+name: Java downy mildew
+def: "Java downy mildew (Peronosclerospora maydis) measured as percentage of plants affected." [CO:rs]
+synonym: "DMJava" RELATED []
+xref: IMIS_TRAITID:2019
+is_a: CO_322:0000075 ! Downy mildew
+
+[Term]
+id: CO_322:0000080
+name: Sorghum downy mildew
+def: "Sorghum downy mildew (Peronosclerospora sorghi) measured as percentage of plants affected." [CO:rs]
+synonym: "DMSorg" RELATED []
+xref: IMIS_TRAITID:2020
+xref: IMIS_TRAITID:2021
+is_a: CO_322:0000075 ! Downy mildew
+
+[Term]
+id: CO_322:0000081
+name: Crazy top downy mildew
+def: "Crazy top (Sclerophthora macrospora) measured as percentage of plants affected." [CO:rs]
+synonym: "CrazyT" RELATED []
+xref: IMIS_TRAITID:2016
+is_a: CO_322:0000075 ! Downy mildew
+
+[Term]
+id: CO_322:0000082
+name: Common smut
+def: "Common smut (Ustilago maydis) measured as percentage of plants affected.  The trait is scored for response to the common smut disease caused by Ustilago maydis (syn. U. zeae)." [CO:rs]
+comment: Symptoms: White galls, closed replacing kernels; later, black spore masses.
+synonym: "common" RELATED []
+xref: IMIS_TRAITID:2013
+is_a: CO_322:0000046 ! Fungal disease
+
+[Term]
+id: CO_322:0000083
+name: Head smut
+def: "Head smut (Sphacelotheca reiliana) measured as percentage of plants affected." [CO:rs]
+comment: Symptoms: Malformation and enlargement in tassels; black masses of spores that develop inside individual male florets.
+synonym: "HeadSm" RELATED []
+xref: IMIS_TRAITID:2038
+is_a: CO_322:0000046 ! Fungal disease
+
+[Term]
+id: CO_322:0000084
+name: Banded leaf and sheath blight
+def: "Banded leaf and sheath blight (Rhizoctonia solani f. sp. sasakii) symptoms rated on a scale from 1 (= clean, no infection) to 5 (= severely diseased)." [CO:rs]
+comment: Symptoms: Spots, concentric, on leaves and sheaths; filamentous masses develop on lesions.
+synonym: "BandLe" RELATED []
+xref: IMIS_TRAITID:2008
+is_a: CO_322:0000046 ! Fungal disease
+
+[Term]
+id: CO_322:0000085
+name: Common rust
+def: "Score for the severity of common rust, (In highlands and mid altitude, Puccinia sorghi) symptoms rated on a scale from 1 (= clean, no infection) to 5 (= severely diseased)." [CO:rs]
+comment: Pustules, small, elongate, powdery, dark brown; later, turning black.
+synonym: "common" RELATED []
+xref: IMIS_TRAITID:2012
+is_a: CO_322:0000054 ! Rust
+
+[Term]
+id: CO_322:0000086
+name: Brown spot
+def: "Brown spot (Physoderma maydis) symptoms rated on a scale from 1 (= clean, no infection) to 5 (= severely diseased)." [CO:rs]
+comment: Symptoms: Brown lesions; rotting.
+synonym: "BrownS" RELATED []
+xref: IMIS_TRAITID:2010
+is_a: CO_322:0000046 ! Fungal disease
+
+[Term]
+id: CO_322:0000087
+name: Leaf spot
+def: "Scored for the plant response to the several fungi causing leaf spot disease." [CO:rs]
+comment: Symptoms: Lesions, with brown centers, about 2 mm in diameter. Spots, small and necrotic, with light colored halos.
+is_a: CO_322:0000046 ! Fungal disease
+
+[Term]
+id: CO_322:0000088
+name: Gray leaf spot
+def: "Gray leaf spot (Cercospora zeae-maydis) symptoms rated on a scale from 1 (= clean, no infection) to 5 (= severely diseased)." [CO:rs]
+comment: Symptoms: Lesions, beginning as small, regular, elongated brownish gray necrotic spots, and growing parallel to the veins.
+synonym: "GrayLe" RELATED []
+xref: IMIS_TRAITID:2036
+is_a: CO_322:0000087 ! Leaf spot
+
+[Term]
+id: CO_322:0000089
+name: Curvularia leaf spot
+def: "Curvularia leaf spot (Curvularia spp.) symptoms rated on a scale from 1 (= clean, no infection) to 5 (= severely diseased)." [CO:rs]
+synonym: "curvularia leaf spot" RELATED []
+xref: IMIS_TRAITID:2017
+is_a: CO_322:0000087 ! Leaf spot
+
+[Term]
+id: CO_322:0000090
+name: Phaeosphaeria leaf spot
+def: "Phaeosphaeria leaf spot (Phaeosphaeria maydis) symptoms rated on a scale from 1 (= clean, no infection) to 5 (= severely diseased)." [CO:rs]
+comment: Symptoms: Spots, small and pale green, round to slightly elongate later becoming bleached, then necrotic, with a dark brown margin.
+synonym: "Phaesl" RELATED []
+synonym: "PhaesLeafSpot" RELATED []
+xref: IMIS_TRAITID:2048
+is_a: CO_322:0000087 ! Leaf spot
+
+[Term]
+id: CO_322:0000091
+name: Tarspot complex
+def: "Tarspot complex (Phyllachora maydis, Monographella maydis) symptoms rated on a scale from 1 (= clean, no infection) to 5 (= severely diseased)." [CO:rs]
+comment: Symptoms: Spots, shiny, raised and black; later with necrosis coalescing and drying foliage.
+synonym: "TarspotComplex1_5" RELATED []
+xref: IMIS_TRAITID:2066
+is_a: CO_322:0000046 ! Fungal disease
+
+[Term]
+id: CO_322:0000092
+name: Turcicum leaf blight
+def: "Turcicum leaf blight (Exserohilum turcicum = Helminthosporium turcicum) symptoms rated on a scale from 1 (= clean, no infection) to 5 (= severely diseased)." [CO:rs]
+comment: Symptoms: Lesions, elongated, spindle-shaped, and necrotic; may coalesce to burn plant.
+synonym: "NCBL, TLB" RELATED []
+synonym: "northern corn leaf blight" RELATED []
+xref: IMIS_TRAITID:2042
+is_a: CO_322:0000046 ! Fungal disease
+
+[Term]
+id: CO_322:0000093
+name: Seedling disease
+def: "Seedling disease measured as percentage of plants affected." [CO:rs]
+xref: IMIS_TRAITID:2114
+is_a: CO_322:0000046 ! Fungal disease
+
+[Term]
+id: CO_322:0000094
+name: Mal de rio cuarto virus
+def: "Mal de rio cuarto virus (MRCV) measured as percentage of plants affected." [CO:rs]
+comment: Mal de Rio Cuarto Virus has been reported from central Argentina and Uruguay affecting maize production.
+xref: IMIS_TRAITID:2129
+is_a: CO_322:0000047 ! Viral disease
+
+[Term]
+id: CO_322:0000095
+name: Maize rayado fino virus
+def: "Maize rayado fino virus (MRFV) measured as percentage of plants affected." [CO:rs]
+comment: Symptoms: Small, isolated chlorotic spots easily observed by holding leaves against the light. Later, the spots become more numerous and fuse, forming 5 to 10 cm stripes that advance along the veins. Poor grain set and grain filling are observed with infection at the seedling stage.
+synonym: "Maize fine stripe virus disease" RELATED [ISBN:9706481095]
+synonym: "MRFV" RELATED [http://www.apsnet.org/online/common/names/corn.asp]
+synonym: "VirusMaizeRayadoFinoPer" RELATED []
+xref: IMIS_TRAITID:2125
+is_a: CO_322:0000047 ! Viral disease
+
+[Term]
+id: CO_322:0000096
+name: Maize mosaic virus
+def: "Scored for the plant response to the viral agent causing maize mosaic virus (MMV) disease." [CO:rs]
+comment: Symptoms: Striping, chlorotic; leaves appear crowded and erect; leaves rough, fleshy, dark purple.
+synonym: "MMV" RELATED [http://www.apsnet.org/online/common/names/corn.asp]
+synonym: "VirusMaizeMosaicPer" RELATED []
+is_a: CO_322:0000047 ! Viral disease
+
+[Term]
+id: CO_322:0000097
+name: Maize rough dwarf virus
+def: "Maize rough dwarf virus (MRDV) measured as percentage of plants affected." [CO:rs]
+comment: Symptoms: Infected plants show stunting; secondary veins become chlorotic and thick. Symptoms can be detected in seedlings at approximately one month of age. In later stages, infected plants develop a reddish color and form either no ear or simply nubbins which are often bent at the tip. The tassels and upper leaves are malformed and underdeveloped .
+synonym: "MRDV" RELATED [http://www.apsnet.org/online/common/names/corn.asp]
+synonym: "VirusMaizeRoughDwarfPer" RELATED []
+xref: IMIS_TRAITID:2126
+is_a: CO_322:0000047 ! Viral disease
+
+[Term]
+id: CO_322:0000098
+name: Maize stripe virus
+def: "Maize stripe virus (MSTV) measured as percentage of plants affected." [CO:rs]
+comment: Symptoms: Starts as fine stripes going often to broad bands of chlorosis. Often the top of the plant bends. Underdevelopment of ear.
+synonym: "maize hlorotic stripe" RELATED [http://www.apsnet.org/online/common/names/corn.asp]
+synonym: "maize hoja blanca" RELATED [http://www.apsnet.org/online/common/names/corn.asp]
+synonym: "VirusMaizeStripePer" RELATED []
+xref: IMIS_TRAITID:2128
+is_a: CO_322:0000047 ! Viral disease
+
+[Term]
+id: CO_322:0000099
+name: Maize dwarf mosaic virus
+def: "Maize dwarf mosaic virus (MDMV) measured as percentage of plants affected." [CO:rs]
+comment: Symptoms: Mosaic pattern on youngest leaves; chlorotic streaks and general chlorosis, then purple-red; some stunting.
+synonym: "VirusM" RELATED []
+xref: IMIS_TRAITID:10402069
+is_a: CO_322:0000047 ! Viral disease
+
+[Term]
+id: CO_322:0000100
+name: Maize streak virus
+def: "Maize streak virus symptoms (MSV) measured as percentage of plants affected." [CO:rs]
+comment: Symptoms: Streaking, broken and yellow, beginning as small, white, round spots.
+synonym: "MSV, VirusM" RELATED []
+xref: IMIS_TRAITID:2127
+is_a: CO_322:0000047 ! Viral disease
+
+[Term]
+id: CO_322:0000101
+name: Sugarcane mosaic virus
+def: "Sugarcane mosaic virus (SCMV) measured as percentage of plants affected." [CO:rs]
+comment: Symptoms: Mosaic pattern on youngest leaves; chlorotic streaks and general chlorosis, then purple-red; some stunting.
+synonym: "SCMV, VirusS" RELATED []
+xref: IMIS_TRAITID:2130
+is_a: CO_322:0000047 ! Viral disease
+
+[Term]
+id: CO_322:0000102
+name: Root capacitance
+def: "Estimation of root mass at the end of the stress using an electrical capacitance meter." [CO:rs]
+comment: It is measured using an electrical capacitance meter and evaluated at the end if the stress.
+synonym: "RCT" RELATED []
+is_a: CO_322:0000002 ! Agronomic trait
+
+[Term]
+id: CO_322:0000103
+name: Whole-grain tryptophan content
+def: "Total percentage of tryptophan in whole grain." [CO:rs]
+synonym: "pTrp" RELATED []
+xref: IMIS_TRAITID:2104
+is_a: CO_322:0000029 ! Quality trait
+
+[Term]
+id: CO_322:0000104
+name: Lysine content
+def: "Total percentage of lysine." [CO:rs]
+xref: IMIS_TRAITID:2099
+is_a: CO_322:0000029 ! Quality trait
+
+[Term]
+id: CO_322:0000105
+name: Ear leaf chlorophyll content
+def: "Amount of chlorophyll content in the ear leaf measured at the beginning and the end of the stress using a SPAD meter." [CO:rs]
+synonym: "ELCH" RELATED []
+is_a: CO_322:0000003 ! Chlorophyll content
+
+[Term]
+id: CO_322:0000106
+name: Endosperm lysine content
+def: "Percentage of lysine in grain endosperm on a dry matter basis." [CO:rs]
+xref: IMIS_TRAITID:2123
+is_a: CO_322:0000103 ! Whole-grain tryptophan content
+
+[Term]
+id: CO_322:0000107
+name: pTrp determination
+def: "Standard method for whole-grain tryptophan content." []
+comment: Growth stage: Physiological maturity (R6 stage).
+xref: IMIS_TRAITID:2068
+relationship: method_of CO_322:0000103 ! Whole-grain tryptophan content
+
+[Term]
+id: CO_322:0000108
+name: Whole-grain lysine content
+def: "Percentage of lysine in whole grain m on a dry matter basis." [CO:rs]
+comment: Growth stage: Physiological maturity (R6 stage).
+xref: IMIS_TRAITID:2044
+is_a: CO_322:0000104 ! Lysine content
+
+[Term]
+id: CO_322:0000109
+name: Endosperm lysine content
+def: "Percentage of lysine in grain endosperm on a dry matter basis." [CO:rs]
+xref: IMIS_TRAITID:2095
+is_a: CO_322:0000104 ! Lysine content
+
+[Term]
+id: CO_322:0000110
+name: Whole-grain iron content
+def: "Total iron content in whole-grain." [CO:rs]
+xref: IMIS_TRAITID:2093
+is_a: CO_322:0000029 ! Quality trait
+created_by: RSHRESTHA
+creation_date: 2010-04-16T12:23:43Z
+
+[Term]
+id: CO_322:0000111
+name: Whole-grain zinc content
+def: "Total zinc content in whole grain." [CO:rs]
+xref: IMIS_TRAITID:2131
+is_a: CO_322:0000029 ! Quality trait
+created_by: RSHRESTHA
+creation_date: 2010-04-16T12:24:11Z
+
+[Term]
+id: CO_322:0000112
+name: Ear leaf weight
+def: "Weight of ear leaf (blade) in gram." [CO:rs]
+synonym: "ELW" RELATED []
+is_a: CO_322:0000002 ! Agronomic trait
+
+[Term]
+id: CO_322:0000113
+name: Abscisic acid content
+def: "Measures the abscisic acid content in a plant or plant part." [Gramene Plant Trait Ontology:TO\:0002667]
+synonym: "ABA" RELATED []
+synonym: "ABA content" RELATED []
+is_a: CO_322:0000006 ! Physiological trait
+
+[Term]
+id: CO_322:0000114
+name: Sugar content
+def: "Amount of sugar present in the plant or the plant part." [Gramene Plant Trait Ontology:TO\:0000333]
+synonym: "SUG, SUGARCN" RELATED []
+is_a: CO_322:0000006 ! Physiological trait
+
+[Term]
+id: CO_322:0000115
+name: Glucose content
+def: "Amount of glucose present in the plant or plant part." [Gramene Plant Trait Ontology:TO\:0000300]
+synonym: "GLC" RELATED []
+is_a: CO_322:0000006 ! Physiological trait
+
+[Term]
+id: CO_322:0000116
+name: Selection index
+def: "The selection index gives a single measure of the hybrid's worth based on information for up to five traits." [http://www.freepatentsonline.com/7087822.html]
+xref: IMIS_TRAITID:2056
+is_a: CO_322:0000002 ! Agronomic trait
+
+[Term]
+id: CO_322:0000117
+name: Osmotic adjustment
+def: "The ability of the plant to adjust the osmotic potential under stress conditions." [Gramene Plant Trait Ontology:TO\:0000507]
+synonym: "OA" RELATED []
+is_a: CO_322:0000006 ! Physiological trait
+
+[Term]
+id: CO_322:0000118
+name: Osmotic potential
+def: "A measure of the potential of water to move between regions of differing concentrations across a water-permeable membrane." [CO:rs, http://www.biology-online.org/dictionary/]
+synonym: "OP" RELATED []
+is_a: CO_322:0000006 ! Physiological trait
+
+[Term]
+id: CO_322:0000119
+name: Proline content
+def: "Amino acid proline content in a plant or plant part." [Gramene Plant Trait Ontology:TO\:0006002]
+synonym: "PRO" RELATED []
+is_a: CO_322:0000006 ! Physiological trait
+
+[Term]
+id: CO_322:0000120
+name: Sucrose content
+def: "The amount of sucrose present in the plant or the plant part." [Gramene Plant Trait Ontology:TO\:0000328]
+synonym: "SUC" RELATED []
+is_a: CO_322:0000006 ! Physiological trait
+
+[Term]
+id: CO_322:0000121
+name: Protein content
+xref: IMIS_TRAITID:2100
+is_a: CO_322:0000029 ! Quality trait
+
+[Term]
+id: CO_322:0000122
+name: Whole-grain protein content
+def: "Percentage of protein in whole grain on a dry matter basis." [CO:rs]
+xref: IMIS_TRAITID:2053
+is_a: CO_322:0000121 ! Protein content
+
+[Term]
+id: CO_322:0000123
+name: Endosperm protein content
+def: "Percentage of protein in grain endosperm on a dry matter basis." [CO:rs]
+xref: IMIS_TRAITID:2106
+is_a: CO_322:0000121 ! Protein content
+
+[Term]
+id: CO_322:0000124
+name: Abscisic acid to sugar content ratio
+def: "A ratio of abscisic acid to the sugar content in a plant or plant part." [CO:rs]
+relationship: derived_from CO_322:0000113 ! Abscisic acid content
+relationship: derived_from CO_322:0000114 ! Sugar content
+
+[Term]
+id: CO_322:0000125
+name: Whole-grain pro-vitaminA content
+def: "Total pro-vitaminA content in whole grain." [CO:rs]
+xref: IMIS_TRAITID:2107
+xref: IMIS_TRAITID:2108
+is_a: CO_322:0000029 ! Quality trait
+
+[Term]
+id: CO_322:0000126
+name: Whole-grain starch content
+def: "Total starch content in whole grain." [CO:rs]
+is_a: CO_322:0000029 ! Quality trait
+created_by: RSHRESTHA
+creation_date: 2010-04-16T12:25:50Z
+
+[Term]
+id: CO_322:0000127
+name: Large grain borer damage
+def: "Large grain borer (Prostephanus truncatus) damage rated on selection index or natural infestation (1-10) adjusted to 1-5 where (= no infestation) to 5 (= severely infested)." [CO:rs]
+xref: IMIS_TRAITID:2040
+is_a: CO_322:0000048 ! Insect damage
+
+[Term]
+id: CO_322:0000128
+name: Aphid damage
+def: "Aphids (Rhopalosiphum maidis) damage measured on a scale 1 (= no infestation) to 5 (= severely infested)." [CO:rs]
+comment: Aphid sucks on juices from the tassels and silk, on the leaves sheathing the cob, and with heavy infestations, the underside of leaves.
+synonym: "Aphid" RELATED []
+xref: IMIS_TRAITID:2002
+is_a: CO_322:0000048 ! Insect damage
+
+[Term]
+id: CO_322:0000129
+name: Maize weevil damage
+def: "Maize weevil damage measured based on a selection index or natural infestation (1-5) where 1 = no infestation to 5 = severely infested." [CO:rs]
+synonym: "MaizeB" RELATED []
+xref: IMIS_TRAITID:2046
+is_a: CO_322:0000048 ! Insect damage
+
+[Term]
+id: CO_322:0000130
+name: Total grain weevil number
+def: "Number of grain weevils hatching and emerging from an infested grain sample within a given period. Large values indicate susceptibility to grain weevils, small values indicate partial resistance to grain weevils." [CO:rs]
+synonym: "weevil" RELATED []
+xref: IMIS_TRAITID:2071
+is_a: CO_322:0000048 ! Insect damage
+
+[Term]
+id: CO_322:0000131
+name: Weevil grain weight loss
+def: "Loss of weight of the grain samples caused by weevil feeding during a given period of incubation. Large percentage values indicate susceptibility to weevils." [CO:rs]
+synonym: "weevil" RELATED []
+xref: IMIS_TRAITID:2072
+is_a: CO_322:0000048 ! Insect damage
+
+[Term]
+id: CO_322:0000132
+name: Normalized difference vegetation index
+def: "Measured with a portable field spectroradiometer (e.g. GreenSeeker). The sensor placed ca 60 cm above the plants." [CO:rs]
+comment: Minimum number: on 2-3 stages along the crop cycle:\nVegetative stage: 1 month after planting; Flowering: only for inbred lines; Grain filling: 2 and 4 weeks after anthesis in inbred lines and 4 weeks after anthesis for hybrids.\nOptimum number of measurements: \nVegetative stage: Weekly measurements from 2 to 6 weeks after planting; Flowering: only for inbred lines; Grain filling: Weekly from 1 to 4  weeks after anthesis in inbred lines and 2 to 4 weeks after anthesis for hybrids. In case of hybrids under well watered conditions measurements may be continued until one week prior maturity.\nThe reason to do not measure NDVI of hybrids at flowering is because readings are usually saturated (i.e. which correspond to NDVI values beyond 0.65) and therefore precision is negatively affected.
+synonym: "NDVI" RELATED []
+is_a: CO_322:0000006 ! Physiological trait
+
+[Term]
+id: CO_322:0000133
+name: 100 kernel weight
+def: "Weight of 100 kernels randomly selected from the total kernels." [CO:rs]
+synonym: "HUNKWT" RELATED []
+is_a: CO_322:0000002 ! Agronomic trait
+
+[Term]
+id: CO_322:0000134
+name: Stomatal conductance
+def: " Measured with a portable porometer." [CO:rs]
+comment: Take the measures in the middle between leaf tip and leaf base, and in between leaf midrib and leaf rim. Blade sections measured must to be exposed to sunlight for at least the 30 minutes before.  Measurements always performed in the same side of the leaf (usually the lower or abaxial one). One measurement per leaf, and at least 3 per plot. 1 min per measurement. Optimal period for measurements: from 10 -14 h; if needed it may be expanded from 10-15h of sunny days. Never touch with the finger the area where the clamp will be placed. Measurements are recorded in continuum and downloaded in the computer as a unique excel file.
+xref: IMIS_TRAITID:2064
+is_a: CO_322:0000006 ! Physiological trait
+
+[Term]
+id: CO_322:0000135
+name: Leaf temperature
+def: "Measured as absolute temperature or as a difference between air and leaf temperature by as infrared thermometer." [CO:rs]
+comment: Measure preferably the same side of the leaf (in this case the upper or adaxial). Leaves (i.e. insertion level within the plant), blade section of the leaf, measuring period and environmental conditions for measurements as for the stomatal conductance, but giving more emphasis to the steadiness of environmental conditions (sunny days, no clouds passing and lack of wind). One measurement per leaf, and at least 3 per plot. Each measurement may take few seconds. Usually these thermometers have not data logger so it is needed a second person to record the readings.
+is_a: CO_322:0000006 ! Physiological trait
+
+[Term]
+id: CO_322:0000136
+name: Stable oxygen isotope enrichment in kernels
+def: "Samples analyzed by isotope-ratio mass spectrometry. One measurement per row from the pooled set of mature kernels. Measured In subsets of inbreds and testcrosses with contrasting yields." [CO:rs]
+is_a: CO_322:0000006 ! Physiological trait
+
+[Term]
+id: CO_322:0000137
+name: Kernel mineral content
+def: "Determined in the same kernels used for Stable oxygen isotope enrichment analyses. Measured as ash content directly with a furnace or indirectly through Near Infrared Reflectance Spectroscopy (NIRS)." [CO:rs]
+is_a: CO_322:0000006 ! Physiological trait
+
+[Term]
+id: CO_322:0000138
+name: Kernel nitrogen content
+def: "Determined in the same kernels used for stable oxygen isotope enrichment analyses. Measured using an Elemental Analyzer (if analyzed together with stable nitrogen isotope composition or through NIRS when analyzed alone." [CO:rs]
+is_a: CO_322:0000006 ! Physiological trait
+
+[Term]
+id: CO_322:0000139
+name: Stable nitrogen isotope composition
+def: "Determined in the same kernels used for stable oxygen isotope enrichment analyses. Measured using an Isotope Ratio Mass Spectrometer." [CO:rs]
+is_a: CO_322:0000006 ! Physiological trait
+
+[Term]
+id: CO_322:0000140
+name: Photochemical radiation index
+def: "A measure of photosynthetic of light-use efficiency (LUE)." [CO:rs]
+synonym: "PRI" RELATED []
+is_a: CO_322:0000006 ! Physiological trait
+
+[Term]
+id: CO_322:0000141
+name: Water index
+def: "A ratio between the reflectance at a water band wavelength to a nearby reference wavelength where there is no absorption due to water content variability." [CO:rs]
+synonym: "WI" RELATED []
+is_a: CO_322:0000006 ! Physiological trait
+
+[Term]
+id: CO_322:0000142
+name: Canopy temperature
+def: "Measured in several rows simultaneously to allow a comparison. Thermal images will be taken using an Infrared Camera placed several meters above the canopy." [CO:rs]
+synonym: "Thermal imaging" RELATED []
+xref: IMIS_TRAITID:2039
+is_a: CO_322:0000006 ! Physiological trait
+
+[Term]
+id: CO_322:0000143
+name: Days to ear leaf senescence
+def: "Number of days from sowing to when 50% of the plants have a dry ear leaf." [CO:rs, ISBN: 92-9043-189-1]
+comment: The mean of at least 20 representative plants should be used.
+is_a: CO_322:0000023 ! Phenological trait
+
+[Term]
+id: CO_322:0000144
+name: Silk growth
+def: "Difference between the silk length (cm) measured at zero day pollen shedding and 7 days after pollen shedding." [CO:rs]
+is_a: CO_322:0000002 ! Agronomic trait
+creation_date: 2010-01-21T07:24:11Z
+
+[Term]
+id: CO_322:0000145
+name: Ear growth
+def: "Difference between the ear length (cm) measured at zero day pollen shedding and 7 days after pollen shedding." [CO:rs]
+is_a: CO_322:0000002 ! Agronomic trait
+created_by: RSHRESTHA
+creation_date: 2010-01-21T07:25:42Z
+
+[Term]
+id: CO_322:0000146
+name: Grain color
+def: "Kernel or grain color whether white, yellow, purple, variegated, brown, orange, mottled, white cap, red etc." [CO:rs, ISBN: 92-9043-189-1]
+synonym: "kernel color" RELATED []
+xref: IMIS_TRAITID:2087
+is_a: CO_322:0000174 ! Morphological trait
+creation_date: 2010-04-16T12:21:21Z
+
+[Term]
+id: CO_322:0000147
+name: Relative grain yield
+def: "Relative grain yield expressed as percentage of the mean grain yield of the trial. Values above 100% indicate above-average performance; values below 100% indicate below-average performance." [CO:rs]
+synonym: "MF4" RELATED []
+xref: IMIS_TRAITID:2101
+xref: IMIS_TRAITID:2110
+xref: IMIS_TRAITID:2111
+xref: IMIS_TRAITID:2112
+is_a: CO_322:0000005 ! Grain yield
+
+[Term]
+id: CO_322:0000148
+name: Adjusted grain yield
+xref: IMIS_TRAITID:2088
+xref: IMIS_TRAITID:2089
+is_a: CO_322:0000005 ! Grain yield
+
+[Term]
+id: CO_322:0000149
+name: Husk cover
+def: "Scoring of the plants with ears that are completely covered or not by the husks using the scale from 1-5 where, 1 = excellent and  5 = very poor." [CO:rs]
+synonym: "BadHus" RELATED []
+is_a: CO_322:0000002 ! Agronomic trait
+created_by: RSHRESTHA
+creation_date: 2010-04-16T02:24:12Z
+
+[Term]
+id: CO_322:0000150
+name: Bad husk cover
+def: "Percentage of all plants with bad husk cover." [CO:rs]
+xref: IMIS_TRAITID:2007
+is_a: CO_322:0000002 ! Agronomic trait
+created_by: RSHRESTHA
+creation_date: 2010-04-16T02:24:12Z
+
+[Term]
+id: CO_322:0000151
+name: Chupon percentage
+def: "Multiple cobs, Chupones, percentage of plants with more than one cob growing in same place." [CO:rs]
+xref: IMIS_TRAITID:2011
+is_a: CO_322:0000002 ! Agronomic trait
+created_by: RSHRESTHA
+creation_date: 2010-04-16T12:44:21Z
+
+[Term]
+id: CO_322:0000152
+name: Busseola damage
+def: "Plant damage caused by Busseola larvae. Higher the number indicates susceptibility." [CO:rs]
+synonym: "african stem borer" RELATED []
+synonym: "busseo" RELATED []
+synonym: "maize stalk borer" RELATED []
+xref: IMIS_TRAITID:2077
+is_a: CO_322:0000048 ! Insect damage
+
+[Term]
+id: CO_322:0000153
+name: Earworm damage
+def: "Ear damage caused by ear worm (Heliothis)." [CO:rs]
+synonym: "corn earworm" RELATED []
+synonym: "EarWor" RELATED []
+xref: IMIS_TRAITID:2029
+is_a: CO_322:0000048 ! Insect damage
+
+[Term]
+id: CO_322:0000154
+name: Army worm damage
+def: "Army worm (syn. Spodoptera exempta) damage measured on a scale 1 (= no infestation) to 5 (= severely infested)." [CO:rs]
+synonym: "ArmyWo" RELATED []
+xref: IMIS_TRAITID:2003
+is_a: CO_322:0000048 ! Insect damage
+
+[Term]
+id: CO_322:0000155
+name: Chilo damage
+def: "Chilo (Chilo partellus) damage measured on a scale 1 (= no infestation) to 5 (= severely infested)." [CO:rs]
+xref: IMIS_TRAITID:2079
+is_a: CO_322:0000048 ! Insect damage
+created_by: RSHRESTHA
+creation_date: 2010-04-16T12:27:06Z
+
+[Term]
+id: CO_322:0000156
+name: Diabrotica damage
+def: "Plant damage caused by Diabrotica species." [CO:rs]
+synonym: "corn rootworm" RELATED []
+xref: IMIS_TRAITID:2080
+is_a: CO_322:0000048 ! Insect damage
+created_by: RSHRESTHA
+creation_date: 2010-04-16T12:29:12Z
+
+[Term]
+id: CO_322:0000157
+name: Diatraea damage
+def: "Plant damage caused by Diatraea species." [CO:rs]
+synonym: "sugarcane borer" RELATED []
+xref: IMIS_TRAITID:2081
+is_a: CO_322:0000048 ! Insect damage
+created_by: RSHRESTHA
+creation_date: 2010-04-16T12:41:19Z
+
+[Term]
+id: CO_322:0000158
+name: Striga damage
+def: "1-5 scale based on number of Striga hermonthica plants emerged or selection index (e.g. Striga emerged plus grain yield depression). Large values indicate susceptibility to Striga, small values indicate partial resistance to Striga." [CO:rs]
+xref: IMIS_TRAITID:2065
+xref: IMIS_TRAITID:2121
+is_a: CO_322:0000048 ! Insect damage
+created_by: RSHRESTHA
+creation_date: 2010-04-16T12:44:08Z
+
+[Term]
+id: CO_322:0000159
+name: Stem borer damage
+def: "Includes different stem borers such as Chilo partellus, Sesamia and Spodoptera species. Scale is 1-5." [CO:rs]
+synonym: "pink stem borer" RELATED []
+xref: IMIS_TRAITID:2062
+is_a: CO_322:0000048 ! Insect damage
+
+[Term]
+id: CO_322:0000160
+name: Leaf rolling
+def: "Leaf rolling scored under drought stress on a scale from 1 (unrolled, turgid leaves, desirable) to 5 (severely rolled leaves, undesirable)." [CO:rs]
+synonym: "LeafRo" RELATED []
+xref: IMIS_TRAITID:2043
+is_a: CO_322:0000043 ! Abiotic stress trait
+
+[Term]
+id: CO_322:0000161
+name: Late wilt
+def: "Late wilt (Cephalosporium maydis) measured as percentage of plants affected." [CO:rs]
+comment: Symptoms: Wilting from top leaves at tasseling stage.
+synonym: "LateWi" RELATED []
+xref: IMIS_TRAITID:2094
+is_a: CO_322:0000046 ! Fungal disease
+
+[Term]
+id: CO_322:0000162
+name: Stem color
+def: "Visual rating of stem color." [CO:rs]
+comment: Indicate up to three stem colors in the order of frequency (1, green; 2, sun red; 3, red; 4, purple; and 5, brown). Observed between the two topmost ears.\nGrowth stage: At flowering.
+is_a: CO_322:0000002 ! Agronomic trait
+is_a: CO_322:0000174 ! Morphological trait
+created_by: RSHRESTHA
+creation_date: 2010-08-31T11:06:24Z
+
+[Term]
+id: CO_322:0000163
+name: Sheath pubescence
+def: "Presence and intensity of hairs (sparse or intermediate or dense) on the surface of the leaf sheath." [CO:rs]
+comment: Growth stage: At flowering stage.
+is_a: CO_322:0000002 ! Agronomic trait
+created_by: RSHRESTHA
+creation_date: 2010-08-31T11:24:16Z
+
+[Term]
+id: CO_322:0000164
+name: Tassel type
+def: "Branching type of tassel whether primary or primary-secondary or primary-secondary-tertiary." [CO:rs]
+is_a: CO_322:0000174 ! Morphological trait
+created_by: RSHRESTHA
+creation_date: 2010-08-31T11:29:34Z
+
+[Term]
+id: CO_322:0000165
+name: Ear damage
+def: "Amount of ear damage caused by ear rot and/or insects, etc." [CO:rs]
+is_a: CO_322:0000048 ! Insect damage
+created_by: RSHRESTHA
+creation_date: 2010-08-31T11:36:30Z
+
+[Term]
+id: CO_322:0000166
+name: Kernel row arrangement
+def: "Visual assessment of kernel row arrangement where: 1, regular; 2, irregular; 3, straight and 4, spiral." [CO:rs]
+comment: Use the uppermost ear.
+is_a: CO_322:0000174 ! Morphological trait
+created_by: RSHRESTHA
+creation_date: 2010-08-31T11:38:15Z
+
+[Term]
+id: CO_322:0000167
+name: Kernel row number
+def: "Count number of kernel rows in the central part of the uppermost ear." [CO:rs]
+is_a: CO_322:0000174 ! Morphological trait
+created_by: RSHRESTHA
+creation_date: 2010-08-31T11:43:53Z
+
+[Term]
+id: CO_322:0000168
+name: Kernel type
+def: "Visual rating of kernel type from 1 -11 where 1= floury, 3= dent, 6= flint, 7= pop, 8= sweet, 9= Opaque 2/QPM, 10 Tunicate and 11= waxy." [CO:rs]
+is_a: CO_322:0000174 ! Morphological trait
+created_by: RSHRESTHA
+creation_date: 2010-08-31T12:30:35Z
+
+[Term]
+id: CO_322:0000169
+name: 1000 kernel weight
+def: "Weight of 1000 kernels randomly selected from the total kernels and adjusted to 10% moisture content." [CO:rs]
+synonym: "THOUKWT" RELATED []
+is_a: CO_322:0000002 ! Agronomic trait
+created_by: RSHRESTHA
+creation_date: 2010-08-31T02:43:04Z
+
+[Term]
+id: CO_322:0000170
+name: Ear diameter
+def: "Ear diameter measured in centimeter at the central part of uppermost ear." [CO:rs]
+comment: At least 20 representative plants per accession should be taken.\nGrowth stage: After harvest.
+is_a: CO_322:0000174 ! Morphological trait
+created_by: RSHRESTHA
+creation_date: 2010-08-31T03:52:52Z
+
+[Term]
+id: CO_322:0000171
+name: Uppermost ear shape
+def: "Shape of uppermost ear whether cylindrical or cylindrical-conical or conical or round." [CO:rs]
+is_a: CO_322:0000174 ! Morphological trait
+created_by: RSHRESTHA
+creation_date: 2010-08-31T03:57:01Z
+
+[Term]
+id: CO_322:0000172
+name: Kernel length
+def: "Average of 10 consecutive kernels from one row in the middle of the uppermost ear." [CO:rs]
+comment: It is measures with a calliper.
+is_a: CO_322:0000174 ! Morphological trait
+created_by: RSHRESTHA
+creation_date: 2010-08-31T03:58:57Z
+
+[Term]
+id: CO_322:0000173
+name: Foliage rating
+def: "Rating of total leaf surface." [CO:rs]
+comment: Observed on at least 20 representative plants. \nGrowth stage: after milk stage.
+is_a: CO_322:0000002 ! Agronomic trait
+created_by: RSHRESTHA
+creation_date: 2010-08-31T11:00:18Z
+
+[Term]
+id: CO_322:0000174
+name: Morphological trait
+relationship: part_of CO_322:0000000 ! Maize trait ontology
+created_by: RSHRESTHA
+creation_date: 2010-10-25T11:02:09Z
+
+[Term]
+id: CO_322:0000175
+name: Kernel width
+def: "Measurement of kernel width in millimeter." []
+is_a: CO_322:0000174 ! Morphological trait
+created_by: RSHRESTHA
+creation_date: 2010-10-25T05:00:57Z
+
+[Term]
+id: CO_322:0000176
+name: FUNDIS observation
+def: "Observe the plants that are damaged by any fungal diseases." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000046 ! Fungal disease
+created_by: RSHRESTHA
+creation_date: 2014-07-29T11:47:50Z
+
+[Term]
+id: CO_322:0000177
+name: PH measurement
+def: "Take 6 alternating plants per plot and measure the height between the base of a plant to the insertion of the first tassel branch of the same plant, enter the data individually in the FieldBook and calculate the average." []
+comment: Growth stage: After milk stage (after R3).
+relationship: method_of CO_322:0000007 ! Plant height
+creation_date: 2011-10-14T12:03:44Z
+
+[Term]
+id: CO_322:0000178
+name: Kernel upper surface shape
+def: "Shape of the upper surface of kernel." []
+synonym: "KERUSS" RELATED []
+is_a: CO_322:0000174 ! Morphological trait
+creation_date: 2014-08-07T10:39:17Z
+
+[Term]
+id: CO_322:0000179
+name: EH measurement
+def: "Take 6 alternating plants per plot and measure the height between the base of a plant to the insertion of the top (uppermost) ear of the same plant, enter the data individually in the FieldBook and calculate the average." []
+comment: Growth stage: After milk stage (after R3).
+relationship: method_of CO_322:0000017 ! Ear height
+creation_date: 2011-10-14T12:08:10Z
+
+[Term]
+id: CO_322:0000180
+name: Unit
+relationship: part_of CO_322:0000000 ! Maize trait ontology
+creation_date: 2014-07-29T04:11:21Z
+
+[Term]
+id: CO_322:0000181
+name: ASI calculation
+def: "Count number of days from planting date to anthesis and silking to determine days to anthesis (AD) and days to silking (SD), respectively and determine anthesis silking interval (ASI) by calculating: ASI = SD-AD." []
+comment: Growth stage: After anthesis
+relationship: method_of CO_322:0000001 ! Anthesis silking interval
+creation_date: 2011-10-14T12:09:29Z
+
+[Term]
+id: CO_322:0000182
+name: Maize lethal necrosis
+def: "Maize lethal necrosis (MLN) symptoms rated on a scale from 1 (= clean, no infection) to 5 (= severely diseased)." []
+comment: MLN is a result of a combination of two viruses, the Maize Chlorotic Mottle Virus (MCMoV) and any of the cereal viruses in the Potyviridae group, like the Sugarcane Mosaic Virus (SCMV), Wheat Streak Mosaic Virus (WSMV) or Maize Dwarf Mosaic Virus (MDMV). The double infection of the two viruses gives rise to what is known as MLN, also referred to as Corn Lethal Necrosis (CLN).
+is_a: CO_322:0000047 ! Viral disease
+created_by: RSHRESTHA
+creation_date: 2014-07-29T12:57:45Z
+
+[Term]
+id: CO_322:0000183
+name: KRAR scoring
+def: "Observe kernel row arrangement in the harvested ears and rate 1-4 categorical scale." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000166 ! Kernel row arrangement
+creation_date: 2011-10-14T12:10:50Z
+
+[Term]
+id: CO_322:0000184
+name: Kernel thickness
+def: "Thickness of the kernel." []
+is_a: CO_322:0000174 ! Morphological trait
+created_by: RSHRESTHA
+creation_date: 2014-08-07T10:44:15Z
+
+[Term]
+id: CO_322:0000185
+name: STCOL observation
+def: "Observe the stem color between the two topmost ears." []
+comment: Growth stage: At anthesis.
+relationship: method_of CO_322:0000162 ! Stem color
+creation_date: 2011-10-14T12:12:52Z
+
+[Term]
+id: CO_322:0000186
+name: Endosperm color
+def: "Color of the endosperm." []
+is_a: CO_322:0000174 ! Morphological trait
+created_by: RSHRESTHA
+creation_date: 2014-08-07T10:44:45Z
+
+[Term]
+id: CO_322:0000187
+name: TSC scoring
+def: "Score tarspot complex severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease) and record data in the FieldBook/FieldLog." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000091 ! Tarspot complex
+creation_date: 2011-10-14T12:14:45Z
+
+[Term]
+id: CO_322:0000188
+name: Tassel blasting
+def: "Measurement of the degree of blasting (necrosis due to heat stress) of the tassel at the time of flowering. It occurs under extreme temperatures and drought when moisture cannot be translocated to the upper part of the plant due to excess evaporation/transpiration." []
+synonym: "TASBLAS" RELATED []
+is_a: CO_322:0000174 ! Morphological trait
+created_by: RSHRESTHA
+creation_date: 2014-08-07T10:46:58Z
+
+[Term]
+id: CO_322:0000189
+name: AD calculation
+def: "Observe a known number of plants carefully (guideline: N = 20 for inbred lines or hybrids; N = 35 for open pollinated varieties) per plot at the same time each day until 50% of the plants in the plot have produced at least one visible anther." []
+comment: Growth stage: Anthesis (R0).
+relationship: method_of CO_322:0000030 ! Days to anthesis
+creation_date: 2012-01-30T04:33:44Z
+
+[Term]
+id: CO_322:0000190
+name: Aleurone color
+def: "Color of the aleurone." []
+is_a: CO_322:0000174 ! Morphological trait
+created_by: RSHRESTHA
+creation_date: 2014-08-07T10:45:06Z
+
+[Term]
+id: CO_322:0000191
+name: SD calculation
+def: "Observe plants carefully and record date when 50% of plants within a plot area have silks visible (female flowering date). This is determined on a daily basis by counting the number of plants with at least one silk extruded divided by the total number of plants in the plot." []
+comment: Growth stage: Silking (R1).
+relationship: method_of CO_322:0000031 ! Days to silking
+creation_date: 2012-01-30T04:35:44Z
+
+[Term]
+id: CO_322:0000192
+name: Pericarp color
+def: "Color of the pericarp." []
+is_a: CO_322:0000174 ! Morphological trait
+created_by: RSHRESTHA
+creation_date: 2014-08-07T10:45:57Z
+
+[Term]
+id: CO_322:0000193
+name: pSL rating
+def: "Take a single-row plot of plants for measuring the percentage of plants that show stem lodging. The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: Grain filling.
+relationship: method_of CO_322:0000035 ! Stem lodging
+creation_date: 2012-01-30T04:37:30Z
+
+[Term]
+id: CO_322:0000194
+name: 1-4 KERRAR scale
+is_a: CO_322:0000180 ! Unit
+relationship: scale_of CO_322:0000183 ! KRAR scoring
+created_by: RSHRESTHA
+creation_date: 2014-07-29T05:32:55Z
+
+[Term]
+id: CO_322:0000195
+name: MOI estimation
+def: "Measure total weight of grains per plot after harvest, record dry weight of the same samples and calculate grain moisture content for each sample using formula: 100*(Wt of sample - Dry Weight)/Wt of sample. It can be measured using moisture analyzer." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000033 ! Grain moisture
+creation_date: 2012-01-30T04:39:08Z
+
+[Term]
+id: CO_322:0000196
+name: pLys determination
+def: "Standard method for whole-grain lysin content." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000108 ! Whole-grain lysine content
+created_by: RSHRESTHA
+creation_date: 2014-07-30T11:11:15Z
+
+[Term]
+id: CO_322:0000197
+name: GY calculation
+def: "Grain yield can be divided into the components of plants per ha, ears per plant (EPP), grains per ear (GPE) and weight per grain (WPG/kg). Thus, grain yield is calculated as Plants/ha x EPP x GPE x WPG/kg." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000005 ! Grain yield
+creation_date: 2012-01-30T04:42:51Z
+
+[Term]
+id: CO_322:0000198
+name: ELYSCON determination
+relationship: method_of CO_322:0000109 ! Endosperm lysine content
+created_by: RSHRESTHA
+creation_date: 2014-07-30T11:12:45Z
+
+[Term]
+id: CO_322:0000199
+name: EarAsp rating
+def: "Harvest ears per plot (eliminate first and last plants to avoid border effects) and score ear aspect combining several ear-associated traits. Note: Combination of traits usually differs from one breeder to another depending on type of study." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000018 ! Ear aspect
+creation_date: 2012-01-30T04:44:58Z
+
+[Term]
+id: CO_322:0000200
+name: ENDOPROT determination
+def: "Standard method for endosperm protein content." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000123 ! Endosperm protein content
+created_by: RSHRESTHA
+creation_date: 2014-07-30T11:14:18Z
+
+[Term]
+id: CO_322:0000201
+name: nP counting
+def: "Count total number of plants harvested per plot and record data in the FieldBook/Fieldlog." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000008 ! Plant number
+creation_date: 2012-01-30T04:46:19Z
+
+[Term]
+id: CO_322:0000202
+name: pProt determination
+def: "Standard method for whole-grain protein content." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000122 ! Whole-grain protein content
+created_by: RSHRESTHA
+creation_date: 2014-07-30T11:15:21Z
+
+[Term]
+id: CO_322:0000203
+name: rEPP counting
+def: "Count the number of ears with at least one fully developed grain at harvest and divide by the number of harvested plants for ears per plant and by plot area for ears per meter square." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000021 ! Ear number per plant
+creation_date: 2012-01-30T04:47:32Z
+
+[Term]
+id: CO_322:0000204
+name: ppm
+is_a: CO_322:0000180 ! Unit
+relationship: scale_of CO_322:0000387 ! WGIRON measurement
+relationship: scale_of CO_322:0000393 ! WGZINC measurement
+created_by: RSHRESTHA
+creation_date: 2014-07-30T11:18:36Z
+
+[Term]
+id: CO_322:0000205
+name: GRNCOL observation
+def: "Observe color of grains harvested per plot." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000146 ! Grain color
+creation_date: 2012-01-30T04:49:33Z
+
+[Term]
+id: CO_322:0000206
+name: ml
+is_a: CO_322:0000180 ! Unit
+relationship: scale_of CO_322:0000264 ! KLNG measurement
+relationship: scale_of CO_322:0000266 ! KWID measurement
+relationship: scale_of CO_322:0000368 ! KTHK measurement
+created_by: RSHRESTHA
+creation_date: 2014-07-30T11:18:53Z
+
+[Term]
+id: CO_322:0000207
+name: pBHC observation
+def: "Observe the numbers of plants with bad husk cover and calculate it in percentage." []
+relationship: method_of CO_322:0000150 ! Bad husk cover
+creation_date: 2012-01-30T04:50:56Z
+
+[Term]
+id: CO_322:0000208
+name: 1-3 TSLSIZ scale
+is_a: CO_322:0000180 ! Unit
+relationship: scale_of CO_322:0000239 ! TSLSIZ measurement
+created_by: RSHRESTHA
+creation_date: 2014-07-30T11:19:20Z
+
+[Term]
+id: CO_322:0000209
+name: PltAsp rating
+def: "Score the plants per plot combining several agronomical and morphological characters of plants such plant height, ear height, stem/root loading. Note: Combination of traits usually differs from one breeder to another depending on type of study." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000011 ! Plant aspect
+creation_date: 2012-01-30T04:51:55Z
+
+[Term]
+id: CO_322:0000210
+name: ppb
+is_a: CO_322:0000180 ! Unit
+relationship: scale_of CO_322:0000216 ! AFLATOX measurement
+created_by: RSHRESTHA
+creation_date: 2014-07-30T11:20:06Z
+
+[Term]
+id: CO_322:0000211
+name: pRL rating
+def: "Observe the percentage of plants that are lodged per plot due to weak soil or poorly developed anchorage roots and record data in FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: Grain filling.
+relationship: method_of CO_322:0000034 ! Root lodging
+creation_date: 2012-01-30T04:53:01Z
+
+[Term]
+id: CO_322:0000212
+name: ENDOTrp determination
+def: "Standard method for endosperm tryptophan content." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000106 ! Endosperm lysine content
+created_by: RSHRESTHA
+creation_date: 2014-07-30T11:30:38Z
+
+[Term]
+id: CO_322:0000213
+name: KTYP rating
+def: "Score the kernels based on kernel characters such as floury, dent per plot and record data in the FieldBook/FieldLog." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000168 ! Kernel type
+creation_date: 2012-01-30T04:54:31Z
+
+[Term]
+id: CO_322:0000214
+name: Aflatoxin content
+def: "Measurement of aflatoxins that are produced by Aspergillus flavus and Aspergillus parasiticus." []
+is_a: CO_322:0000029 ! Quality trait
+created_by: RSHRESTHA
+creation_date: 2014-07-30T11:52:28Z
+
+[Term]
+id: CO_322:0000215
+name: LR scoring
+def: "Observe the plants per plot with the leaves rolled and record data in the Fieldbook/FieldLog." []
+relationship: method_of CO_322:0000160 ! Leaf rolling
+creation_date: 2012-01-30T04:59:24Z
+
+[Term]
+id: CO_322:0000216
+name: AFLATOX measurement
+def: "Standard method for aflatoxin content." []
+relationship: method_of CO_322:0000214 ! Aflatoxin content
+created_by: RSHRESTHA
+creation_date: 2014-07-30T11:53:03Z
+
+[Term]
+id: CO_322:0000217
+name: RGY estimation
+def: "Standard method for relative grain yield." []
+comment: Growth stage: Physiological maturity (R6 stage).
+synonym: "MF4" RELATED []
+relationship: method_of CO_322:0000147 ! Relative grain yield
+creation_date: 2012-01-30T05:00:56Z
+
+[Term]
+id: CO_322:0000218
+name: text
+is_a: CO_322:0000180 ! Unit
+created_by: RSHRESTHA
+creation_date: 2014-07-29T05:31:30Z
+
+[Term]
+id: CO_322:0000219
+name: TEX rating
+def: "Observe the variation of the intensity of a kernel/grain surface and score grain texture based on properties such as smoothness, coarseness and regularity of the grain." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000039 ! Grain texture
+creation_date: 2012-01-30T05:02:30Z
+
+[Term]
+id: CO_322:0000220
+name: HUSCOV scoring
+def: "Observe the ears that covered by husks or not per plot and score them using the scale 1-5." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000149 ! Husk cover
+creation_date: 2014-07-30T12:06:58Z
+
+[Term]
+id: CO_322:0000221
+name: KRN counting
+def: "Count total number of kernel rows in the ear." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000167 ! Kernel row number
+creation_date: 2012-01-30T05:05:58Z
+
+[Term]
+id: CO_322:0000222
+name: SRF scoring
+def: "Score the plants that are affected by stalk rot per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000061 ! Stalk rot
+created_by: RSHRESTHA
+creation_date: 2014-07-29T12:21:36Z
+
+[Term]
+id: CO_322:0000223
+name: SEN rating
+def: "Observe dead leaf area per plant/plot and divide the percentage of estimated total leaf area that is dead by 10. Note: It is scored two times (20 and 30 days after female flowering)." []
+comment: Growth stage: Grain filling.
+relationship: method_of CO_322:0000012 ! Senescence
+creation_date: 2012-01-30T05:08:22Z
+
+[Term]
+id: CO_322:0000224
+name: pER observation
+def: "Observe the numbers of ears damaged or/and rotten per plot and calculate ear rot damage in percentage." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000068 ! Ear rot
+created_by: RSHRESTHA
+creation_date: 2014-07-29T12:28:05Z
+
+[Term]
+id: CO_322:0000225
+name: rEPH calculation
+def: "Use ear height and plant height data of the same plants per plot and calculate the ratio." []
+relationship: method_of CO_322:0000020 ! Ear position
+creation_date: 2012-01-30T05:09:38Z
+
+[Term]
+id: CO_322:0000226
+name: DOWMID scoring
+def: "Score downy mildew severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease) and record data in the FieldBook/FieldLog." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000075 ! Downy mildew
+created_by: RSHRESTHA
+creation_date: 2014-07-29T12:36:08Z
+
+[Term]
+id: CO_322:0000227
+name: ENDO determination
+def: "Determine quality of endosperm such as hardness in the lab and use 1-5 to scale to score it." []
+relationship: method_of CO_322:0000041 ! Endosperm hardness
+creation_date: 2012-01-30T05:11:30Z
+
+[Term]
+id: CO_322:0000228
+name: RUST scoring
+def: "Score rust severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease) and record data in the FieldBook/FieldLog." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000054 ! Rust
+created_by: RSHRESTHA
+creation_date: 2014-07-29T12:42:13Z
+
+[Term]
+id: CO_322:0000229
+name: FGRAMSR scoring
+def: "Score the plants that are affected by fusarium graminearum stalk rot per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000065 ! Fusarium graminearum stalk rot
+creation_date: 2012-01-30T05:13:59Z
+
+[Term]
+id: CO_322:0000230
+name: FUSER scoring
+def: "Score fusarium ear rot severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease) and record data in the FieldBook/FieldLog." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000069 ! Fusarium ear rot
+created_by: RSHRESTHA
+creation_date: 2014-07-29T12:45:16Z
+
+[Term]
+id: CO_322:0000231
+name: FMSR scoring
+def: "Score the plants that are affected by fusarium moniliforme stalk rot per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000064 ! Fusarium moniliforme stalk rot
+creation_date: 2012-01-30T05:15:04Z
+
+[Term]
+id: CO_322:0000232
+name: FSR scoring
+def: "Score the plants that are affected by fusarium stalk rot per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000063 ! Fusarium stalk rot
+created_by: RSHRESTHA
+creation_date: 2014-07-29T12:52:48Z
+
+[Term]
+id: CO_322:0000233
+name: PYTSR scoring
+def: "Score the plants that are affected by pythium stalk rot per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: At harvest.
+relationship: method_of CO_322:0000067 ! Pythium stalk rot
+creation_date: 2012-01-30T05:15:56Z
+
+[Term]
+id: CO_322:0000234
+name: 1-5 disease scoring scale
+synonym: "NCBL scoring" RELATED []
+is_a: CO_322:0000180 ! Unit
+relationship: scale_of CO_322:0000185 ! STCOL observation
+relationship: scale_of CO_322:0000187 ! TSC scoring
+relationship: scale_of CO_322:0000199 ! EarAsp rating
+relationship: scale_of CO_322:0000209 ! PltAsp rating
+relationship: scale_of CO_322:0000215 ! LR scoring
+relationship: scale_of CO_322:0000219 ! TEX rating
+relationship: scale_of CO_322:0000220 ! HUSCOV scoring
+relationship: scale_of CO_322:0000227 ! ENDO determination
+relationship: scale_of CO_322:0000228 ! RUST scoring
+relationship: scale_of CO_322:0000230 ! FUSER scoring
+relationship: scale_of CO_322:0000243 ! CLS scoring
+relationship: scale_of CO_322:0000245 ! GLS scoring
+relationship: scale_of CO_322:0000247 ! PLS scoring
+relationship: scale_of CO_322:0000249 ! Bmay1 scoring
+relationship: scale_of CO_322:0000251 ! ERAsp scoring
+relationship: scale_of CO_322:0000253 ! FGRAMER scoring
+relationship: scale_of CO_322:0000255 ! FMON scoring
+relationship: scale_of CO_322:0000257 ! PEROT scoring
+relationship: scale_of CO_322:0000259 ! Smay scoring
+relationship: scale_of CO_322:0000261 ! Eturc1 scoring
+relationship: scale_of CO_322:0000263 ! Ppoly scoring
+relationship: scale_of CO_322:0000265 ! Psorg1 scoring
+relationship: scale_of CO_322:0000269 ! TR scoring
+relationship: scale_of CO_322:0000271 ! pDMV scoring
+relationship: scale_of CO_322:0000273 ! MSV scoring
+relationship: scale_of CO_322:0000279 ! CHDMG scoring
+relationship: scale_of CO_322:0000281 ! EDMG scoring
+relationship: scale_of CO_322:0000283 ! StBor damage scoring
+relationship: scale_of CO_322:0000285 ! STR scoring
+relationship: scale_of CO_322:0000287 ! LGB scoring
+relationship: scale_of CO_322:0000288 ! SDVIABIL scoring
+relationship: scale_of CO_322:0000289 ! Wev scoring
+relationship: scale_of CO_322:0000305 ! BLSB scoring
+relationship: scale_of CO_322:0000309 ! BwS scoring
+relationship: scale_of CO_322:0000317 ! BACLS scoring
+relationship: scale_of CO_322:0000321 ! CSCM scoring
+relationship: scale_of CO_322:0000325 ! Aph scoring
+relationship: scale_of CO_322:0000327 ! FAW scoring
+relationship: scale_of CO_322:0000329 ! BUSDMG scoring
+relationship: scale_of CO_322:0000331 ! DIABDMG scoring
+relationship: scale_of CO_322:0000333 ! DAITDMG scoring
+relationship: scale_of CO_322:0000362 ! PERCOL observation
+created_by: RSHRESTHA
+creation_date: 2014-07-29T04:56:45Z
+
+[Term]
+id: CO_322:0000235
+name: STESR scoring
+def: "Score the plants that are affected by stenocarpella stalk rot per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: At harvest.
+relationship: method_of CO_322:0000066 ! Stenocarpella stalk rot
+creation_date: 2012-01-30T05:16:51Z
+
+[Term]
+id: CO_322:0000236
+name: MLN scoring
+def: "Score maize lethal necrosis severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease) and record data in the FieldBook/FieldLog." []
+relationship: method_of CO_322:0000182 ! Maize lethal necrosis
+created_by: RSHRESTHA
+creation_date: 2014-07-29T01:01:50Z
+
+[Term]
+id: CO_322:0000237
+name: MD calculation
+def: "Record the date when excised kernels are longitudinally cut to expose a black internal abscission layer at the base of the kernel that signals the kernel has ceased to absorb nutrients or moisture from the mother plants." []
+comment: Growth stage: Grain filling.
+relationship: method_of CO_322:0000032 ! Days to maturity
+creation_date: 2012-01-30T05:18:03Z
+
+[Term]
+id: CO_322:0000238
+name: ABACON quantification
+def: "Standard method for abscisic acid content." []
+relationship: method_of CO_322:0000113 ! Abscisic acid content
+created_by: RSHRESTHA
+creation_date: 2014-08-04T04:41:33Z
+
+[Term]
+id: CO_322:0000239
+name: TSLSIZ measurement
+def: "Score the tassels based on size using 1-3 categorical scale." []
+comment: Growth stage: At tasseling (VT stage).
+relationship: method_of CO_322:0000038 ! Tassel size
+creation_date: 2012-01-30T05:19:11Z
+
+[Term]
+id: CO_322:0000240
+name: ABASUG calculation
+def: "Standard method for abscisic acid to sugar content ratio." []
+relationship: method_of CO_322:0000124 ! Abscisic acid to sugar content ratio
+created_by: RSHRESTHA
+creation_date: 2014-08-04T05:21:24Z
+
+[Term]
+id: CO_322:0000241
+name: pCSC scoring
+def: "Score the plants that are affected by corn stunt complex per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000049 ! Corn stunt
+creation_date: 2012-01-30T05:20:37Z
+
+[Term]
+id: CO_322:0000242
+name: SPAD1 quantification
+def: "Measured with a portable chlorophyll meter (e.g. SPAD). Take the average measure from leaves of six alternating plants and use always leaves of similar insertion level." []
+comment: Growth stage: After anthesis (2-4 weeks for inbreds lines and 2-5 weeks for hybrids).
+relationship: method_of CO_322:0000003 ! Chlorophyll content
+created_by: RSHRESTHA
+creation_date: 2014-08-04T05:26:58Z
+
+[Term]
+id: CO_322:0000243
+name: CLS scoring
+def: "Score curvularia leaf spot severity on plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease) and record data in the FieldBook/FieldLog." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000089 ! Curvularia leaf spot
+creation_date: 2012-01-30T05:22:06Z
+
+[Term]
+id: CO_322:0000244
+name: CpN determination
+def: "Observe the plants that have more than one cob growing in same place and calculate in the percentage." []
+relationship: method_of CO_322:0000151 ! Chupon percentage
+created_by: RSHRESTHA
+creation_date: 2014-08-04T05:28:34Z
+
+[Term]
+id: CO_322:0000245
+name: GLS scoring
+def: "Score GLS severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease) and record data in the FieldBook/FieldLog." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000088 ! Gray leaf spot
+creation_date: 2012-01-30T05:23:07Z
+
+[Term]
+id: CO_322:0000246
+name: DTELSEN calculation
+def: "Count the number of days from sowing to when 50% of the plants have a dry ear leaf per plot and record data in the FieldBook/FieldLog." []
+relationship: method_of CO_322:0000143 ! Days to ear leaf senescence
+created_by: RSHRESTHA
+creation_date: 2014-08-04T05:29:59Z
+
+[Term]
+id: CO_322:0000247
+name: PLS scoring
+def: "Score phaeosphaeria leaf spot severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease) and record data in the FieldBook/FieldLog." []
+comment: Growth stage: 3 weeks after silk emergence.
+relationship: method_of CO_322:0000090 ! Phaeosphaeria leaf spot
+creation_date: 2012-01-30T05:24:26Z
+
+[Term]
+id: CO_322:0000248
+name: EDW measurement
+def: "Measure the weight of dried ears (at 60-70°C for 1-2 days) per plot and record data in the FieldBook/FieldLog." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000022 ! Ear dry weight
+created_by: RSHRESTHA
+creation_date: 2014-08-04T05:34:45Z
+
+[Term]
+id: CO_322:0000249
+name: Bmay1 scoring
+def: "Score maydis leaf blight severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease) and record data in the FieldBook/FieldLog." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000057 ! Maydis leaf blight
+creation_date: 2012-01-30T05:25:19Z
+
+[Term]
+id: CO_322:0000250
+name: EGR measurement
+def: "Standard method for ear growth." []
+relationship: method_of CO_322:0000145 ! Ear growth
+created_by: RSHRESTHA
+creation_date: 2014-08-04T05:36:33Z
+
+[Term]
+id: CO_322:0000251
+name: ERAsp scoring
+def: "Score aspergillus ear rot severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease) and record data in the FieldBook/FieldLog." []
+comment: Growth stage: At harvest.
+relationship: method_of CO_322:0000072 ! Aspergillus flavus ear rot
+creation_date: 2012-01-30T05:26:33Z
+
+[Term]
+id: CO_322:0000252
+name: EGRR determination
+def: "Standard method for ear growth rate." []
+relationship: method_of CO_322:0000016 ! Ear growth rate
+created_by: RSHRESTHA
+creation_date: 2014-08-04T05:37:05Z
+
+[Term]
+id: CO_322:0000253
+name: FGRAMER scoring
+def: "Score fusarium graminearum ear rot severity on ears per plot based on degree of infection and record data in the FieldBook/FieldLog." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000070 ! Fusarium graminearum ear rot
+creation_date: 2012-01-30T05:27:29Z
+
+[Term]
+id: CO_322:0000254
+name: ELLNG measurement
+def: "Standard method for ear leaf length." []
+relationship: method_of CO_322:0000019 ! Ear leaf length
+created_by: RSHRESTHA
+creation_date: 2014-08-04T05:38:40Z
+
+[Term]
+id: CO_322:0000255
+name: FMON scoring
+def: "Score fusarium moniliforme ear rot severity on plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease) and record data in the FieldBook/FieldLog." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000071 ! Fusarium moniliforme ear rot
+creation_date: 2012-01-30T05:28:29Z
+
+[Term]
+id: CO_322:0000256
+name: ELLW measurement
+def: "Standard method for ear leaf weight." []
+relationship: method_of CO_322:0000112 ! Ear leaf weight
+created_by: RSHRESTHA
+creation_date: 2014-08-04T05:39:23Z
+
+[Term]
+id: CO_322:0000257
+name: PEROT scoring
+def: "Score penicillium ear rot severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease) and record data in the FieldBook/FieldLog." []
+comment: Growth stage: At harvest.
+relationship: method_of CO_322:0000074 ! Penicillium ear rot
+creation_date: 2012-01-30T05:29:18Z
+
+[Term]
+id: CO_322:0000258
+name: FOL scoring
+def: "Rate leaf based on total leaf surface. Observe on at least 20 representative plants." []
+comment: Growth stage: After milk stage (after R3).
+relationship: method_of CO_322:0000173 ! Foliage rating
+created_by: RSHRESTHA
+creation_date: 2014-08-04T05:40:35Z
+
+[Term]
+id: CO_322:0000259
+name: Smay scoring
+def: "Score stenocarpella ear rot severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease) and record data in the FieldBook/FieldLog." []
+comment: Growth stage: At harvest.
+relationship: method_of CO_322:0000073 ! Stenocarpella ear rot
+creation_date: 2012-01-30T05:29:57Z
+
+[Term]
+id: CO_322:0000260
+name: AnthesisGDU calculation
+def: "Standard method for growing degree units to anthesis." []
+comment: Growth stage: At anthesis.
+relationship: method_of CO_322:0000036 ! Growing degree units to anthesis
+created_by: RSHRESTHA
+creation_date: 2014-08-04T05:41:23Z
+
+[Term]
+id: CO_322:0000261
+name: Eturc1 scoring
+def: "Score turcicum leaf blight severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease) and record data in the FieldBook/FieldLog." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000092 ! Turcicum leaf blight
+creation_date: 2012-01-30T05:31:03Z
+
+[Term]
+id: CO_322:0000262
+name: MaturityGDU calculation
+def: "Standard method for growing degree units to maturity." []
+comment: Growth stage: At anthesis.
+relationship: method_of CO_322:0000037 ! Growing degree units to maturity
+created_by: RSHRESTHA
+creation_date: 2014-08-04T05:42:04Z
+
+[Term]
+id: CO_322:0000263
+name: Ppoly scoring
+def: "Score polysora rust severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease) and record data in the FieldBook/FieldLog." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000055 ! Polysora rust
+creation_date: 2012-01-30T05:32:00Z
+
+[Term]
+id: CO_322:0000264
+name: KLNG measurement
+def: "Average of 10 consecutive kernels from one row in the middle of the uppermost ear, measured with calliper." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000172 ! Kernel length
+created_by: RSHRESTHA
+creation_date: 2014-08-04T05:45:26Z
+
+[Term]
+id: CO_322:0000265
+name: Psorg1 scoring
+def: "Score common smut severity on plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease) and record data in the FieldBook/FieldLog." []
+comment: Growth stage: After anthesis.
+synonym: "CR scoring" RELATED []
+relationship: method_of CO_322:0000085 ! Common rust
+creation_date: 2012-01-30T05:33:06Z
+
+[Term]
+id: CO_322:0000266
+name: KWID measurement
+def: "Measure on the same 10 kernels used for taking kernel length measurement." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000175 ! Kernel width
+created_by: RSHRESTHA
+creation_date: 2014-08-04T05:45:53Z
+
+[Term]
+id: CO_322:0000267
+name: CSN scoring
+def: "Score common smut severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease) and record data in the FieldBook/FieldLog." []
+comment: Growth stage: After anthesis.
+synonym: "CSN scoring" RELATED []
+relationship: method_of CO_322:0000082 ! Common smut
+creation_date: 2012-01-30T05:34:14Z
+
+[Term]
+id: CO_322:0000268
+name: LWID measurement
+def: "Take same leaf measured for leaf length and measure mid-way along its length." []
+relationship: method_of CO_322:0000026 ! Leaf width
+created_by: RSHRESTHA
+creation_date: 2014-08-04T05:47:40Z
+
+[Term]
+id: CO_322:0000269
+name: TR scoring
+def: "Score tropical severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease) and record data in the FieldBook/FieldLog." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000056 ! Tropical rust
+creation_date: 2012-01-30T05:36:32Z
+
+[Term]
+id: CO_322:0000270
+name: ENDOLYS determination
+def: "Standard method for endosperm lysin content." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000104 ! Lysine content
+created_by: RSHRESTHA
+creation_date: 2014-08-04T05:48:28Z
+
+[Term]
+id: CO_322:0000271
+name: pDMV scoring
+def: "Score the plants that are affected by maize dwarf mosaic virus per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000099 ! Maize dwarf mosaic virus
+creation_date: 2012-01-30T05:38:18Z
+
+[Term]
+id: CO_322:0000272
+name: SCMV scoring
+def: "Score the plants that are affected by sugarcane mosaic virus per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000101 ! Sugarcane mosaic virus
+created_by: RSHRESTHA
+creation_date: 2014-08-04T05:50:49Z
+
+[Term]
+id: CO_322:0000273
+name: MSV scoring
+def: "Score the plants that are affected by maize streak virus per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+relationship: method_of CO_322:0000100 ! Maize streak virus
+creation_date: 2012-01-30T05:39:23Z
+
+[Term]
+id: CO_322:0000274
+name: MRCV scoring
+def: "Score the plants that are affected by mal de rio cuarto virus per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000094 ! Mal de rio cuarto virus
+created_by: RSHRESTHA
+creation_date: 2014-08-04T05:55:18Z
+
+[Term]
+id: CO_322:0000275
+name: HSN scoring
+def: "Score the plants that are affected by head smut per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+relationship: method_of CO_322:0000083 ! Head smut
+creation_date: 2012-01-31T04:42:53Z
+
+[Term]
+id: CO_322:0000276
+name: MSTV scoring
+def: "Score the plants that are affected by maize stripe virus per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000098 ! Maize stripe virus
+created_by: RSHRESTHA
+creation_date: 2014-08-04T05:57:27Z
+
+[Term]
+id: CO_322:0000277
+name: ALB scoring
+def: "Score the plants that are affected by anthracnose leaf blight per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000058 ! Anthracnose leaf blight
+creation_date: 2012-01-31T05:29:50Z
+
+[Term]
+id: CO_322:0000278
+name: MRDV scoring
+def: "Score the plants that are affected by maize rough dwarf virus per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000097 ! Maize rough dwarf virus
+created_by: RSHRESTHA
+creation_date: 2014-08-04T05:59:44Z
+
+[Term]
+id: CO_322:0000279
+name: CHDMG scoring
+def: "Score the plant damage caused by chilo per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+relationship: method_of CO_322:0000155 ! Chilo damage
+creation_date: 2012-01-31T05:30:54Z
+
+[Term]
+id: CO_322:0000280
+name: MRFV scoring
+def: "Score the plants that are affected by maize bushy stunt per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000095 ! Maize rayado fino virus
+created_by: RSHRESTHA
+creation_date: 2014-08-04T06:01:31Z
+
+[Term]
+id: CO_322:0000281
+name: EDMG scoring
+def: "Score the ears damage caused by ear rot and/or insects per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000165 ! Ear damage
+creation_date: 2012-01-31T05:31:35Z
+
+[Term]
+id: CO_322:0000282
+name: MMV scoring
+relationship: method_of CO_322:0000096 ! Maize mosaic virus
+created_by: RSHRESTHA
+creation_date: 2014-08-04T06:04:53Z
+
+[Term]
+id: CO_322:0000283
+name: StBor damage scoring
+def: "Score the plant damage caused by stem borer per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000159 ! Stem borer damage
+creation_date: 2012-01-31T05:32:31Z
+
+[Term]
+id: CO_322:0000284
+name: PROTCON determination
+relationship: method_of CO_322:0000121 ! Protein content
+created_by: RSHRESTHA
+creation_date: 2014-08-04T06:06:30Z
+
+[Term]
+id: CO_322:0000285
+name: STR scoring
+def: "Score the plant damage caused by striga per plot and record data in the FieldBook/FieldLog" []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000158 ! Striga damage
+creation_date: 2012-01-31T05:33:50Z
+
+[Term]
+id: CO_322:0000286
+name: RCT measurement
+def: "Standard method for root capitance." []
+relationship: method_of CO_322:0000102 ! Root capacitance
+created_by: RSHRESTHA
+creation_date: 2014-08-05T10:06:33Z
+
+[Term]
+id: CO_322:0000287
+name: LGB scoring
+def: "Score the plant damage caused by large grain borer per plot and record data in the FieldBook/FieldLog" []
+comment: Growth stage: At harvest.
+relationship: method_of CO_322:0000127 ! Large grain borer damage
+creation_date: 2012-01-31T05:35:24Z
+
+[Term]
+id: CO_322:0000288
+name: SDVIABIL scoring
+def: "Standard method for seed viability content." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000040 ! Seed viability
+created_by: RSHRESTHA
+creation_date: 2014-08-05T10:09:51Z
+
+[Term]
+id: CO_322:0000289
+name: Wev scoring
+def: "Score maize weevil damage on the plants per plot and record data in the FieldBook/FieldLog." []
+relationship: method_of CO_322:0000129 ! Maize weevil damage
+creation_date: 2012-01-31T05:36:08Z
+
+[Term]
+id: CO_322:0000290
+name: SELIND determination
+relationship: method_of CO_322:0000116 ! Selection index
+created_by: RSHRESTHA
+creation_date: 2014-08-05T10:12:15Z
+
+[Term]
+id: CO_322:0000291
+name: LLNG measurement
+def: "Measure the leaf which subtends the uppermost ear from ligule to apex." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000025 ! Leaf length
+creation_date: 2012-02-01T09:10:57Z
+
+[Term]
+id: CO_322:0000292
+name: SHTPUB observation
+def: "Standard method for sheath pubescence content." []
+comment: Growth stage: At anthesis.
+relationship: method_of CO_322:0000163 ! Sheath pubescence
+created_by: RSHRESTHA
+creation_date: 2014-08-05T10:14:33Z
+
+[Term]
+id: CO_322:0000293
+name: BSDM scoring
+def: "Score the plants that are affected by brown stripe downy mildew per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000078 ! Brown stripe downy mildew
+creation_date: 2012-02-01T09:12:10Z
+
+[Term]
+id: CO_322:0000294
+name: SILKGR measurement
+def: "Standard method for silk growth." []
+comment: Growth stage: Silking (R1).
+relationship: method_of CO_322:0000144 ! Silk growth
+created_by: RSHRESTHA
+creation_date: 2014-08-05T10:16:48Z
+
+[Term]
+id: CO_322:0000295
+name: CTN scoring
+def: "Score the plants that are affected by crazy top per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000081 ! Crazy top downy mildew
+creation_date: 2012-02-01T09:12:59Z
+
+[Term]
+id: CO_322:0000296
+name: SILKRR calculation
+def: "Standard method for silk growth rate." []
+comment: Growth stage: Silking (R1).
+relationship: method_of CO_322:0000014 ! Silk growth rate
+created_by: RSHRESTHA
+creation_date: 2014-08-05T10:18:49Z
+
+[Term]
+id: CO_322:0000297
+name: pDMJ scoring
+def: "Score the plants that are affected by java downy mildew per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+relationship: method_of CO_322:0000079 ! Java downy mildew
+creation_date: 2012-02-01T09:13:38Z
+
+[Term]
+id: CO_322:0000298
+name: SILKLNG  measurement
+def: "Standard method for silk length." []
+comment: Growth stage: Silking (R1).
+relationship: method_of CO_322:0000013 ! Silk length
+created_by: RSHRESTHA
+creation_date: 2014-08-05T10:22:27Z
+
+[Term]
+id: CO_322:0000299
+name: PDM scoring
+def: "Score the plants that are affected by philippine downy mildew per plot andrecord data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000076 ! Philippine downy mildew
+creation_date: 2012-02-01T09:14:26Z
+
+[Term]
+id: CO_322:0000300
+name: TSLBDW measurement
+def: "Standard method for tassel branches dry weight." []
+relationship: method_of CO_322:0000027 ! Tassel branches dry weight
+created_by: RSHRESTHA
+creation_date: 2014-08-05T10:31:07Z
+
+[Term]
+id: CO_322:0000301
+name: SORDM scoring
+def: "Score the plants that are affected by sorghum downy mildew per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000080 ! Sorghum downy mildew
+creation_date: 2012-02-01T09:15:57Z
+
+[Term]
+id: CO_322:0000302
+name: g
+is_a: CO_322:0000180 ! Unit
+relationship: scale_of CO_322:0000341 ! HKW measurement
+relationship: scale_of CO_322:0000343 ! TKW measurement
+created_by: RSHRESTHA
+creation_date: 2014-08-05T10:32:02Z
+
+[Term]
+id: CO_322:0000303
+name: PSACCH scoring
+def: "Score the plants that are affected by sugarcane downy mildew per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000077 ! Sugarcane downy mildew
+creation_date: 2012-02-01T09:17:50Z
+
+[Term]
+id: CO_322:0000304
+name: TSLBNO counting
+def: "Standard method for tassel branches number." []
+relationship: method_of CO_322:0000028 ! Tassel branches number
+created_by: RSHRESTHA
+creation_date: 2014-08-05T10:33:22Z
+
+[Term]
+id: CO_322:0000305
+name: BLSB scoring
+def: "Score banded leaf and sheath blight severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease) and record data in the FieldBook/FieldLog." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000084 ! Banded leaf and sheath blight
+creation_date: 2012-02-01T09:19:54Z
+
+[Term]
+id: CO_322:0000306
+name: TILLERING calculation
+def: "Count the number of tillers per plant (average of more than 20 representative) plants." []
+relationship: method_of CO_322:0000059 ! Tillering index
+created_by: RSHRESTHA
+creation_date: 2014-08-05T10:39:35Z
+
+[Term]
+id: CO_322:0000307
+name: ASTRI scoring
+def: "Score the plants that are affected by black bundle per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000060 ! Black bundle
+creation_date: 2012-02-01T09:21:09Z
+
+[Term]
+id: CO_322:0000308
+name: UPES observation
+def: "Observe shape of uppermost ear." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000171 ! Uppermost ear shape
+created_by: RSHRESTHA
+creation_date: 2014-08-05T10:40:45Z
+
+[Term]
+id: CO_322:0000309
+name: BwS scoring
+def: "Score brown spot severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease) and record data in the FieldBook/FieldLog." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000086 ! Brown spot
+creation_date: 2012-02-01T09:24:08Z
+
+[Term]
+id: CO_322:0000310
+name: 1= highly resistant, clean no (%) infection
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000234 ! 1-5 disease scoring scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:38:46Z
+
+[Term]
+id: CO_322:0000311
+name: CHAROT scoring
+def: "Score the plants that are affected by charcoal rot per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: At harvest.
+relationship: method_of CO_322:0000062 ! Charcoal rot
+creation_date: 2012-02-01T09:25:24Z
+
+[Term]
+id: CO_322:0000312
+name: 2= resistant, disease symptoms covering up to 20% of the leaf area
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000234 ! 1-5 disease scoring scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:39:07Z
+
+[Term]
+id: CO_322:0000313
+name: LATWIL scoring
+def: "Score the plants that are affected by late wilt per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000161 ! Late wilt
+creation_date: 2012-02-01T09:27:48Z
+
+[Term]
+id: CO_322:0000314
+name: degree
+is_a: CO_322:0000180 ! Unit
+created_by: RSHRESTHA
+creation_date: 2014-08-06T04:08:42Z
+
+[Term]
+id: CO_322:0000315
+name: SEDDIS scoring
+def: "Observe the plants that are affected by seedling diseases per plot and record data in the FieldBook/FieldLog." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000093 ! Seedling disease
+creation_date: 2012-02-01T09:30:34Z
+
+[Term]
+id: CO_322:0000316
+name: 1-5 SDVIA scale
+is_a: CO_322:0000180 ! Unit
+relationship: scale_of CO_322:0000360 ! KUSS observation
+created_by: RSHRESTHA
+creation_date: 2014-08-06T04:23:16Z
+
+[Term]
+id: CO_322:0000317
+name: BACLS scoring
+relationship: method_of CO_322:0000051 ! Bacterial leaf stripe
+creation_date: 2012-02-01T09:31:54Z
+
+[Term]
+id: CO_322:0000318
+name: 1-9 GRNCOL scale
+is_a: CO_322:0000180 ! Unit
+relationship: scale_of CO_322:0000205 ! GRNCOL observation
+created_by: RSHRESTHA
+creation_date: 2014-08-06T04:24:56Z
+
+[Term]
+id: CO_322:0000319
+name: BCSR scoring
+def: "Score the plants that are affected by bacterial stalk rot per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: At harvest.
+relationship: method_of CO_322:0000052 ! Bacterial stalk rot
+creation_date: 2012-02-01T09:33:03Z
+
+[Term]
+id: CO_322:0000320
+name: 0-10 SEN scale
+is_a: CO_322:0000180 ! Unit
+relationship: scale_of CO_322:0000223 ! SEN rating
+created_by: RSHRESTHA
+creation_date: 2014-08-06T04:25:10Z
+
+[Term]
+id: CO_322:0000321
+name: CSCM scoring
+def: "Score maize busy stunt severity on the plants per plot based on degree of infection (relative or absolute area of plant tissue affected by disease) and record data in the FieldBook/FieldLog." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000053 ! Maize bushy stunt
+creation_date: 2012-02-01T09:34:06Z
+
+[Term]
+id: CO_322:0000322
+name: WWL measurement
+relationship: method_of CO_322:0000131 ! Weevil grain weight loss
+creation_date: 2012-02-01T09:47:47Z
+
+[Term]
+id: CO_322:0000323
+name: STEWIL scoring
+def: "Score the plants that are affected by stewart wilt per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000050 ! Stewarts wilt
+creation_date: 2012-02-01T09:37:15Z
+
+[Term]
+id: CO_322:0000324
+name: 1-11 KERTYP scale
+is_a: CO_322:0000180 ! Unit
+relationship: scale_of CO_322:0000213 ! KTYP rating
+created_by: RSHRESTHA
+creation_date: 2014-08-06T04:25:30Z
+
+[Term]
+id: CO_322:0000325
+name: Aph scoring
+def: "Score the plant damage caused by aphids per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: At harvest.
+relationship: method_of CO_322:0000128 ! Aphid damage
+creation_date: 2012-02-01T09:38:35Z
+
+[Term]
+id: CO_322:0000326
+name: Values categorical
+relationship: part_of CO_322:0000180 ! Unit
+created_by: RSHRESTHA
+creation_date: 2014-08-06T09:20:40Z
+
+[Term]
+id: CO_322:0000327
+name: FAW scoring
+def: "Score the plant damage caused by army worms per plot and record data in the FieldBook/FieldLog. Note:  The first and the last plants are eliminated to avoid border effects." []
+comment: Growth stage: At harvest.
+relationship: method_of CO_322:0000154 ! Army worm damage
+creation_date: 2012-02-01T09:39:39Z
+
+[Term]
+id: CO_322:0000328
+name: 3= moderately susceptible, disease symptoms covering up to 50% of the leaf area.
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000234 ! 1-5 disease scoring scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:39:25Z
+
+[Term]
+id: CO_322:0000329
+name: BUSDMG scoring
+def: "Count the number plants that are damaged by busseola (african stem borer) per plot and record data in the FieldBook/FieldLog." []
+comment: Growth stage: At harvest.
+relationship: method_of CO_322:0000152 ! Busseola damage
+creation_date: 2012-02-01T09:40:45Z
+
+[Term]
+id: CO_322:0000330
+name: 4= susceptible, disease symptoms covering upto 70% of the leaf surface.
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000234 ! 1-5 disease scoring scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:39:59Z
+
+[Term]
+id: CO_322:0000331
+name: DIABDMG scoring
+def: "Score the plant damage caused by diabrotica per plot and record data in the FieldBook/FieldLog." []
+comment: Growth stage: At harvest.
+relationship: method_of CO_322:0000156 ! Diabrotica damage
+creation_date: 2012-02-01T09:41:37Z
+
+[Term]
+id: CO_322:0000332
+name: 5= highly susceptible, disease symptoms covering >80% of the leaf surface.
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000234 ! 1-5 disease scoring scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:40:10Z
+
+[Term]
+id: CO_322:0000333
+name: DAITDMG scoring
+def: "Score the plant damage caused by diatraea plot and record data in the FieldBook/FieldLog." []
+comment: Growth stage: At harvest.
+relationship: method_of CO_322:0000157 ! Diatraea damage
+creation_date: 2012-02-01T09:43:15Z
+
+[Term]
+id: CO_322:0000334
+name: 1= white
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000318 ! 1-9 GRNCOL scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:40:46Z
+
+[Term]
+id: CO_322:0000335
+name: CEW scoring
+def: "Score the plant damage caused by earworm per plot and record data in the FieldBook/FieldLog." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000153 ! Earworm damage
+creation_date: 2012-02-01T09:44:06Z
+
+[Term]
+id: CO_322:0000336
+name: 2= yellow
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000318 ! 1-9 GRNCOL scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:42:15Z
+
+[Term]
+id: CO_322:0000337
+name: Wtot counting
+def: "Standard method for total grain weevil number." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000130 ! Total grain weevil number
+creation_date: 2012-02-01T09:46:17Z
+
+[Term]
+id: CO_322:0000338
+name: 3= purple
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000318 ! 1-9 GRNCOL scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:42:30Z
+
+[Term]
+id: CO_322:0000339
+name: Wwl measurement
+def: "Standard method for weevil grain weight loss." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000131 ! Weevil grain weight loss
+creation_date: 2012-02-01T09:47:47Z
+
+[Term]
+id: CO_322:0000340
+name: 4= variegated
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000318 ! 1-9 GRNCOL scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:42:46Z
+
+[Term]
+id: CO_322:0000341
+name: HKW measurement
+def: "Weigh 100 kernels randomly selected from the total kernels and record data in the Fieldbook/Fieldlog." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000133 ! 100 kernel weight
+creation_date: 2012-02-01T09:50:17Z
+
+[Term]
+id: CO_322:0000342
+name: 5= brown
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000318 ! 1-9 GRNCOL scale
+relationship: value_of CO_322:0000485 ! 1-5 STCOL scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:43:06Z
+
+[Term]
+id: CO_322:0000343
+name: TKW measurement
+def: "Weigh 1000 kernels randomly selected from the total kernels and record data in the Fieldbook/Fieldlog." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000169 ! 1000 kernel weight
+creation_date: 2012-02-01T09:51:33Z
+
+[Term]
+id: CO_322:0000344
+name: 6= orange
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000318 ! 1-9 GRNCOL scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:43:17Z
+
+[Term]
+id: CO_322:0000345
+name: KNO calculation
+def: "Standard method for kernel number." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000010 ! Kernel number
+creation_date: 2012-02-01T09:59:23Z
+
+[Term]
+id: CO_322:0000346
+name: 7= mottled
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000318 ! 1-9 GRNCOL scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:43:31Z
+
+[Term]
+id: CO_322:0000347
+name: EARDIA measurement
+def: "Measure, when applicable, ear diameter at the central part of uppermost ears of at least 20 representative plants per accession." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000170 ! Ear diameter
+creation_date: 2012-02-01T10:10:53Z
+
+[Term]
+id: CO_322:0000348
+name: cm
+is_a: CO_322:0000180 ! Unit
+relationship: scale_of CO_322:0000177 ! PH measurement
+relationship: scale_of CO_322:0000179 ! EH measurement
+relationship: scale_of CO_322:0000291 ! LLNG measurement
+relationship: scale_of CO_322:0000294 ! SILKGR measurement
+relationship: scale_of CO_322:0000298 ! SILKLNG  measurement
+relationship: scale_of CO_322:0000347 ! EARDIA measurement
+relationship: scale_of CO_322:0000349 ! ELNG measurement
+creation_date: 2011-10-14T12:06:34Z
+
+[Term]
+id: CO_322:0000349
+name: ELNG measurement
+def: "Measure, when applicable, ear length of at least 20 representative plants per accession, record the data in the Fieldbook/Fieldlog." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000015 ! Ear length
+creation_date: 2012-02-01T10:11:40Z
+
+[Term]
+id: CO_322:0000350
+name: %
+is_a: CO_322:0000180 ! Unit
+relationship: scale_of CO_322:0000107 ! pTrp determination
+relationship: scale_of CO_322:0000193 ! pSL rating
+relationship: scale_of CO_322:0000195 ! MOI estimation
+relationship: scale_of CO_322:0000196 ! pLys determination
+relationship: scale_of CO_322:0000198 ! ELYSCON determination
+relationship: scale_of CO_322:0000200 ! ENDOPROT determination
+relationship: scale_of CO_322:0000202 ! pProt determination
+relationship: scale_of CO_322:0000207 ! pBHC observation
+relationship: scale_of CO_322:0000211 ! pRL rating
+relationship: scale_of CO_322:0000217 ! RGY estimation
+relationship: scale_of CO_322:0000222 ! SRF scoring
+relationship: scale_of CO_322:0000224 ! pER observation
+relationship: scale_of CO_322:0000226 ! DOWMID scoring
+relationship: scale_of CO_322:0000229 ! FGRAMSR scoring
+relationship: scale_of CO_322:0000231 ! FMSR scoring
+relationship: scale_of CO_322:0000232 ! FSR scoring
+relationship: scale_of CO_322:0000233 ! PYTSR scoring
+relationship: scale_of CO_322:0000235 ! STESR scoring
+relationship: scale_of CO_322:0000241 ! pCSC scoring
+relationship: scale_of CO_322:0000244 ! CpN determination
+relationship: scale_of CO_322:0000267 ! CSN scoring
+relationship: scale_of CO_322:0000270 ! ENDOLYS determination
+relationship: scale_of CO_322:0000272 ! SCMV scoring
+relationship: scale_of CO_322:0000274 ! MRCV scoring
+relationship: scale_of CO_322:0000275 ! HSN scoring
+relationship: scale_of CO_322:0000276 ! MSTV scoring
+relationship: scale_of CO_322:0000277 ! ALB scoring
+relationship: scale_of CO_322:0000278 ! MRDV scoring
+relationship: scale_of CO_322:0000280 ! MRFV scoring
+relationship: scale_of CO_322:0000282 ! MMV scoring
+relationship: scale_of CO_322:0000284 ! PROTCON determination
+relationship: scale_of CO_322:0000293 ! BSDM scoring
+relationship: scale_of CO_322:0000295 ! CTN scoring
+relationship: scale_of CO_322:0000297 ! pDMJ scoring
+relationship: scale_of CO_322:0000299 ! PDM scoring
+relationship: scale_of CO_322:0000301 ! SORDM scoring
+relationship: scale_of CO_322:0000303 ! PSACCH scoring
+relationship: scale_of CO_322:0000307 ! ASTRI scoring
+relationship: scale_of CO_322:0000311 ! CHAROT scoring
+relationship: scale_of CO_322:0000313 ! LATWIL scoring
+relationship: scale_of CO_322:0000315 ! SEDDIS scoring
+relationship: scale_of CO_322:0000319 ! BCSR scoring
+relationship: scale_of CO_322:0000323 ! STEWIL scoring
+relationship: scale_of CO_322:0000335 ! CEW scoring
+relationship: scale_of CO_322:0000339 ! Wwl measurement
+relationship: scale_of CO_322:0000381 ! KASH measurement
+relationship: scale_of CO_322:0000383 ! KNCON measurement
+relationship: scale_of CO_322:0000389 ! WGVITACON determination
+created_by: RSHRESTHA
+creation_date: 2014-07-29T05:00:32Z
+
+[Term]
+id: CO_322:0000351
+name: TSLTYP observation
+def: "Standard method for tassel type." []
+comment: Growth stage: At milk stage.
+relationship: method_of CO_322:0000164 ! Tassel type
+creation_date: 2012-02-01T10:12:49Z
+
+[Term]
+id: CO_322:0000352
+name: days
+is_a: CO_322:0000180 ! Unit
+relationship: scale_of CO_322:0000181 ! ASI calculation
+relationship: scale_of CO_322:0000189 ! AD calculation
+relationship: scale_of CO_322:0000191 ! SD calculation
+relationship: scale_of CO_322:0000237 ! MD calculation
+created_by: RSHRESTHA
+creation_date: 2014-07-29T05:00:50Z
+
+[Term]
+id: CO_322:0000353
+name: ELCHL measurement
+def: "Standard method for ear leaf chlorophyll content." []
+relationship: method_of CO_322:0000105 ! Ear leaf chlorophyll content
+creation_date: 2012-02-01T10:20:44Z
+
+[Term]
+id: CO_322:0000354
+name: plants/plot
+is_a: CO_322:0000180 ! Unit
+relationship: scale_of CO_322:0000201 ! nP counting
+relationship: scale_of CO_322:0000212 ! ENDOTrp determination
+relationship: scale_of CO_322:0000345 ! KNO calculation
+created_by: RSHRESTHA
+creation_date: 2014-07-29T05:01:41Z
+
+[Term]
+id: CO_322:0000355
+name: YLCHL measurement
+def: "Standard method for young leaf chlorophyll content." []
+relationship: method_of CO_322:0000024 ! Young leaf chlorophyll content
+creation_date: 2012-02-01T10:23:07Z
+
+[Term]
+id: CO_322:0000356
+name: ears/plant
+is_a: CO_322:0000180 ! Unit
+relationship: scale_of CO_322:0000203 ! rEPP counting
+relationship: scale_of CO_322:0000221 ! KRN counting
+relationship: scale_of CO_322:0000225 ! rEPH calculation
+relationship: scale_of CO_322:0000290 ! SELIND determination
+relationship: scale_of CO_322:0000337 ! Wtot counting
+created_by: RSHRESTHA
+creation_date: 2014-07-29T05:02:17Z
+
+[Term]
+id: CO_322:0000357
+name: GLCON measurement
+def: "Standard method for glucose content." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000115 ! Glucose content
+creation_date: 2012-02-01T10:24:03Z
+
+[Term]
+id: CO_322:0000358
+name: kg
+is_a: CO_322:0000180 ! Unit
+relationship: scale_of CO_322:0000197 ! GY calculation
+relationship: scale_of CO_322:0000248 ! EDW measurement
+relationship: scale_of CO_322:0000397 ! ADGY calculation
+created_by: RSHRESTHA
+creation_date: 2014-07-29T05:01:14Z
+
+[Term]
+id: CO_322:0000359
+name: LT measurement
+def: "Non-contact measurement using an infrared thermometer. Measure preferably the same side of the leaf (in this case the upper or adaxial)." []
+comment: Vegetative period and prior beginning of the drought treatment, one measurement 4-5 weeks after planting and again 2-3 weeks later. Always in the youngest fully expanded leaf. Reproductive period (two days after last irrigation and then every 5-7 days until the 'recover irrigation' at flowering). Anthesis - Grain filling.
+synonym: "LT measurement" RELATED []
+relationship: method_of CO_322:0000135 ! Leaf temperature
+creation_date: 2012-02-01T10:25:47Z
+
+[Term]
+id: CO_322:0000360
+name: KUSS observation
+def: "Observe the shape of the upper surface of kernel, when applicable, on at least 20 representative plants per accession, after harvest." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000178 ! Kernel upper surface shape
+created_by: RSHRESTHA
+creation_date: 2014-08-07T10:49:29Z
+
+[Term]
+id: CO_322:0000361
+name: NDVI measurement
+def: "Optimum number of measurements: \n* Vegetative stage: Weekly measurements from 2 to 6 weeks after planting; \n* Flowering: only for inbred lines. \nMeasured with a portable field spectroradiometer  (e.g. GreenSeeker). The sensor placed ca 60 cm above the plants. Minimum number: on 2-3 stages along the crop cycle." []
+comment: Vegetative stage (1 month after planting), Flowering (for Inbreds) and grain filling (2 and 4 weeks after anthesis for hybrid).
+relationship: method_of CO_322:0000132 ! Normalized difference vegetation index
+creation_date: 2012-02-01T10:27:26Z
+
+[Term]
+id: CO_322:0000362
+name: PERCOL observation
+def: "Observe the pericarp color, when applicable, on at least 20 representative plants per accession, after harvest." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000192 ! Pericarp color
+created_by: RSHRESTHA
+creation_date: 2014-08-07T10:51:12Z
+
+[Term]
+id: CO_322:0000363
+name: OA determination
+def: "Standard method for osmotic adjustment." []
+relationship: method_of CO_322:0000117 ! Osmotic adjustment
+creation_date: 2012-02-01T10:28:20Z
+
+[Term]
+id: CO_322:0000364
+name: ALEUCOL observation
+def: "Observe the aleurone color, when applicable, on at least 20 representative plants per accession, after harvest." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000190 ! Aleurone color
+created_by: RSHRESTHA
+creation_date: 2014-08-07T10:55:38Z
+
+[Term]
+id: CO_322:0000365
+name: OP determination
+def: "Standard method for osmotic potential." []
+relationship: method_of CO_322:0000118 ! Osmotic potential
+creation_date: 2012-02-01T10:29:10Z
+
+[Term]
+id: CO_322:0000366
+name: ENDOCOL observation
+def: "Observe the endosperm color, when applicable, on at least 20 representative plants per accession, after harvest." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000186 ! Endosperm color
+created_by: RSHRESTHA
+creation_date: 2014-08-07T10:56:45Z
+
+[Term]
+id: CO_322:0000367
+name: PRI measurement
+def: "Standard method for photochemical radiation index." []
+relationship: method_of CO_322:0000140 ! Photochemical radiation index
+creation_date: 2012-02-01T10:30:12Z
+
+[Term]
+id: CO_322:0000368
+name: KTHK measurement
+def: "Measure the thickness of the same 10 kernels used for taking kernel length measurement." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000184 ! Kernel thickness
+created_by: RSHRESTHA
+creation_date: 2014-08-07T10:59:09Z
+
+[Term]
+id: CO_322:0000369
+name: PROLCON measurement
+def: "Standard method for proline content." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000119 ! Proline content
+creation_date: 2012-02-01T10:30:55Z
+
+[Term]
+id: CO_322:0000370
+name: TASBLAS observation
+def: "Standard method for tassel blasting." []
+comment: Growth stage: At anthesis.
+relationship: method_of CO_322:0000188 ! Tassel blasting
+created_by: RSHRESTHA
+creation_date: 2014-08-07T11:01:00Z
+
+[Term]
+id: CO_322:0000371
+name: SNIC measurement
+def: "Standard method for stable nitrogen isotope composition in kernels." []
+relationship: method_of CO_322:0000139 ! Stable nitrogen isotope composition
+creation_date: 2012-02-01T10:50:12Z
+
+[Term]
+id: CO_322:0000372
+name: arbitrary units
+is_a: CO_322:0000180 ! Unit
+relationship: scale_of CO_322:0000367 ! PRI measurement
+relationship: scale_of CO_322:0000385 ! WI calculation
+created_by: RSHRESTHA
+creation_date: 2014-08-07T11:58:39Z
+
+[Term]
+id: CO_322:0000373
+name: SOIE measurement
+def: "Standard method for stable oxygen isotope composition in kernels." []
+relationship: method_of CO_322:0000136 ! Stable oxygen isotope enrichment in kernels
+creation_date: 2012-02-01T10:53:25Z
+
+[Term]
+id: CO_322:0000374
+name: per mol
+is_a: CO_322:0000180 ! Unit
+relationship: scale_of CO_322:0000371 ! SNIC measurement
+relationship: scale_of CO_322:0000373 ! SOIE measurement
+created_by: RSHRESTHA
+creation_date: 2014-08-07T12:04:20Z
+
+[Term]
+id: CO_322:0000375
+name: SCond measurement
+def: "Measured with a portable porometer. Take the measures in the middle between leaf tip and leaf base, and in between leaf midrib and leaf rim. Blade sections measured must to be exposed to sunlight for at least the 30 minutes before.  Measurements always performed in the same side of the leaf (usually the lower or abaxial one). One measurement per leaf, and at least 3 per plot. 1 min per measurement." []
+comment: Vegetative period and prior beginning of the drought treatment, one measurement 4-5 weeks after planting and again 2-3 weeks later. Always in the youngest fully expanded leaf. Reproductive period (two days after last irrigation and then every 5-7 days until the 'recover irrigation' at flowering). Anthesis - Grain filling.
+relationship: method_of CO_322:0000134 ! Stomatal conductance
+creation_date: 2012-02-01T10:54:07Z
+
+[Term]
+id: CO_322:0000376
+name: NDVI index
+is_a: CO_322:0000180 ! Unit
+relationship: scale_of CO_322:0000361 ! NDVI measurement
+created_by: RSHRESTHA
+creation_date: 2014-08-07T12:07:57Z
+
+[Term]
+id: CO_322:0000377
+name: SUCCON measurement
+def: "Standard method for sucrose content." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000120 ! Sucrose content
+creation_date: 2012-02-01T10:54:41Z
+
+[Term]
+id: CO_322:0000378
+name: CCI
+is_a: CO_322:0000180 ! Unit
+relationship: scale_of CO_322:0000242 ! SPAD1 quantification
+relationship: scale_of CO_322:0000353 ! ELCHL measurement
+relationship: scale_of CO_322:0000355 ! YLCHL measurement
+created_by: RSHRESTHA
+creation_date: 2014-08-07T12:10:33Z
+
+[Term]
+id: CO_322:0000379
+name: SUGCON measurement
+def: "Standard method for sugar content." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000114 ! Sugar content
+creation_date: 2012-02-01T10:55:37Z
+
+[Term]
+id: CO_322:0000380
+name: 1-3 FOL scale
+is_a: CO_322:0000180 ! Unit
+created_by: RSHRESTHA
+creation_date: 2014-08-07T02:18:57Z
+
+[Term]
+id: CO_322:0000381
+name: KASH measurement
+def: "Standard method for kernel mineral content." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000137 ! Kernel mineral content
+creation_date: 2012-02-01T10:56:39Z
+
+[Term]
+id: CO_322:0000382
+name: micro mol
+is_a: CO_322:0000180 ! Unit
+created_by: RSHRESTHA
+creation_date: 2014-08-07T02:19:43Z
+
+[Term]
+id: CO_322:0000383
+name: KNCON measurement
+def: "Standard method for kernel nitrogen content." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000138 ! Kernel nitrogen content
+creation_date: 2012-02-01T10:57:17Z
+
+[Term]
+id: CO_322:0000384
+name: 8= white cap
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000318 ! 1-9 GRNCOL scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:43:42Z
+
+[Term]
+id: CO_322:0000385
+name: WI calculation
+def: "Standard method for water index." []
+relationship: method_of CO_322:0000141 ! Water index
+creation_date: 2012-02-01T10:58:24Z
+
+[Term]
+id: CO_322:0000386
+name: 9= red
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000318 ! 1-9 GRNCOL scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:43:59Z
+
+[Term]
+id: CO_322:0000387
+name: WGIRON measurement
+def: "Standard method for whole-grain iron content." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000110 ! Whole-grain iron content
+creation_date: 2012-02-01T10:59:42Z
+
+[Term]
+id: CO_322:0000388
+name: 1= excellent
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000481 ! 1-5 rating scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:44:18Z
+
+[Term]
+id: CO_322:0000389
+name: WGVITACON determination
+def: "Standard method for whole-grain pro-vitaminA content." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000125 ! Whole-grain pro-vitaminA content
+creation_date: 2012-02-01T12:09:55Z
+
+[Term]
+id: CO_322:0000390
+name: 2= good
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000481 ! 1-5 rating scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:44:41Z
+
+[Term]
+id: CO_322:0000391
+name: WGSTARCH determination
+def: "Standard method for whole-grain starch content." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000126 ! Whole-grain starch content
+creation_date: 2012-02-01T12:10:41Z
+
+[Term]
+id: CO_322:0000392
+name: 3= intermediate
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000480 ! 1-5 GRNTEX scale
+relationship: value_of CO_322:0000481 ! 1-5 rating scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:45:04Z
+
+[Term]
+id: CO_322:0000393
+name: WGZINC measurement
+def: "Standard method for whole-grain zinc content." []
+comment: Growth stage: Physiological maturity (R6 stage).
+relationship: method_of CO_322:0000111 ! Whole-grain zinc content
+creation_date: 2012-02-01T12:12:56Z
+
+[Term]
+id: CO_322:0000394
+name: 4= poor
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000481 ! 1-5 rating scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:45:21Z
+
+[Term]
+id: CO_322:0000395
+name: CT measurement
+def: "Standard method for canopy temperature." []
+comment: Growth stage: At harvest.
+relationship: method_of CO_322:0000142 ! Canopy temperature
+creation_date: 2012-02-01T12:22:36Z
+
+[Term]
+id: CO_322:0000396
+name: 5=  very poor
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000481 ! 1-5 rating scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:45:33Z
+
+[Term]
+id: CO_322:0000397
+name: ADGY calculation
+relationship: method_of CO_322:0000148 ! Adjusted grain yield
+creation_date: 2012-02-01T12:24:40Z
+
+[Term]
+id: CO_322:0000398
+name: 1= floury
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000324 ! 1-11 KERTYP scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:46:03Z
+
+[Term]
+id: CO_322:0000399
+name: 2= semi-floury (morocho), with an external layer of hard endoseprm.
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000324 ! 1-11 KERTYP scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:46:19Z
+
+[Term]
+id: CO_322:0000400
+name: 3= dent
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000324 ! 1-11 KERTYP scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:46:46Z
+
+[Term]
+id: CO_322:0000401
+name: 4= semi-dent, intermediate between dent and flint but closer to dent
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000324 ! 1-11 KERTYP scale
+relationship: value_of CO_322:0000480 ! 1-5 GRNTEX scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:47:01Z
+
+[Term]
+id: CO_322:0000402
+name: 5= semi-flint, flint with a soft cap
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000324 ! 1-11 KERTYP scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:47:19Z
+
+[Term]
+id: CO_322:0000403
+name: 6= flint
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000324 ! 1-11 KERTYP scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:47:34Z
+
+[Term]
+id: CO_322:0000404
+name: 7= Pop
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000324 ! 1-11 KERTYP scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:47:50Z
+
+[Term]
+id: CO_322:0000405
+name: 8= Sweet
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000324 ! 1-11 KERTYP scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:48:25Z
+
+[Term]
+id: CO_322:0000406
+name: 9= opaque 2/QPM
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000324 ! 1-11 KERTYP scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:48:40Z
+
+[Term]
+id: CO_322:0000407
+name: 10= Tunicate
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000324 ! 1-11 KERTYP scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:48:53Z
+
+[Term]
+id: CO_322:0000408
+name: 11= Waxy
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000324 ! 1-11 KERTYP scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:49:05Z
+
+[Term]
+id: CO_322:0000409
+name: 1= unrolled
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000482 ! 1-5 LR scoring
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:49:34Z
+
+[Term]
+id: CO_322:0000410
+name: 2= turgid leaves
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000482 ! 1-5 LR scoring
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:49:58Z
+
+[Term]
+id: CO_322:0000411
+name: 3= desirable
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000482 ! 1-5 LR scoring
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:50:16Z
+
+[Term]
+id: CO_322:0000412
+name: 4= not severely rolled leaves
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000482 ! 1-5 LR scoring
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:50:34Z
+
+[Term]
+id: CO_322:0000413
+name: 5= severely rolled leaves, undesirable
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000482 ! 1-5 LR scoring
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:50:50Z
+
+[Term]
+id: CO_322:0000414
+name: 1= flint
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000480 ! 1-5 GRNTEX scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:51:31Z
+
+[Term]
+id: CO_322:0000415
+name: 2= semi-flint
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000480 ! 1-5 GRNTEX scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:51:52Z
+
+[Term]
+id: CO_322:0000416
+name: 1= large
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000208 ! 1-3 TSLSIZ scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:52:19Z
+
+[Term]
+id: CO_322:0000417
+name: 4= semi-dent
+is_obsolete: true
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:52:40Z
+
+[Term]
+id: CO_322:0000418
+name: 5= dent
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000480 ! 1-5 GRNTEX scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:52:56Z
+
+[Term]
+id: CO_322:0000419
+name: 1= 1-10% dead leaf area
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000320 ! 0-10 SEN scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:53:37Z
+
+[Term]
+id: CO_322:0000420
+name: 2= 11-20% dead leaf area
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000320 ! 0-10 SEN scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:53:59Z
+
+[Term]
+id: CO_322:0000421
+name: 3= 21-30% dead leaf area
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000320 ! 0-10 SEN scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:54:16Z
+
+[Term]
+id: CO_322:0000422
+name: 5= 41-50% dead leaf area
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000320 ! 0-10 SEN scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:54:46Z
+
+[Term]
+id: CO_322:0000423
+name: 6= 51-60% dead leaf area
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000320 ! 0-10 SEN scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:56:53Z
+
+[Term]
+id: CO_322:0000424
+name: 7= 61-70% dead leaf area
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000320 ! 0-10 SEN scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:57:11Z
+
+[Term]
+id: CO_322:0000425
+name: 8= 71-80% dead leaf area
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000320 ! 0-10 SEN scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:57:29Z
+
+[Term]
+id: CO_322:0000426
+name: 9= 11-90% dead leaf area
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000320 ! 0-10 SEN scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:57:48Z
+
+[Term]
+id: CO_322:0000427
+name: 10= 91-100% dead leaf area
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000320 ! 0-10 SEN scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:58:03Z
+
+[Term]
+id: CO_322:0000428
+name: 1= regular
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000194 ! 1-4 KERRAR scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:59:09Z
+
+[Term]
+id: CO_322:0000429
+name: 2= irregular
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000194 ! 1-4 KERRAR scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:59:32Z
+
+[Term]
+id: CO_322:0000430
+name: 3= straight
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000194 ! 1-4 KERRAR scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T04:59:47Z
+
+[Term]
+id: CO_322:0000431
+name: 4= spiral
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000194 ! 1-4 KERRAR scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:00:09Z
+
+[Term]
+id: CO_322:0000432
+name: 1= hard and transparent grains
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000478 ! 1-5 ENDO scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:00:52Z
+
+[Term]
+id: CO_322:0000433
+name: 2= semi-hard and semi-transparent grains
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000478 ! 1-5 ENDO scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:01:41Z
+
+[Term]
+id: CO_322:0000434
+name: 3= intermediate grain hardness
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000478 ! 1-5 ENDO scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:02:49Z
+
+[Term]
+id: CO_322:0000435
+name: 4= semi-soft and semi-opaque grains
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000478 ! 1-5 ENDO scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:03:30Z
+
+[Term]
+id: CO_322:0000436
+name: 5= soft and opaque grains
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000478 ! 1-5 ENDO scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:04:19Z
+
+[Term]
+id: CO_322:0000437
+name: 2= normal
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000208 ! 1-3 TSLSIZ scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:07:28Z
+
+[Term]
+id: CO_322:0000438
+name: 3= small
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000208 ! 1-3 TSLSIZ scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:07:43Z
+
+[Term]
+id: CO_322:0000439
+name: 1= clean, no damage
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000477 ! 1-5 damage scoring scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:09:18Z
+
+[Term]
+id: CO_322:0000440
+name: 2= slightly (20%) damaged
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000477 ! 1-5 damage scoring scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:09:42Z
+
+[Term]
+id: CO_322:0000441
+name: 3= moderately (50% ) damaged
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000477 ! 1-5 damage scoring scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:09:55Z
+
+[Term]
+id: CO_322:0000442
+name: 4= significantly (70%) damaged
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000477 ! 1-5 damage scoring scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:10:21Z
+
+[Term]
+id: CO_322:0000443
+name: 5= highly (>80%) damaged
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000477 ! 1-5 damage scoring scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:12:35Z
+
+[Term]
+id: CO_322:0000444
+name: 1= small
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000380 ! 1-3 FOL scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:15:37Z
+
+[Term]
+id: CO_322:0000445
+name: 2= intermediate
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000380 ! 1-3 FOL scale
+relationship: value_of CO_322:0000484 ! 1-3 SELIND scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:16:02Z
+
+[Term]
+id: CO_322:0000446
+name: 3= large
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000380 ! 1-3 FOL scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:16:21Z
+
+[Term]
+id: CO_322:0000447
+name: 1= sparse
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000484 ! 1-3 SELIND scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:17:25Z
+
+[Term]
+id: CO_322:0000448
+name: 3= dense
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000484 ! 1-3 SELIND scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:17:49Z
+
+[Term]
+id: CO_322:0000449
+name: 1= green
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000485 ! 1-5 STCOL scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:18:21Z
+
+[Term]
+id: CO_322:0000450
+name: 2= sun red
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000485 ! 1-5 STCOL scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:18:46Z
+
+[Term]
+id: CO_322:0000451
+name: 3= red
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000485 ! 1-5 STCOL scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:19:09Z
+
+[Term]
+id: CO_322:0000452
+name: 4= purple
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000485 ! 1-5 STCOL scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:19:35Z
+
+[Term]
+id: CO_322:0000453
+name: 5= orange
+is_a: CO_322:0000326 ! Values categorical
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:19:56Z
+
+[Term]
+id: CO_322:0000454
+name: 1= primary
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000486 ! 1-3 TSLTYP scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:20:29Z
+
+[Term]
+id: CO_322:0000455
+name: 2= secondary
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000486 ! 1-3 TSLTYP scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:20:45Z
+
+[Term]
+id: CO_322:0000456
+name: 3= primary-secondary-tertiary
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000486 ! 1-3 TSLTYP scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:21:02Z
+
+[Term]
+id: CO_322:0000457
+name: 4= round
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000487 ! 1-4 UPES scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:21:38Z
+
+[Term]
+id: CO_322:0000458
+name: 1= shrunken
+is_a: CO_322:0000326 ! Values categorical
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:23:41Z
+
+[Term]
+id: CO_322:0000459
+name: 2= indented
+is_a: CO_322:0000326 ! Values categorical
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:24:11Z
+
+[Term]
+id: CO_322:0000460
+name: 3= level
+is_a: CO_322:0000326 ! Values categorical
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:24:58Z
+
+[Term]
+id: CO_322:0000461
+name: 4= 31-40% dead leaf area
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000320 ! 0-10 SEN scale
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:41:15Z
+
+[Term]
+id: CO_322:0000462
+name: 5= pointed
+is_a: CO_322:0000326 ! Values categorical
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:26:00Z
+
+[Term]
+id: CO_322:0000463
+name: 6= strongly pointed
+is_a: CO_322:0000326 ! Values categorical
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:26:19Z
+
+[Term]
+id: CO_322:0000464
+name: 1= colorless
+is_a: CO_322:0000326 ! Values categorical
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:27:09Z
+
+[Term]
+id: CO_322:0000465
+name: 2= grayyish white
+is_a: CO_322:0000326 ! Values categorical
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:27:32Z
+
+[Term]
+id: CO_322:0000466
+name: 4= brown
+is_a: CO_322:0000326 ! Values categorical
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:27:48Z
+
+[Term]
+id: CO_322:0000467
+name: 5= other
+is_a: CO_322:0000326 ! Values categorical
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:28:55Z
+
+[Term]
+id: CO_322:0000468
+name: 2= bronze
+is_a: CO_322:0000326 ! Values categorical
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:31:01Z
+
+[Term]
+id: CO_322:0000469
+name: 6= white cap
+is_a: CO_322:0000326 ! Values categorical
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:31:36Z
+
+[Term]
+id: CO_322:0000470
+name: 3= pale yellow
+is_a: CO_322:0000326 ! Values categorical
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:31:57Z
+
+[Term]
+id: CO_322:0000471
+name: 4= yellow
+is_a: CO_322:0000326 ! Values categorical
+created_by: RSHRESTHA
+creation_date: 2014-08-07T05:32:14Z
+
+[Term]
+id: CO_322:0000472
+name: 1= clean ears, no damage or infection, large, uniform , and well-filled ears.
+is_a: CO_322:0000326 ! Values categorical
+created_by: RSHRESTHA
+creation_date: 2014-08-07T06:01:58Z
+
+[Term]
+id: CO_322:0000473
+name: 2= 20% damaged ears  by insects/diseases, large-medium sized, uniform and filled ears.
+is_a: CO_322:0000326 ! Values categorical
+created_by: RSHRESTHA
+creation_date: 2014-08-07T06:02:22Z
+
+[Term]
+id: CO_322:0000474
+name: 3= 50% damaged ears  by insects/diseases, medium sized, not uniform and and partly filled ears.
+is_a: CO_322:0000326 ! Values categorical
+created_by: RSHRESTHA
+creation_date: 2014-08-07T06:02:42Z
+
+[Term]
+id: CO_322:0000475
+name: 4= 70% damaged ears  by insects/diseases, small, not uniform and partially filled ears.
+is_a: CO_322:0000326 ! Values categorical
+created_by: RSHRESTHA
+creation_date: 2014-08-07T06:03:21Z
+
+[Term]
+id: CO_322:0000476
+name: 5 = poor ears (>80% ears are damaged by insects/diseases), very small, variable, and poorly filled ears.
+is_a: CO_322:0000326 ! Values categorical
+created_by: RSHRESTHA
+creation_date: 2014-08-07T06:03:57Z
+
+[Term]
+id: CO_322:0000477
+name: 1-5 damage scoring scale
+is_a: CO_322:0000180 ! Unit
+created_by: RSHRESTHA
+creation_date: 2014-08-29T12:35:14Z
+
+[Term]
+id: CO_322:0000478
+name: 1-5 ENDO scale
+is_a: CO_322:0000180 ! Unit
+created_by: RSHRESTHA
+creation_date: 2014-08-29T12:40:53Z
+
+[Term]
+id: CO_322:0000479
+name: 0= no dead leaf area
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000320 ! 0-10 SEN scale
+created_by: RSHRESTHA
+creation_date: 2014-08-29T02:52:04Z
+
+[Term]
+id: CO_322:0000480
+name: 1-5 GRNTEX scale
+is_a: CO_322:0000180 ! Unit
+created_by: RSHRESTHA
+creation_date: 2014-09-01T12:12:53Z
+
+[Term]
+id: CO_322:0000481
+name: 1-5 rating scale
+is_a: CO_322:0000180 ! Unit
+created_by: RSHRESTHA
+creation_date: 2014-09-01T12:23:26Z
+
+[Term]
+id: CO_322:0000482
+name: 1-5 LR scoring
+is_a: CO_322:0000180 ! Unit
+created_by: RSHRESTHA
+creation_date: 2014-09-01T12:26:36Z
+
+[Term]
+id: CO_322:0000483
+name: 1-5 MWDM scale
+is_a: CO_322:0000180 ! Unit
+created_by: RSHRESTHA
+creation_date: 2014-09-01T12:28:49Z
+
+[Term]
+id: CO_322:0000484
+name: 1-3 SELIND scale
+is_a: CO_322:0000180 ! Unit
+created_by: RSHRESTHA
+creation_date: 2014-09-01T12:30:20Z
+
+[Term]
+id: CO_322:0000485
+name: 1-5 STCOL scale
+is_a: CO_322:0000180 ! Unit
+created_by: RSHRESTHA
+creation_date: 2014-09-01T12:34:18Z
+
+[Term]
+id: CO_322:0000486
+name: 1-3 TSLTYP scale
+is_a: CO_322:0000180 ! Unit
+created_by: RSHRESTHA
+creation_date: 2014-09-01T12:37:16Z
+
+[Term]
+id: CO_322:0000487
+name: 1-4 UPES scale
+is_a: CO_322:0000180 ! Unit
+created_by: RSHRESTHA
+creation_date: 2014-09-01T12:39:14Z
+
+[Term]
+id: CO_322:0000488
+name: Spiroplasma corn stunt
+def: "Spiroplasma corn stunt symptoms rated on a scale from 1 (= clean, no infection) to 5 (= severely diseased)." []
+synonym: "CSCS" RELATED []
+is_a: CO_322:0000045 ! Bacterial disease
+created_by: RSHRESTHA
+creation_date: 2014-09-10T03:39:10Z
+
+[Term]
+id: CO_322:0000489
+name: CSCS scoring
+def: "Score fusarium graminearum ear rot severity on the plants per plot based on degree of infection and record data in the FieldBook/FieldLog." []
+comment: Growth stage: After anthesis.
+relationship: method_of CO_322:0000488 ! Spiroplasma corn stunt
+created_by: RSHRESTHA
+creation_date: 2014-09-10T03:41:51Z
+
+[Term]
+id: CO_322:0000490
+name: 1= cylindrical
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000487 ! 1-4 UPES scale
+created_by: RSHRESTHA
+creation_date: 2014-09-12T09:52:15Z
+
+[Term]
+id: CO_322:0000491
+name: 2= cylindrical-conical
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000487 ! 1-4 UPES scale
+created_by: RSHRESTHA
+creation_date: 2014-09-12T09:52:39Z
+
+[Term]
+id: CO_322:0000492
+name: 3= conical
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000487 ! 1-4 UPES scale
+created_by: RSHRESTHA
+creation_date: 2014-09-12T09:53:01Z
+
+[Term]
+id: CO_322:0000493
+name: 1= no infestation
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000483 ! 1-5 MWDM scale
+created_by: RSHRESTHA
+creation_date: 2014-09-12T09:54:50Z
+
+[Term]
+id: CO_322:0000494
+name: 2= slightly (20%) infested
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000483 ! 1-5 MWDM scale
+created_by: RSHRESTHA
+creation_date: 2014-09-12T09:55:15Z
+
+[Term]
+id: CO_322:0000495
+name: 3= moderately (50% ) infested
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000483 ! 1-5 MWDM scale
+created_by: RSHRESTHA
+creation_date: 2014-09-12T09:56:21Z
+
+[Term]
+id: CO_322:0000496
+name: 4= significantly (70%) infested
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000483 ! 1-5 MWDM scale
+created_by: RSHRESTHA
+creation_date: 2014-09-12T09:56:36Z
+
+[Term]
+id: CO_322:0000497
+name: 5= severly infested
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000483 ! 1-5 MWDM scale
+created_by: RSHRESTHA
+creation_date: 2014-09-12T09:56:50Z
+
+[Term]
+id: CO_322:0000498
+name: 1= 81-100% germination
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000316 ! 1-5 SDVIA scale
+created_by: RSHRESTHA
+creation_date: 2014-09-12T10:01:27Z
+
+[Term]
+id: CO_322:0000499
+name: 2= 61-80% germination
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000316 ! 1-5 SDVIA scale
+created_by: RSHRESTHA
+creation_date: 2014-09-12T10:01:57Z
+
+[Term]
+id: CO_322:0000500
+name: 3= 41-60% germination
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000316 ! 1-5 SDVIA scale
+created_by: RSHRESTHA
+creation_date: 2014-09-12T10:02:04Z
+
+[Term]
+id: CO_322:0000501
+name: 4= 21-40% germination
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000316 ! 1-5 SDVIA scale
+created_by: RSHRESTHA
+creation_date: 2014-09-12T10:02:26Z
+
+[Term]
+id: CO_322:0000502
+name: 5= 0-20% germination
+is_a: CO_322:0000326 ! Values categorical
+relationship: value_of CO_322:0000316 ! 1-5 SDVIA scale
+created_by: RSHRESTHA
+creation_date: 2014-09-12T10:02:38Z
+
+[Term]
+id: CO_322:0000503
+name: cm/day
+is_a: CO_322:0000180 ! Unit
+relationship: scale_of CO_322:0000252 ! EGRR determination
+relationship: scale_of CO_322:0000296 ! SILKRR calculation
+created_by: RSHRESTHA
+creation_date: 2014-09-23T10:00:19Z
+
+[Term]
+id: CO_322:0000504
+name: 0-1 absent-present
+is_a: CO_322:0000180 ! Unit
+relationship: scale_of CO_322:0000176 ! FUNDIS observation
+created_by: RSHRESTHA
+creation_date: 2014-09-12T10:05:26Z
+
+[Term]
+id: CO_322:0000505
+name: 0= absent
+is_a: CO_322:0000326 ! Values categorical
+created_by: RSHRESTHA
+creation_date: 2014-09-12T10:06:04Z
+
+[Term]
+id: CO_322:0000506
+name: 1= present
+is_a: CO_322:0000326 ! Values categorical
+created_by: RSHRESTHA
+creation_date: 2014-09-12T10:06:27Z
+
+[Term]
+id: CO_322:0000507
+name: 1-5 TASBLAS scale
+is_a: CO_322:0000180 ! Unit
+created_by: RSHRESTHA
+creation_date: 2014-09-12T10:08:25Z
+
+[Term]
+id: CO_322:0000508
+name: pg/g
+is_a: CO_322:0000180 ! Unit
+created_by: RSHRESTHA
+creation_date: 2014-09-12T10:22:26Z
+
+[Term]
+id: CO_322:0000509
+name: g/day
+is_a: CO_322:0000180 ! Unit
+created_by: RSHRESTHA
+creation_date: 2014-09-12T10:22:59Z
+
+[Term]
+id: CO_322:0000510
+name: °C day
+is_a: CO_322:0000180 ! Unit
+created_by: RSHRESTHA
+creation_date: 2014-09-12T10:23:12Z
+
+[Term]
+id: CO_322:0000511
+name: mpa
+is_a: CO_322:0000180 ! Unit
+created_by: RSHRESTHA
+creation_date: 2014-09-12T10:23:38Z
+
+[Term]
+id: CO_322:0000512
+name: µF
+is_a: CO_322:0000180 ! Unit
+created_by: RSHRESTHA
+creation_date: 2014-09-12T10:24:01Z
+
+[Term]
+id: CO_322:0000513
+name: mmol /m2/s
+is_a: CO_322:0000180 ! Unit
+created_by: RSHRESTHA
+creation_date: 2014-09-12T10:24:28Z
+
+[Term]
+id: CO_322:0000514
+name: tillers/plant
+is_a: CO_322:0000180 ! Unit
+created_by: RSHRESTHA
+creation_date: 2014-09-12T10:25:59Z
+
+[Term]
+id: CO_322:0000515
+name: kernel rows/ear
+is_a: CO_322:0000180 ! Unit
+created_by: RSHRESTHA
+creation_date: 2014-09-12T10:32:22Z
+
+[Term]
+id: CO_322:0000516
+name: damaged plants/plot
+is_a: CO_322:0000180 ! Unit
+created_by: RSHRESTHA
+creation_date: 2014-09-12T10:32:52Z
+
+[Term]
+id: CO_322:0000517
+name: branches
+is_a: CO_322:0000180 ! Unit
+created_by: RSHRESTHA
+creation_date: 2014-09-12T10:33:15Z
+
+[Term]
+id: CO_322:0000518
+name: hatched weevils
+is_a: CO_322:0000180 ! Unit
+created_by: RSHRESTHA
+creation_date: 2014-09-12T10:33:55Z
+
+[Term]
+id: CO_322:0000519
+name: kernels/plant
+is_a: CO_322:0000180 ! Unit
+created_by: RSHRESTHA
+creation_date: 2014-09-23T10:04:54Z
+
+[Typedef]
+id: derived_from
+name: derived_from
+is_transitive: true
+creation_date: 2011-06-09T11:59:11Z
+
+[Typedef]
+id: method_of
+name: method_of
+is_transitive: true
+creation_date: 2011-10-14T12:04:32Z
+
+[Typedef]
+id: part_of
+name: part_of
+is_transitive: true
+creation_date: 2011-03-02T02:56:20Z
+
+[Typedef]
+id: scale_of
+name: scale_of
+is_transitive: true
+creation_date: 2011-10-14T12:05:00Z
+
+[Typedef]
+id: value_of
+name: value_of
+is_transitive: true
+creation_date: 2014-08-06T09:17:17Z
+
