@@ -16,7 +16,7 @@ name: Anthesis silking interval
 def: "Determined by (i) measuring the number of days after planting until 50 % of the plants shed pollen (anthesis date, AD) and show silks (silking date, SD), respectively, and (ii) calculating: ASI = SD - AD." [CO:rs]
 comment: If it is measured under drought or N stress, small or negative values indicate stress tolerance. Unit/precision: 1 day.
 synonym: "ASI, ANTSKIT, FLWSLKINTER" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000463
+xref: Plant Trait Ontology:TO\:0000463
 xref: IMIS_TRAITID:2004
 is_a: CO_322:0000002 ! Agronomic trait
 relationship: derived_from CO_322:0000030 ! Days to anthesis
@@ -33,7 +33,7 @@ name: Chlorophyll content
 def: "Measurement of chlorophyll amount in green tissue of plant or plant part." [CO:rs]
 synonym: "CHLCN, CHLO" RELATED []
 synonym: "CHLOCON" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000495
+xref: Plant Trait Ontology:TO\:0000495
 xref: IMIS_TRAITID:2058
 is_a: CO_322:0000006 ! Physiological trait
 
@@ -42,7 +42,7 @@ id: CO_322:0000004
 name: Female flowering
 def: "Traits associated with the timing of the female flowering." [CO:rs]
 synonym: "female flowering anthesis" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000359
+xref: Plant Trait Ontology:TO\:0000359
 is_a: CO_322:0000023 ! Phenological trait
 
 [Term]
@@ -51,7 +51,7 @@ name: Grain yield
 def: "Shelled grain weight per plot adjusted to 12.5% grain moisture and converted to tons per hectare." [CO:rs]
 comment: 80 % shelling percentage is assumed when ear weight reported.
 synonym: "GRYLD, GY, seed yield" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000396
+xref: Plant Trait Ontology:TO\:0000396
 xref: IMIS_TRAITID:2034
 xref: IMIS_TRAITID:2035
 xref: IMIS_TRAITID:2090
@@ -70,7 +70,7 @@ id: CO_322:0000007
 name: Plant height
 def: "Height between the base of a plant to the insertion of the first tassel branch of the same plant in centimeter (cm)." [CO:rs]
 synonym: "PHT, PlantH, PTHT, shoot height" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000207
+xref: Plant Trait Ontology:TO\:0000207
 xref: IMIS_TRAITID:2050
 is_a: CO_322:0000002 ! Agronomic trait
 
@@ -86,7 +86,7 @@ id: CO_322:0000009
 name: Male flowering
 def: "Traits associated with the timing of the male flowering." [CO:rs]
 synonym: "male flower anthesis" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000365
+xref: Plant Trait Ontology:TO\:0000365
 is_a: CO_322:0000023 ! Phenological trait
 
 [Term]
@@ -94,7 +94,7 @@ id: CO_322:0000010
 name: Kernel number
 def: "Calculated as grain weight divided by a single kernel weight." [CO:rs]
 synonym: "grain number, GRNB, KNO" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0002759
+xref: Plant Trait Ontology:TO\:0002759
 is_a: CO_322:0000002 ! Agronomic trait
 
 [Term]
@@ -147,7 +147,7 @@ id: CO_322:0000017
 name: Ear height
 def: "Height between the base of a plant to the insertion of the top (uppermost) ear of the same plant in centimeter (cm)." [CO:rs]
 synonym: "EarHei, EARHT, EHT" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000683
+xref: Plant Trait Ontology:TO\:0000683
 xref: IMIS_TRAITID:2023
 is_a: CO_322:0000174 ! Morphological trait
 
@@ -255,14 +255,14 @@ synonym: "DTSLK" RELATED []
 synonym: "female flowering" RELATED []
 synonym: "FFLW" RELATED []
 synonym: "SD" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000658
+xref: Plant Trait Ontology:TO\:0000658
 xref: IMIS_TRAITID:2018
 is_a: CO_322:0000004 ! Female flowering
 
 [Term]
 id: CO_322:0000032
 name: Days to maturity
-def: "Number of days required from seeding to seed/grain ripening." [Gramene Plant Trait Ontology:TO\:0000469]
+def: "Number of days required from seeding to seed/grain ripening." [Plant Trait Ontology:TO\:0000469]
 synonym: "DTM" RELATED []
 synonym: "DTMT, Maturi" RELATED []
 synonym: "MD" RELATED []
@@ -274,7 +274,7 @@ id: CO_322:0000033
 name: Grain moisture
 def: "Percentage of grain moisture as measured at harvest." [CO:rs]
 synonym: "GrainM" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000057
+xref: Plant Trait Ontology:TO\:0000057
 xref: IMIS_TRAITID:2032
 is_a: CO_322:0000002 ! Agronomic trait
 
@@ -332,7 +332,7 @@ id: CO_322:0000040
 name: Seed viability
 def: "Seed viability is measured after 3 month at 100% relative humidity and 30 degree, 1 = 100-80% germination, 5 = 0-20% germination." [CO:rs]
 synonym: "SDVIA, SeedVi" RELATED []
-xref: Gramene Plant Trait Ontology:TO\:0000345
+xref: Plant Trait Ontology:TO\:0000345
 xref: IMIS_TRAITID:2115
 is_a: CO_322:0000002 ! Agronomic trait
 
@@ -943,7 +943,7 @@ is_a: CO_322:0000002 ! Agronomic trait
 [Term]
 id: CO_322:0000113
 name: Abscisic acid content
-def: "Measures the abscisic acid content in a plant or plant part." [Gramene Plant Trait Ontology:TO\:0002667]
+def: "Measures the abscisic acid content in a plant or plant part." [Plant Trait Ontology:TO\:0002667]
 synonym: "ABA" RELATED []
 synonym: "ABA content" RELATED []
 is_a: CO_322:0000006 ! Physiological trait
@@ -951,14 +951,14 @@ is_a: CO_322:0000006 ! Physiological trait
 [Term]
 id: CO_322:0000114
 name: Sugar content
-def: "Amount of sugar present in the plant or the plant part." [Gramene Plant Trait Ontology:TO\:0000333]
+def: "Amount of sugar present in the plant or the plant part." [Plant Trait Ontology:TO\:0000333]
 synonym: "SUG, SUGARCN" RELATED []
 is_a: CO_322:0000006 ! Physiological trait
 
 [Term]
 id: CO_322:0000115
 name: Glucose content
-def: "Amount of glucose present in the plant or plant part." [Gramene Plant Trait Ontology:TO\:0000300]
+def: "Amount of glucose present in the plant or plant part." [Plant Trait Ontology:TO\:0000300]
 synonym: "GLC" RELATED []
 is_a: CO_322:0000006 ! Physiological trait
 
@@ -972,7 +972,7 @@ is_a: CO_322:0000002 ! Agronomic trait
 [Term]
 id: CO_322:0000117
 name: Osmotic adjustment
-def: "The ability of the plant to adjust the osmotic potential under stress conditions." [Gramene Plant Trait Ontology:TO\:0000507]
+def: "The ability of the plant to adjust the osmotic potential under stress conditions." [Plant Trait Ontology:TO\:0000507]
 synonym: "OA" RELATED []
 is_a: CO_322:0000006 ! Physiological trait
 
@@ -986,14 +986,14 @@ is_a: CO_322:0000006 ! Physiological trait
 [Term]
 id: CO_322:0000119
 name: Proline content
-def: "Amino acid proline content in a plant or plant part." [Gramene Plant Trait Ontology:TO\:0006002]
+def: "Amino acid proline content in a plant or plant part." [Plant Trait Ontology:TO\:0006002]
 synonym: "PRO" RELATED []
 is_a: CO_322:0000006 ! Physiological trait
 
 [Term]
 id: CO_322:0000120
 name: Sucrose content
-def: "The amount of sucrose present in the plant or the plant part." [Gramene Plant Trait Ontology:TO\:0000328]
+def: "The amount of sucrose present in the plant or the plant part." [Plant Trait Ontology:TO\:0000328]
 synonym: "SUC" RELATED []
 is_a: CO_322:0000006 ! Physiological trait
 
