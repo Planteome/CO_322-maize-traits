@@ -7520,14 +7520,6 @@ relationship: variable_of CO_322:0001120 ! grain nitrogen content
 relationship: variable_of CO_322:0001121 ! gnc - measurement
 is_a: CO_322:0001120 ! grain nitrogen content
 
-[Term]
-id: TO:0000469
-is_a: CO_322:0000032 ! maturity time
-
-[Term]
-id: TO:0000658
-is_a: CO_322:0000031 ! silking time
-
 [Typedef]
 id: method_of
 name: method_of
