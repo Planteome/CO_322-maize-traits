@@ -205,7 +205,9 @@ namespace: MaizeTrait
 def: "Silking time." [CO:curators]
 synonym: "female flowering" EXACT []
 synonym: "Silk" EXACT []
-xref: GRINDesc:89005|GRINDesc:89309|GRINDesc:89312
+xref: GRINDesc:89005
+xref: GRINDesc:89309
+xref: GRINDesc:89312
 xref: MaizeGDB_QTL:47565
 
 [Term]
