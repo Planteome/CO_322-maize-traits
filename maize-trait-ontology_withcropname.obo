@@ -10,7 +10,7 @@ namespace: MaizeTrait
 def: "Anthesis silking interval." [CO:curators]
 synonym: "ASI" EXACT []
 is_a: TO:0000463
-xref: maizeGDB:62044
+xref: MaizeGDB_QTL:62044
 
 [Term]
 id: CO_322:0000003
@@ -52,7 +52,7 @@ def: "Grain number." [CO:curators]
 synonym: "GN" EXACT []
 synonym: "Kernel number" EXACT []
 is_a: TO:0000894
-xref: maizeGDB:99383
+xref: MaizeGDB_QTL:99383
 
 [Term]
 id: CO_322:0000011
@@ -92,7 +92,7 @@ def: "Ear length." [CO:curators]
 synonym: "ELng" EXACT []
 is_a: TO:0000969
 xref: GRINDesc:89030
-xref: maizeGDB:78112
+xref: MaizeGDB_QTL:78112
 
 [Term]
 id: CO_322:0000016
@@ -109,7 +109,7 @@ def: "Plant height from base to the insertion of the top (uppermost) ear." [CO:c
 synonym: "EH" EXACT []
 is_a: TO:0000969
 xref: GRINDesc:89034
-xref: maizeGDB:61369
+xref: MaizeGDB_QTL:61369
 
 [Term]
 id: CO_322:0000018
@@ -160,7 +160,7 @@ namespace: MaizeTrait
 def: "Leaf length." [CO:curators]
 synonym: "LLng" EXACT []
 is_a: TO:0000135
-xref: maizeGDB:61715
+xref: MaizeGDB_QTL:61715
 
 [Term]
 id: CO_322:0000026
@@ -169,7 +169,7 @@ namespace: MaizeTrait
 def: "Leaf width." [CO:curators]
 synonym: "LWid" EXACT []
 is_a: TO:0000370
-xref: maizeGDB:61714
+xref: MaizeGDB_QTL:61714
 
 [Term]
 id: CO_322:0000027
@@ -186,7 +186,7 @@ namespace: MaizeTrait
 def: "Number of branches on tassel." [CO:curators]
 synonym: "TslBN" EXACT []
 is_a: TO:0000813
-xref: maizeGDB:61719
+xref: MaizeGDB_QTL:61719
 
 [Term]
 id: CO_322:0000030
@@ -196,7 +196,7 @@ def: "Anthesis time." [CO:curators]
 synonym: "Ant" EXACT []
 synonym: "male flowering time" EXACT []
 is_a: TO:0000629
-xref: maizeGDB:61370
+xref: MaizeGDB_QTL:61370
 
 [Term]
 id: CO_322:0000031
@@ -206,7 +206,7 @@ def: "Silking time." [CO:curators]
 synonym: "female flowering" EXACT []
 synonym: "Silk" EXACT []
 xref: GRINDesc:89005|GRINDesc:89309|GRINDesc:89312
-xref: maizeGDB:47565
+xref: MaizeGDB_QTL:47565
 
 [Term]
 id: CO_322:0000032
@@ -838,7 +838,7 @@ synonym: "GProt" EXACT []
 synonym: "Whole-grain protein content" EXACT []
 is_a: TO:0000598
 xref: GRINDesc:89052
-xref: maizeGDB:62407
+xref: MaizeGDB_QTL:62407
 
 [Term]
 id: CO_322:0000123
@@ -866,7 +866,7 @@ synonym: "GStarch" EXACT []
 synonym: "Whole-grain starch content" EXACT []
 is_a: TO:0000696
 xref: GRINDesc:89053
-xref: maizeGDB:69890
+xref: MaizeGDB_QTL:69890
 
 [Term]
 id: CO_322:0000127
@@ -923,7 +923,7 @@ def: "Grain weight of mature kernels." [CO:curators]
 synonym: "GW" EXACT []
 is_a: TO:0002746
 xref: GRINDesc:89032
-xref: maizeGDB:78154
+xref: MaizeGDB_QTL:78154
 
 [Term]
 id: CO_322:0000134
@@ -994,7 +994,7 @@ synonym: "GCol" EXACT []
 synonym: "Kernel color" EXACT []
 is_a: TO:0002617
 xref: GRINDesc:89027
-xref: maizeGDB:56382
+xref: MaizeGDB_QTL:56382
 
 [Term]
 id: CO_322:0000149
@@ -1140,7 +1140,7 @@ synonym: "GRArr" EXACT []
 synonym: "Kernel row arrangement" EXACT []
 is_a: TO:0002629
 xref: GRINDesc:89028
-xref: maizeGDB:304924
+xref: MaizeGDB_QTL:304924
 
 [Term]
 id: CO_322:0000167
@@ -1151,7 +1151,7 @@ synonym: "GRN" EXACT []
 synonym: "Kernel row number" EXACT []
 is_a: TO:0000687
 xref: GRINDesc:89029
-xref: maizeGDB:51580
+xref: MaizeGDB_QTL:51580
 
 [Term]
 id: CO_322:0000168
@@ -1162,7 +1162,7 @@ synonym: "GTyp" EXACT []
 synonym: "Kernel type" EXACT []
 is_a: TO:0002629
 xref: GRINDesc:89026
-xref: maizeGDB:56380
+xref: MaizeGDB_QTL:56380
 
 [Term]
 id: CO_322:0000170
@@ -1172,7 +1172,7 @@ def: "Ear diameter measured at the central part of uppermost ear." [CO:curators]
 synonym: "EDia" EXACT []
 is_a: TO:0000969
 xref: GRINDesc:89031
-xref: maizeGDB:78113
+xref: MaizeGDB_QTL:78113
 
 [Term]
 id: CO_322:0000171
@@ -2931,7 +2931,7 @@ namespace: MaizeTrait
 def: "Weight of mature upper ear, including cob and kernels, and at a defined moisture content, although often this is not provided." [CO:curators]
 synonym: "EW" EXACT []
 is_a: TO:0000969
-xref: maizeGDB:65408
+xref: MaizeGDB_QTL:65408
 
 [Term]
 id: CO_322:0000526
@@ -2949,7 +2949,7 @@ synonym: "GOil" EXACT []
 synonym: "Whole-grain oil content" EXACT []
 is_a: TO:0000604
 xref: GRINDesc:89051
-xref: maizeGDB:62174
+xref: MaizeGDB_QTL:62174
 
 [Term]
 id: CO_322:0000537
@@ -6415,7 +6415,7 @@ namespace: MaizeTrait
 def: "Plant height from the base to the top part (in reproductive stages to the top of the tassel)." [CO:curators]
 synonym: "PH" EXACT []
 is_a: TO:0000207
-xref: maizeGDB:64851
+xref: MaizeGDB_QTL:64851
 
 [Term]
 id: CO_322:0000995
@@ -7211,7 +7211,7 @@ relationship: variable_of CO_322:0001083 ! cob glumes anthocyanin coloration
 relationship: variable_of CO_322:0001084 ! cobglancol - estimation
 is_a: CO_322:0001083 ! cob glumes anthocyanin coloration
 xref: GRINDesc:89035
-xref: maizeGDB:67275
+xref: MaizeGDB_QTL:67275
 
 [Term]
 id: CO_322:0001086
