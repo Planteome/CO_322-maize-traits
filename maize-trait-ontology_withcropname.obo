@@ -2663,7 +2663,7 @@ id: CO_322:0000546
 name: maize plant vigor trait
 def: "Plant vigor." [CO:curators]
 synonym: "PVig" EXACT []
-is_a: TO:0000133
+is_a: TO:0000250
 xref: GRINDesc:89041
 
 [Term]
