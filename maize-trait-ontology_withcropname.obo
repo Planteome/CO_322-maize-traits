@@ -35,7 +35,7 @@ xref: GRINDesc:89033
 
 [Term]
 id: CO_322:0000008
-name: maize plant stand trait
+name: maize plant stand
 def: "Number of plants per unit area." [CO:curators]
 synonym: "PStand" EXACT []
 
@@ -53,6 +53,7 @@ id: CO_322:0000011
 name: maize plant aspect trait
 def: "Qualitative observation of plant ideotype. In another word, it rates characteristics such as plant and ear height, uniformity of plants, disease and insect damage, and lodging." [CO:curators]
 synonym: "PAsp" EXACT []
+is_a: TO:0000737 ! plant aspect
 
 [Term]
 id: CO_322:0000012
@@ -73,6 +74,7 @@ id: CO_322:0000014
 name: maize silk growth rate trait
 def: "Growth rate of silk." [CO:curators]
 synonym: "SilkGrwR" EXACT []
+is_a: TO:0000658 ! days to silk
 
 [Term]
 id: CO_322:0000015
@@ -88,6 +90,7 @@ id: CO_322:0000016
 name: maize ear growth rate trait
 def: "Growth rate of the ear(s) on a plant. It may include the sum of the apical and sub-apical ear growth from prolific plants." [CO:curators]
 synonym: "EGrwR" EXACT []
+is_a: TO:0001076 ! infructescence development trait
 
 [Term]
 id: CO_322:0000017
@@ -172,7 +175,7 @@ name: maize anthesis time trait
 def: "Anthesis time." [CO:curators]
 synonym: "Ant" EXACT []
 synonym: "male flowering time" EXACT []
-is_a: TO:0000629
+is_a: TO:0000629 ! days to tassel
 xref: MaizeGDB_QTL:61370
 
 [Term]
@@ -185,6 +188,7 @@ xref: GRINDesc:89005
 xref: GRINDesc:89309
 xref: GRINDesc:89312
 xref: MaizeGDB_QTL:47565
+is_a: TO:0000658 ! days to silk
 
 [Term]
 id: CO_322:0000032
@@ -193,6 +197,7 @@ def: "Maturity time." [CO:curators]
 synonym: "Mat" EXACT []
 synonym: "maturity" EXACT []
 xref: GRINDesc:89045
+is_a: TO:0000469 ! days to maturity
 
 [Term]
 id: CO_322:0000033
@@ -652,7 +657,7 @@ name: maize grain lysine content trait
 def: "Whole-grain Lysine content." [CO:curators]
 synonym: "GLys" EXACT []
 synonym: "Whole-grain Lysine content" EXACT []
-is_a: TO:0002673
+is_a: TO:0002673 ! amino acid content
 
 [Term]
 id: CO_322:0000109
@@ -710,12 +715,14 @@ id: CO_322:0000117
 name: maize osmotic adjustment trait
 def: "Osmotic adjustment as ability of the plant to adjust the osmotic potential under stress conditions." [CO:curators]
 synonym: "OA" EXACT []
+is_a: TO:0000507 ! osmotic adjustment capacity
 
 [Term]
 id: CO_322:0000118
 name: maize osmotic potential trait
 def: "A measure of the potential of water to move between regions of differing concentrations across a water-permeable membrane." [CO:curators]
 synonym: "OP" EXACT []
+is_a: TO:0000131 ! leaf water potential
 
 [Term]
 id: CO_322:0000119
@@ -836,12 +843,14 @@ id: CO_322:0000140
 name: maize photochemical radiation index trait
 def: "Photochemical radiation index. A canopy reflectance index indicating photosynthetic radiation use efficiency." [CO:curators]
 synonym: "PRI" EXACT []
+is_a: TO:0000161 ! radiation response trait
 
 [Term]
 id: CO_322:0000141
 name: maize water index trait
 def: "A ratio between the reflectance at a water band wavelength to a nearby reference wavelength where there is no absorption due to water content variability." [CO:curators]
 synonym: "WI" EXACT []
+is_a: TO:0000136 ! relative water content
 
 [Term]
 id: CO_322:0000142
@@ -855,12 +864,14 @@ id: CO_322:0000143
 name: maize ear leaf senescence time trait
 def: "Ear leaf senescence time." [CO:curators]
 synonym: "ELSen" EXACT []
+is_a: TO:0000249 ! leaf senescence trait
 
 [Term]
 id: CO_322:0000144
 name: maize silk growth trait
 def: "Difference between the silk lengths measured at zero day pollen shedding and 7 days after pollen shedding." [CO:curators]
 synonym: "SilkGrw" EXACT []
+is_a: TO:0011009 ! style length
 
 [Term]
 id: CO_322:0000145
@@ -883,12 +894,14 @@ id: CO_322:0000149
 name: maize ear husk cover trait
 def: "Ear husk cover observed as degree of the husk covering the tip of the ear." [CO:curators]
 synonym: "HskCov" EXACT []
+is_a: TO:0000969 ! ear inflorescence morphology trait
 
 [Term]
 id: CO_322:0000150
 name: maize ear bad husk cover incidence trait
 def: "Ears bad husk cover incidence." [CO:curators]
 synonym: "BHskCovInc" EXACT []
+is_a: TO:0000969 ! ear inflorescence morphology trait
 
 [Term]
 id: CO_322:0000151
@@ -2568,7 +2581,7 @@ relationship: method_of CO_322:0000829 ! sorghum downy mildew severity
 
 [Term]
 id: CO_322:0000523
-name: maize ear harvested number trait
+name: maize ear harvested number
 def: "Number of ears harvested." [CO:curators]
 synonym: "EHvst" EXACT []
 
@@ -2657,6 +2670,7 @@ id: CO_322:0000545
 name: maize plant uniformity trait
 def: "Uniformity of plants." [CO:curators]
 synonym: "PUnif" EXACT []
+is_a: TO:0000737 ! plant aspect
 
 [Term]
 id: CO_322:0000546
@@ -2674,7 +2688,7 @@ relationship: method_of CO_322:0000938 ! striga plant number
 
 [Term]
 id: CO_322:0000550
-name: maize plants harvested trait
+name: maize plants harvested
 def: "Number of plants harvested per unit area." [CO:curators]
 synonym: "PHvst" EXACT []
 
@@ -4612,6 +4626,8 @@ id: CO_322:0000857
 name: maize lodging incidence trait
 def: "Observation of lodging severity." [CO:curators]
 synonym: "LodgInc" EXACT []
+is_a: TO:0000068 ! lodging incidence
+
 
 [Term]
 id: CO_322:0000858
@@ -6111,6 +6127,7 @@ id: CO_322:0001054
 name: maize dwarf mosaic virus severity trait
 def: "Maize dwarf mosaic virus (MDMV) severity." [CO:curators]
 synonym: "DMVSev" EXACT []
+is_a: TO:0000148 ! viral disease resistance
 
 [Term]
 id: CO_322:0001055
@@ -6340,6 +6357,7 @@ id: CO_322:0001083
 name: maize cob glumes anthocyanin coloration trait
 def: "Anthocyanin coloration of cob glumes." [CO:curators]
 synonym: "CobGlCol" EXACT []
+is_a: TO:0000221 ! glume color
 
 [Term]
 id: CO_322:0001084
@@ -6363,6 +6381,7 @@ id: CO_322:0001086
 name: maize cob glumes color trait
 def: "Color of the cob glumes." [CO:curators]
 synonym: "CobGlCol" EXACT []
+is_a: TO:0000221 ! glume color
 
 [Term]
 id: CO_322:0001087
@@ -6397,6 +6416,7 @@ id: CO_322:0001091
 name: maize ear width trait
 def: "Ear width." [CO:curators]
 synonym: "EWid" EXACT []
+is_a: TO:0000969 !	ear inflorescence morphology trait
 
 [Term]
 id: CO_322:0001092
@@ -6455,6 +6475,7 @@ id: CO_322:0001099
 name: maize cob sucrose content trait
 def: "Sucrose content in the cob" [CO:curators]
 synonym: "CSucrose" EXACT []
+is_a: TO:0000328 ! sucrose content
 
 [Term]
 id: CO_322:0001100
@@ -6491,6 +6512,8 @@ id: CO_322:0001104
 name: maize grain proline content trait
 def: "Proline content in the grain." [CO:curators]
 synonym: "GProline" EXACT []
+is_a: TO:0006002 ! proline content
+
 
 [Term]
 id: CO_322:0001105
@@ -6537,6 +6560,7 @@ id: CO_322:0001110
 name: maize leaf proline content trait
 def: "Proline content in the leaf." [CO:curators]
 synonym: "LProline" EXACT []
+is_a: TO:0006002 ! proline content
 
 [Term]
 id: CO_322:0001111
@@ -6598,6 +6622,7 @@ id: CO_322:0001118
 name: maize root sucrose content trait
 def: "Sucrose content in the root." [CO:curators]
 synonym: "RSucrose" EXACT []
+is_a: TO:0000328 ! sucrose content
 
 [Term]
 id: CO_322:0001119
@@ -6613,6 +6638,7 @@ name: maize grain nitrogen content trait
 def: "Whole-grain Nitrogen content." [CO:curators]
 synonym: "GNC" EXACT []
 synonym: "Whole-grain Nitrogen content" EXACT []
+is_a: TO:0020093 ! nitrogen content
 
 [Term]
 id: CO_322:0001121
