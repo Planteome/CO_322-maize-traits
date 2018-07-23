@@ -5218,10 +5218,9 @@ is_a: CO_322:0000162 ! stem color
 
 [Term]
 id: CO_322:0000938
-name: maize striga plant number trait
+name: maize striga plant number
 def: "Number of Striga hermonthica plants." [CO:curators]
 synonym: "StrigaPN" EXACT []
-is_a: TO:0000347
 
 [Term]
 id: CO_322:0000939
