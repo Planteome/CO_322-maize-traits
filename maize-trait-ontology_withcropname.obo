@@ -5146,7 +5146,7 @@ id: CO_322:0000925
 name: maize shelled cob weight trait
 def: "Weight of shelled cob." [CO:curators]
 synonym: "ShellCobW" EXACT []
-is_a: TO:0002746
+is_a: TO:0000922
 
 [Term]
 id: CO_322:0000926
