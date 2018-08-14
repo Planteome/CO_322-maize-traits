@@ -819,7 +819,7 @@ id: CO_322:0000133
 name: maize grain weight trait
 def: "Grain weight of mature kernels." [CO:curators]
 synonym: "GW" EXACT []
-is_a: TO:0002746
+is_a: TO:0000919 ! grain weight
 xref: GRINDesc:89032
 xref: MaizeGDB_QTL:78154
 
@@ -5743,7 +5743,7 @@ id: CO_322:0001005
 name: maize grain test weight trait
 def: "Grain test weight of mature kernels." [CO:curators]
 synonym: "GTW" EXACT []
-is_a: TO:0002746
+is_a: TO:0000919 ! grain weight
 
 [Term]
 id: CO_322:0001006
