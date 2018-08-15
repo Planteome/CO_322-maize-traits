@@ -234,7 +234,7 @@ id: CO_322:0000039
 name: maize grain texture trait
 def: "Grain texture as a measure of the variation on the intensity of a surface, quantifying properties such as smoothness, coarseness and regularity of the grain." [CO:curators]
 synonym: "GTex" EXACT []
-is_a: TO:0002629
+is_a: TO:0001079
 
 [Term]
 id: CO_322:0000041
@@ -1015,7 +1015,7 @@ name: maize grain row arrangement trait
 def: "Ear grain rows arrangement." [CO:curators]
 synonym: "GRArr" EXACT []
 synonym: "Kernel row arrangement" EXACT []
-is_a: TO:0002629
+is_a: TO:0001079
 xref: GRINDesc:89028
 xref: MaizeGDB_QTL:304924
 
@@ -1035,7 +1035,7 @@ name: maize grain type trait
 def: "Type of grain." [CO:curators]
 synonym: "GTyp" EXACT []
 synonym: "Kernel type" EXACT []
-is_a: TO:0002629
+is_a: TO:0001079
 xref: GRINDesc:89026
 xref: MaizeGDB_QTL:56380
 
