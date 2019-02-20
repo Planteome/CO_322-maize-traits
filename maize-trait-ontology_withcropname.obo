@@ -885,7 +885,7 @@ name: maize grain color trait
 def: "Color of the grain." [CO:curators]
 synonym: "GCol" EXACT []
 synonym: "Kernel color" EXACT []
-is_a: TO:0002617
+is_a: TO:0001109 ! grain color trait
 xref: GRINDesc:89027
 xref: MaizeGDB_QTL:56382
 
