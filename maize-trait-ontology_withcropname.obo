@@ -636,7 +636,7 @@ id: CO_322:0000105
 name: maize ear leaf chlorophyll content trait
 def: "Chlorophyll content in the ear leaf." [CO:curators]
 synonym: "ELChl" EXACT []
-is_a: TO:0000495
+is_a: TO:0012002 ! leaf chlorophyll content
 
 [Term]
 id: CO_322:0000106
