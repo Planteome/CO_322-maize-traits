@@ -9,7 +9,6 @@ namespace: MaizeTrait
 def: "Anthesis silking interval." []
 synonym: "ASI" EXACT []
 is_a: CO_322:Phenological_traits ! Phenological_traits
-xref: maizeGDB:62044
 
 [Term]
 id: CO_322:0000003
@@ -34,7 +33,6 @@ namespace: MaizeTrait
 def: "Plant height from the base to the insertion of the first tassel branch." []
 synonym: "PHTslB" EXACT []
 is_a: CO_322:Agronomical_traits ! Agronomical_traits
-xref: GRINDesc:89033
 
 [Term]
 id: CO_322:0000008
@@ -52,7 +50,6 @@ def: "Grain number." []
 synonym: "GN" EXACT []
 synonym: "Kernel number" EXACT []
 is_a: CO_322:Agronomical_traits ! Agronomical_traits
-xref: maizeGDB:99383
 
 [Term]
 id: CO_322:0000011
@@ -93,8 +90,6 @@ namespace: MaizeTrait
 def: "Ear length." []
 synonym: "ELng" EXACT []
 is_a: CO_322:Morphological_traits ! Morphological_traits
-xref: GRINDesc:89030
-xref: maizeGDB:78112
 
 [Term]
 id: CO_322:0000016
@@ -111,8 +106,6 @@ namespace: MaizeTrait
 def: "Plant height from base to the insertion of the top (uppermost) ear." []
 synonym: "EH" EXACT []
 is_a: CO_322:Agronomical_traits ! Agronomical_traits
-xref: GRINDesc:89034
-xref: maizeGDB:61369
 
 [Term]
 id: CO_322:0000018
@@ -146,7 +139,6 @@ namespace: MaizeTrait
 def: "Ear number." []
 synonym: "EN" EXACT []
 is_a: CO_322:Agronomical_traits ! Agronomical_traits
-xref: GRINDesc:89038
 
 [Term]
 id: CO_322:0000024
@@ -163,7 +155,6 @@ namespace: MaizeTrait
 def: "Leaf length." []
 synonym: "LLng" EXACT []
 is_a: CO_322:Morphological_traits ! Morphological_traits
-xref: maizeGDB:61715
 
 [Term]
 id: CO_322:0000026
@@ -172,7 +163,6 @@ namespace: MaizeTrait
 def: "Leaf width." []
 synonym: "LWid" EXACT []
 is_a: CO_322:Morphological_traits ! Morphological_traits
-xref: maizeGDB:61714
 
 [Term]
 id: CO_322:0000027
@@ -189,7 +179,6 @@ namespace: MaizeTrait
 def: "Number of branches on tassel." []
 synonym: "TslBN" EXACT []
 is_a: CO_322:Agronomical_traits ! Agronomical_traits
-xref: maizeGDB:61719
 
 [Term]
 id: CO_322:0000030
@@ -199,7 +188,6 @@ def: "Anthesis time." []
 synonym: "Ant" EXACT []
 synonym: "male flowering time" EXACT []
 is_a: CO_322:Phenological_traits ! Phenological_traits
-xref: maizeGDB:61370
 
 [Term]
 id: CO_322:0000031
@@ -209,8 +197,6 @@ def: "Silking time." []
 synonym: "female flowering" EXACT []
 synonym: "Silk" EXACT []
 is_a: CO_322:Phenological_traits ! Phenological_traits
-xref: GRINDesc:89005|GRINDesc:89309|GRINDesc:89312
-xref: maizeGDB:47565
 
 [Term]
 id: CO_322:0000032
@@ -220,7 +206,6 @@ def: "Maturity time." []
 synonym: "Mat" EXACT []
 synonym: "maturity" EXACT []
 is_a: CO_322:Phenological_traits ! Phenological_traits
-xref: GRINDesc:89045
 
 [Term]
 id: CO_322:0000033
@@ -234,10 +219,9 @@ is_a: CO_322:Agronomical_traits ! Agronomical_traits
 id: CO_322:0000034
 name: root lodging incidence
 namespace: MaizeTrait
-def: "Root lodging incidence. The plants that show root lodging, i.e. those stems that are inclining by more than 45¡." []
+def: "Root lodging incidence. The plants that show root lodging, i.e. those stems that are inclining by more than 45∞." []
 synonym: "RLodgInc" EXACT []
 is_a: CO_322:Agronomical_traits ! Agronomical_traits
-xref: GRINDesc:89042
 
 [Term]
 id: CO_322:0000035
@@ -246,7 +230,6 @@ namespace: MaizeTrait
 def: "Stem lodging incidence. The plants that show stem lodging, i.e. those stems that are broken below the ear." []
 synonym: "SLodgInc" EXACT []
 is_a: CO_322:Agronomical_traits ! Agronomical_traits
-xref: GRINDesc:89043
 
 [Term]
 id: CO_322:0000038
@@ -295,7 +278,6 @@ namespace: MaizeTrait
 def: "Stewart wilt (Erwinia stewartii) incidence." []
 synonym: "SteWiltInc" EXACT []
 is_a: CO_322:Biotic_stress_traits ! Biotic_stress_traits
-xref: GRINDesc:89058
 
 [Term]
 id: CO_322:0000051
@@ -369,7 +351,6 @@ namespace: MaizeTrait
 def: "Number of tillers per plant." []
 synonym: "Tillering" EXACT []
 is_a: CO_322:Agronomical_traits ! Agronomical_traits
-xref: GRINDesc:89044
 
 [Term]
 id: CO_322:0000060
@@ -426,7 +407,6 @@ namespace: MaizeTrait
 def: "Stenocarpella (=Diplodia) stalk rot incidence." []
 synonym: "StenSRInc" EXACT []
 is_a: CO_322:Biotic_stress_traits ! Biotic_stress_traits
-xref: GRINDesc:89024
 
 [Term]
 id: CO_322:0000067
@@ -483,7 +463,6 @@ namespace: MaizeTrait
 def: "Stenocarpella (=Diplodia) ear rot severity." []
 synonym: "SmaySev" EXACT []
 is_a: CO_322:Biotic_stress_traits ! Biotic_stress_traits
-xref: GRINDesc:89066
 
 [Term]
 id: CO_322:0000074
@@ -580,7 +559,6 @@ namespace: MaizeTrait
 def: "Severity of common rust ( Puccinia sorghi)." []
 synonym: "CRustSev" EXACT []
 is_a: CO_322:Biotic_stress_traits ! Biotic_stress_traits
-xref: GRINDesc:89019
 
 [Term]
 id: CO_322:0000086
@@ -597,7 +575,6 @@ namespace: MaizeTrait
 def: "Gray leaf spot (Cercospora zeae-maydis) severity." []
 synonym: "GLSSev" EXACT []
 is_a: CO_322:Biotic_stress_traits ! Biotic_stress_traits
-xref: GRINDesc:89060
 
 [Term]
 id: CO_322:0000089
@@ -631,7 +608,6 @@ def: "Turcicum leaf blight (Exserohilum turcicum = Helminthosporium turcicum) se
 synonym: "EturcSev" EXACT []
 synonym: "Northern corn leaf blight severity" EXACT []
 is_a: CO_322:Biotic_stress_traits ! Biotic_stress_traits
-xref: GRINDesc:89009
 
 [Term]
 id: CO_322:0000093
@@ -845,8 +821,6 @@ def: "Whole-grain protein content." []
 synonym: "GProt" EXACT []
 synonym: "Whole-grain protein content" EXACT []
 is_a: CO_322:Quality_traits ! Quality_traits
-xref: GRINDesc:89052
-xref: maizeGDB:62407
 
 [Term]
 id: CO_322:0000123
@@ -873,8 +847,6 @@ def: "Whole-grain starch content." []
 synonym: "GStarch" EXACT []
 synonym: "Whole-grain starch content" EXACT []
 is_a: CO_322:Quality_traits ! Quality_traits
-xref: GRINDesc:89053
-xref: maizeGDB:69890
 
 [Term]
 id: CO_322:0000127
@@ -931,8 +903,6 @@ namespace: MaizeTrait
 def: "Grain weight of mature kernels." []
 synonym: "GW" EXACT []
 is_a: CO_322:Agronomical_traits ! Agronomical_traits
-xref: GRINDesc:89032
-xref: maizeGDB:78154
 
 [Term]
 id: CO_322:0000134
@@ -1007,8 +977,6 @@ def: "Color of the grain." []
 synonym: "GCol" EXACT []
 synonym: "Kernel color" EXACT []
 is_a: CO_322:Agronomical_traits ! Agronomical_traits
-xref: GRINDesc:89027
-xref: maizeGDB:56382
 
 [Term]
 id: CO_322:0000149
@@ -1098,7 +1066,6 @@ namespace: MaizeTrait
 def: "Stem borer damage includes different stem borers such as Chilo partellus, Sesamia spp. and Spodoptera." []
 synonym: "StBorDmg" EXACT []
 is_a: CO_322:Biotic_stress_traits ! Biotic_stress_traits
-xref: GRINDesc:89014
 
 [Term]
 id: CO_322:0000160
@@ -1156,8 +1123,6 @@ def: "Ear grain rows arrangement." []
 synonym: "GRArr" EXACT []
 synonym: "Kernel row arrangement" EXACT []
 is_a: CO_322:Morphological_traits ! Morphological_traits
-xref: GRINDesc:89028
-xref: maizeGDB:304924
 
 [Term]
 id: CO_322:0000167
@@ -1167,8 +1132,6 @@ def: "Number of grain rows in the central part of the uppermost ear." []
 synonym: "GRN" EXACT []
 synonym: "Kernel row number" EXACT []
 is_a: CO_322:Agronomical_traits ! Agronomical_traits
-xref: GRINDesc:89029
-xref: maizeGDB:51580
 
 [Term]
 id: CO_322:0000168
@@ -1178,8 +1141,6 @@ def: "Type of grain." []
 synonym: "GTyp" EXACT []
 synonym: "Kernel type" EXACT []
 is_a: CO_322:Morphological_traits ! Morphological_traits
-xref: GRINDesc:89026
-xref: maizeGDB:56380
 
 [Term]
 id: CO_322:0000170
@@ -1188,8 +1149,6 @@ namespace: MaizeTrait
 def: "Ear diameter measured at the central part of uppermost ear." []
 synonym: "EDia" EXACT []
 is_a: CO_322:Morphological_traits ! Morphological_traits
-xref: GRINDesc:89031
-xref: maizeGDB:78113
 
 [Term]
 id: CO_322:0000171
@@ -1198,7 +1157,6 @@ namespace: MaizeTrait
 def: "Shape of uppermost ear whether cylindrical or cylindrical-conical or conical or round." []
 synonym: "UpESh" EXACT []
 is_a: CO_322:Morphological_traits ! Morphological_traits
-xref: GRINDesc:89047
 
 [Term]
 id: CO_322:0000172
@@ -1243,7 +1201,6 @@ def: "Shape of the upper surface of grain." []
 synonym: "GUpSSh" EXACT []
 synonym: "Kernel upper surface shape" EXACT []
 is_a: CO_322:Morphological_traits ! Morphological_traits
-xref: GRINDesc:89036
 
 [Term]
 id: CO_322:0000179
@@ -1301,7 +1258,6 @@ namespace: MaizeTrait
 def: "Color of the endosperm." []
 synonym: "EndoCol" EXACT []
 is_a: CO_322:Morphological_traits ! Morphological_traits
-xref: GRINDesc:89046
 
 [Term]
 id: CO_322:0000187
@@ -1337,7 +1293,6 @@ namespace: MaizeTrait
 def: "Color of the aleurone." []
 synonym: "AleuCol" EXACT []
 is_a: CO_322:Morphological_traits ! Morphological_traits
-xref: GRINDesc:89048
 
 [Term]
 id: CO_322:0000191
@@ -1354,7 +1309,6 @@ namespace: MaizeTrait
 def: "Color of the pericarp." []
 synonym: "PericCol" EXACT []
 is_a: CO_322:Morphological_traits ! Morphological_traits
-xref: GRINDesc:89049
 
 [Term]
 id: CO_322:0000193
@@ -1367,37 +1321,10 @@ relationship: method_of CO_322:0000035 ! stem lodging incidence
 [Term]
 id: CO_322:0000194
 name: 1-4 grain row arrangement scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= regular ; 2= irregular ; 3= straight ; 4= spiral ; " []
 is_a: CO_322:Nominal ! Nominal
 relationship: scale_of CO_322:0000183 ! grarr - estimation
-
-[Term]
-id: CO_322:0000194:1
-name: regular
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000194 ! 1-4 grain row arrangement scale
-
-[Term]
-id: CO_322:0000194:2
-name: irregular
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000194 ! 1-4 grain row arrangement scale
-
-[Term]
-id: CO_322:0000194:3
-name: straight
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000194 ! 1-4 grain row arrangement scale
-
-[Term]
-id: CO_322:0000194:4
-name: spiral
-namespace: MaizeScale
-synonym: "4" EXACT []
-is_a: CO_322:0000194 ! 1-4 grain row arrangement scale
 
 [Term]
 id: CO_322:0000195
@@ -1502,30 +1429,10 @@ relationship: method_of CO_322:0000150 ! ear bad husk cover incidence
 [Term]
 id: CO_322:0000208
 name: 1-3 size scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= large ; 2= normal ; 3= small ; " []
 is_a: CO_322:Ordinal ! Ordinal
 relationship: scale_of CO_322:0000239 ! tslsiz - estimation
-
-[Term]
-id: CO_322:0000208:1
-name: large
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000208 ! 1-3 size scale
-
-[Term]
-id: CO_322:0000208:2
-name: normal
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000208 ! 1-3 size scale
-
-[Term]
-id: CO_322:0000208:3
-name: small
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000208 ! 1-3 size scale
 
 [Term]
 id: CO_322:0000209
@@ -1728,7 +1635,8 @@ relationship: method_of CO_322:0000067 ! pythium stalk rot incidence
 [Term]
 id: CO_322:0000234
 name: 1-5 disease scoring scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= highly resistant, clean no (%) infection ; 2= resistant, disease symptoms covering up to 20% ; 3= moderately susceptible, disease symptoms covering up to 50% ; 4= susceptible, disease symptoms covering upto 70% ; 5= highly susceptible, disease symptoms covering >80% ; " []
 is_a: CO_322:Ordinal ! Ordinal
 relationship: scale_of CO_322:0000187 ! tscsev - estimation
 relationship: scale_of CO_322:0000226 ! dmsev - estimation
@@ -1759,41 +1667,6 @@ relationship: scale_of CO_322:0000522 ! dmssev - estimation
 relationship: scale_of CO_322:0000842 ! fmonsrsev - estimation
 relationship: scale_of CO_322:0000853 ! hsmutsev - estimation
 relationship: scale_of CO_322:0001055 ! dmvsev - estimation
-
-[Term]
-id: CO_322:0000234:1
-name: highly resistant, clean no (%) infection
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000234 ! 1-5 disease scoring scale
-
-[Term]
-id: CO_322:0000234:2
-name: resistant, disease symptoms covering up to 20%
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000234 ! 1-5 disease scoring scale
-
-[Term]
-id: CO_322:0000234:3
-name: moderately susceptible, disease symptoms covering up to 50%
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000234 ! 1-5 disease scoring scale
-
-[Term]
-id: CO_322:0000234:4
-name: susceptible, disease symptoms covering upto 70%
-namespace: MaizeScale
-synonym: "4" EXACT []
-is_a: CO_322:0000234 ! 1-5 disease scoring scale
-
-[Term]
-id: CO_322:0000234:5
-name: highly susceptible, disease symptoms covering >80%
-namespace: MaizeScale
-synonym: "5" EXACT []
-is_a: CO_322:0000234 ! 1-5 disease scoring scale
 
 [Term]
 id: CO_322:0000235
@@ -2417,72 +2290,10 @@ relationship: method_of CO_322:0000051 ! bacterial leaf stripe severity
 [Term]
 id: CO_322:0000318
 name: 1-9 grain color scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= white ; 2= yellow ; 3= purple ; 4= variegated ; 5= brown ; 6= orange ; 7= mottled ; 8= white cap ; 9= red ; " []
 is_a: CO_322:Nominal ! Nominal
 relationship: scale_of CO_322:0000205 ! gcol - estimation
-
-[Term]
-id: CO_322:0000318:1
-name: white
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000318 ! 1-9 grain color scale
-
-[Term]
-id: CO_322:0000318:2
-name: yellow
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000318 ! 1-9 grain color scale
-
-[Term]
-id: CO_322:0000318:3
-name: purple
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000318 ! 1-9 grain color scale
-
-[Term]
-id: CO_322:0000318:4
-name: variegated
-namespace: MaizeScale
-synonym: "4" EXACT []
-is_a: CO_322:0000318 ! 1-9 grain color scale
-
-[Term]
-id: CO_322:0000318:5
-name: brown
-namespace: MaizeScale
-synonym: "5" EXACT []
-is_a: CO_322:0000318 ! 1-9 grain color scale
-
-[Term]
-id: CO_322:0000318:6
-name: orange
-namespace: MaizeScale
-synonym: "6" EXACT []
-is_a: CO_322:0000318 ! 1-9 grain color scale
-
-[Term]
-id: CO_322:0000318:7
-name: mottled
-namespace: MaizeScale
-synonym: "7" EXACT []
-is_a: CO_322:0000318 ! 1-9 grain color scale
-
-[Term]
-id: CO_322:0000318:8
-name: white cap
-namespace: MaizeScale
-synonym: "8" EXACT []
-is_a: CO_322:0000318 ! 1-9 grain color scale
-
-[Term]
-id: CO_322:0000318:9
-name: red
-namespace: MaizeScale
-synonym: "9" EXACT []
-is_a: CO_322:0000318 ! 1-9 grain color scale
 
 [Term]
 id: CO_322:0000319
@@ -2495,72 +2306,10 @@ relationship: method_of CO_322:0000052 ! bacterial stalk rot incidence
 [Term]
 id: CO_322:0000320
 name: 0-10 senescence scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "0= no dead leaf area ; 1= 1-10% dead leaf area ; 2= 11-20% dead leaf area ; 3= 21-30% dead leaf area ; 4=31-40% dead leaf area ; 5= 41-50% dead leave area ; 6= 51-60% dead leave area ; 7= 61-70% dead leave area ; 8= 71-80% dead leave area ; " []
 is_a: CO_322:Ordinal ! Ordinal
 relationship: scale_of CO_322:0000223 ! sen - estimation
-
-[Term]
-id: CO_322:0000320:0
-name: no dead leaf area
-namespace: MaizeScale
-synonym: "0" EXACT []
-is_a: CO_322:0000320 ! 0-10 senescence scale
-
-[Term]
-id: CO_322:0000320:1
-name: 1-10% dead leaf area
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000320 ! 0-10 senescence scale
-
-[Term]
-id: CO_322:0000320:2
-name: 11-20% dead leaf area
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000320 ! 0-10 senescence scale
-
-[Term]
-id: CO_322:0000320:3
-name: 21-30% dead leaf area
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000320 ! 0-10 senescence scale
-
-[Term]
-id: CO_322:0000320:4
-name: 31-40% dead leaf area
-namespace: MaizeScale
-synonym: "4" EXACT []
-is_a: CO_322:0000320 ! 0-10 senescence scale
-
-[Term]
-id: CO_322:0000320:5
-name: 41-50% dead leave area
-namespace: MaizeScale
-synonym: "5" EXACT []
-is_a: CO_322:0000320 ! 0-10 senescence scale
-
-[Term]
-id: CO_322:0000320:6
-name: 51-60% dead leave area
-namespace: MaizeScale
-synonym: "6" EXACT []
-is_a: CO_322:0000320 ! 0-10 senescence scale
-
-[Term]
-id: CO_322:0000320:7
-name: 61-70% dead leave area
-namespace: MaizeScale
-synonym: "7" EXACT []
-is_a: CO_322:0000320 ! 0-10 senescence scale
-
-[Term]
-id: CO_322:0000320:8
-name: 71-80% dead leave area
-namespace: MaizeScale
-synonym: "8" EXACT []
-is_a: CO_322:0000320 ! 0-10 senescence scale
 
 [Term]
 id: CO_322:0000321
@@ -2583,72 +2332,10 @@ relationship: method_of CO_322:0000050 ! stewarts wilt incidence
 [Term]
 id: CO_322:0000324
 name: 1-11 grain type scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= floury ; 2= semi-floury (morocho), with an external layer of hard endoseprm. ; 3= dent ; 4= Semi-dent, intermediate between dent and flint but closer to dent ; 5= Semi-flint, flint with a soft cap ; 6= flint ; 7= pop ; 8= sweet ; 9= Opaque 2/QPM ; " []
 is_a: CO_322:Ordinal ! Ordinal
 relationship: scale_of CO_322:0000213 ! gtyp - estimation
-
-[Term]
-id: CO_322:0000324:1
-name: floury
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000324 ! 1-11 grain type scale
-
-[Term]
-id: CO_322:0000324:2
-name: semi-floury (morocho), with an external layer of hard endoseprm.
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000324 ! 1-11 grain type scale
-
-[Term]
-id: CO_322:0000324:3
-name: dent
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000324 ! 1-11 grain type scale
-
-[Term]
-id: CO_322:0000324:4
-name: Semi-dent, intermediate between dent and flint but closer to dent
-namespace: MaizeScale
-synonym: "4" EXACT []
-is_a: CO_322:0000324 ! 1-11 grain type scale
-
-[Term]
-id: CO_322:0000324:5
-name: Semi-flint, flint with a soft cap
-namespace: MaizeScale
-synonym: "5" EXACT []
-is_a: CO_322:0000324 ! 1-11 grain type scale
-
-[Term]
-id: CO_322:0000324:6
-name: flint
-namespace: MaizeScale
-synonym: "6" EXACT []
-is_a: CO_322:0000324 ! 1-11 grain type scale
-
-[Term]
-id: CO_322:0000324:7
-name: pop
-namespace: MaizeScale
-synonym: "7" EXACT []
-is_a: CO_322:0000324 ! 1-11 grain type scale
-
-[Term]
-id: CO_322:0000324:8
-name: sweet
-namespace: MaizeScale
-synonym: "8" EXACT []
-is_a: CO_322:0000324 ! 1-11 grain type scale
-
-[Term]
-id: CO_322:0000324:9
-name: Opaque 2/QPM
-namespace: MaizeScale
-synonym: "9" EXACT []
-is_a: CO_322:0000324 ! 1-11 grain type scale
 
 [Term]
 id: CO_322:0000325
@@ -2685,8 +2372,8 @@ relationship: method_of CO_322:0000156 ! diabrotica damage
 
 [Term]
 id: CO_322:0000332
-name: ¡C
-namespace: MaizeScale
+name: ∞C
+namespace: MAIZEScale
 is_a: CO_322:Numerical ! Numerical
 relationship: scale_of CO_322:0000395 ! ct - measurement
 
@@ -2779,7 +2466,7 @@ relationship: method_of CO_322:0000015 ! ear length
 [Term]
 id: CO_322:0000350
 name: %
-namespace: MaizeScale
+namespace: MAIZEScale
 is_a: CO_322:Numerical ! Numerical
 relationship: scale_of CO_322:0000107 ! gtrp - measurement
 relationship: scale_of CO_322:0000187 ! tscsev - estimation
@@ -3105,7 +2792,7 @@ relationship: method_of CO_322:0001118 ! root sucrose content
 
 [Term]
 id: CO_322:0000378
-name: CCI
+name: cci
 namespace: MaizeScale
 is_a: CO_322:Numerical ! Numerical
 relationship: scale_of CO_322:0000242 ! chl - measurement
@@ -3179,107 +2866,34 @@ relationship: method_of CO_322:0000142 ! canopy temperature
 [Term]
 id: CO_322:0000396
 name: 1-5 rating scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= excellent ; 2= good ; 3= intermediate ; 4= poor ; 5=  very poor ; " []
 is_a: CO_322:Ordinal ! Ordinal
 relationship: scale_of CO_322:0000199 ! easp - estimation
 relationship: scale_of CO_322:0000209 ! pasp - estimation
 relationship: scale_of CO_322:0000220 ! hskcov - estimation
 
 [Term]
-id: CO_322:0000396:1
-name: excellent
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000396 ! 1-5 rating scale
-
-[Term]
-id: CO_322:0000396:2
-name: good
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000396 ! 1-5 rating scale
-
-[Term]
-id: CO_322:0000396:3
-name: intermediate
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000396 ! 1-5 rating scale
-
-[Term]
-id: CO_322:0000396:4
-name: poor
-namespace: MaizeScale
-synonym: "4" EXACT []
-is_a: CO_322:0000396 ! 1-5 rating scale
-
-[Term]
-id: CO_322:0000396:5
-name: very poor
-namespace: MaizeScale
-synonym: "5" EXACT []
-is_a: CO_322:0000396 ! 1-5 rating scale
-
-[Term]
 id: CO_322:0000448
 name: 1-3 density scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= sparse ; 2= intermediate ; 3= dense ; " []
 is_a: CO_322:Ordinal ! Ordinal
 relationship: scale_of CO_322:0000292 ! shtpub - estimation
 
 [Term]
-id: CO_322:0000448:1
-name: sparse
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000448 ! 1-3 density scale
-
-[Term]
-id: CO_322:0000448:2
-name: intermediate
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000448 ! 1-3 density scale
-
-[Term]
-id: CO_322:0000448:3
-name: dense
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000448 ! 1-3 density scale
-
-[Term]
 id: CO_322:0000456
 name: 1-3 tassel branching type scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= primary ; 2= secondary ; 3= primary-secondary-tertiary ; " []
 is_a: CO_322:Nominal ! Nominal
 relationship: scale_of CO_322:0000351 ! tsltyp - estimation
 
 [Term]
-id: CO_322:0000456:1
-name: primary
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000456 ! 1-3 tassel branching type scale
-
-[Term]
-id: CO_322:0000456:2
-name: secondary
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000456 ! 1-3 tassel branching type scale
-
-[Term]
-id: CO_322:0000456:3
-name: primary-secondary-tertiary
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000456 ! 1-3 tassel branching type scale
-
-[Term]
 id: CO_322:0000477
 name: 1-5 damage scoring scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= clean, no damage ; 2= slightly (20%) damaged ; 3= moderately (50% ) damaged ; 4= Significantly (70%) damaged ; 5= highly (>80%) damaged ; " []
 is_a: CO_322:Ordinal ! Ordinal
 relationship: scale_of CO_322:0000267 ! csmutsev - estimation
 relationship: scale_of CO_322:0000279 ! chilodmg - estimation
@@ -3295,284 +2909,52 @@ relationship: scale_of CO_322:0000333 ! diatraeadmg - estimation
 relationship: scale_of CO_322:0000858 ! lodginc - estimation
 
 [Term]
-id: CO_322:0000477:1
-name: clean, no damage
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000477 ! 1-5 damage scoring scale
-
-[Term]
-id: CO_322:0000477:2
-name: slightly (20%) damaged
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000477 ! 1-5 damage scoring scale
-
-[Term]
-id: CO_322:0000477:3
-name: moderately (50% ) damaged
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000477 ! 1-5 damage scoring scale
-
-[Term]
-id: CO_322:0000477:4
-name: Significantly (70%) damaged
-namespace: MaizeScale
-synonym: "4" EXACT []
-is_a: CO_322:0000477 ! 1-5 damage scoring scale
-
-[Term]
-id: CO_322:0000477:5
-name: highly (>80%) damaged
-namespace: MaizeScale
-synonym: "5" EXACT []
-is_a: CO_322:0000477 ! 1-5 damage scoring scale
-
-[Term]
 id: CO_322:0000478
 name: 1-5 endosperm hardness scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= hard and transparent grains ; 2= semi-hard and semi-transparent grains ; 3= intermediate grain hardness ; 4= semi-soft and semi-opaque grains ; 5 = soft and opaque grains ; " []
 is_a: CO_322:Ordinal ! Ordinal
 relationship: scale_of CO_322:0000227 ! endohard - estimation
 
 [Term]
-id: CO_322:0000478:1
-name: hard and transparent grains
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000478 ! 1-5 endosperm hardness scale
-
-[Term]
-id: CO_322:0000478:2
-name: semi-hard and semi-transparent grains
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000478 ! 1-5 endosperm hardness scale
-
-[Term]
-id: CO_322:0000478:3
-name: intermediate grain hardness
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000478 ! 1-5 endosperm hardness scale
-
-[Term]
-id: CO_322:0000478:4
-name: semi-soft and semi-opaque grains
-namespace: MaizeScale
-synonym: "4" EXACT []
-is_a: CO_322:0000478 ! 1-5 endosperm hardness scale
-
-[Term]
-id: CO_322:0000478:5
-name: soft and opaque grains
-namespace: MaizeScale
-synonym: "5" EXACT []
-is_a: CO_322:0000478 ! 1-5 endosperm hardness scale
-
-[Term]
 id: CO_322:0000480
 name: 1-5 grain texture scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= flint ; 2= semi-flint ; 3= intermediate ; 4= semi-dent ; 5 = dent ; " []
 is_a: CO_322:Ordinal ! Ordinal
 relationship: scale_of CO_322:0000219 ! gtex - estimation
 
 [Term]
-id: CO_322:0000480:1
-name: flint
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000480 ! 1-5 grain texture scale
-
-[Term]
-id: CO_322:0000480:2
-name: semi-flint
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000480 ! 1-5 grain texture scale
-
-[Term]
-id: CO_322:0000480:3
-name: intermediate
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000480 ! 1-5 grain texture scale
-
-[Term]
-id: CO_322:0000480:4
-name: semi-dent
-namespace: MaizeScale
-synonym: "4" EXACT []
-is_a: CO_322:0000480 ! 1-5 grain texture scale
-
-[Term]
-id: CO_322:0000480:5
-name: dent
-namespace: MaizeScale
-synonym: "5" EXACT []
-is_a: CO_322:0000480 ! 1-5 grain texture scale
-
-[Term]
 id: CO_322:0000482
 name: 1-5 leaf rolling severity scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= unrolled ; 2= turgid leaves ; 3= desirable ; 4= not severely rolled leaves ; 5= severely rolled leaves, undesirable ; " []
 is_a: CO_322:Ordinal ! Ordinal
 relationship: scale_of CO_322:0000215 ! lrollsev - estimation
 
 [Term]
-id: CO_322:0000482:1
-name: unrolled
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000482 ! 1-5 leaf rolling severity scale
-
-[Term]
-id: CO_322:0000482:2
-name: turgid leaves
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000482 ! 1-5 leaf rolling severity scale
-
-[Term]
-id: CO_322:0000482:3
-name: desirable
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000482 ! 1-5 leaf rolling severity scale
-
-[Term]
-id: CO_322:0000482:4
-name: not severely rolled leaves
-namespace: MaizeScale
-synonym: "4" EXACT []
-is_a: CO_322:0000482 ! 1-5 leaf rolling severity scale
-
-[Term]
-id: CO_322:0000482:5
-name: severely rolled leaves, undesirable
-namespace: MaizeScale
-synonym: "5" EXACT []
-is_a: CO_322:0000482 ! 1-5 leaf rolling severity scale
-
-[Term]
 id: CO_322:0000485
 name: 1-5 pericarp color scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= colorless ; 2= grayyish white ; 3= red ; 4= brown ; 5= other ; " []
 is_a: CO_322:Nominal ! Nominal
 relationship: scale_of CO_322:0000362 ! periccol - estimation
 
 [Term]
-id: CO_322:0000485:1
-name: colorless
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000485 ! 1-5 pericarp color scale
-
-[Term]
-id: CO_322:0000485:2
-name: grayyish white
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000485 ! 1-5 pericarp color scale
-
-[Term]
-id: CO_322:0000485:3
-name: red
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000485 ! 1-5 pericarp color scale
-
-[Term]
-id: CO_322:0000485:4
-name: brown
-namespace: MaizeScale
-synonym: "4" EXACT []
-is_a: CO_322:0000485 ! 1-5 pericarp color scale
-
-[Term]
-id: CO_322:0000485:5
-name: other
-namespace: MaizeScale
-synonym: "5" EXACT []
-is_a: CO_322:0000485 ! 1-5 pericarp color scale
-
-[Term]
 id: CO_322:0000486
 name: 1-5 aleurone color scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= colorless ; 2= bronze ; 3= red ; 4= purple ; 5= other ; " []
 is_a: CO_322:Nominal ! Nominal
 relationship: scale_of CO_322:0000364 ! aleucol - estimation
 
 [Term]
-id: CO_322:0000486:1
-name: colorless
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000486 ! 1-5 aleurone color scale
-
-[Term]
-id: CO_322:0000486:2
-name: bronze
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000486 ! 1-5 aleurone color scale
-
-[Term]
-id: CO_322:0000486:3
-name: red
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000486 ! 1-5 aleurone color scale
-
-[Term]
-id: CO_322:0000486:4
-name: purple
-namespace: MaizeScale
-synonym: "4" EXACT []
-is_a: CO_322:0000486 ! 1-5 aleurone color scale
-
-[Term]
-id: CO_322:0000486:5
-name: other
-namespace: MaizeScale
-synonym: "5" EXACT []
-is_a: CO_322:0000486 ! 1-5 aleurone color scale
-
-[Term]
 id: CO_322:0000487
 name: 1-4 ear shape scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= cylindrical ; 2= cylindrical-conical ; 3= conical ; 4= round ; " []
 is_a: CO_322:Nominal ! Nominal
 relationship: scale_of CO_322:0000308 ! upesh - estimation
-
-[Term]
-id: CO_322:0000487:1
-name: cylindrical
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000487 ! 1-4 ear shape scale
-
-[Term]
-id: CO_322:0000487:2
-name: cylindrical-conical
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000487 ! 1-4 ear shape scale
-
-[Term]
-id: CO_322:0000487:3
-name: conical
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000487 ! 1-4 ear shape scale
-
-[Term]
-id: CO_322:0000487:4
-name: round
-namespace: MaizeScale
-synonym: "4" EXACT []
-is_a: CO_322:0000487 ! 1-4 ear shape scale
 
 [Term]
 id: CO_322:0000488
@@ -3595,44 +2977,10 @@ relationship: method_of CO_322:0000488 ! corn stunt spiroplasma severity
 [Term]
 id: CO_322:0000496
 name: 1-5 weevdmginc scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= no infestation ; 2= slightly (20%) infested ; 3= moderately (50% ) infested ; 4= Significantly (70%) infested ; 5= severly infested ; " []
 is_a: CO_322:Ordinal ! Ordinal
 relationship: scale_of CO_322:0000289 ! weevinc - estimation
-
-[Term]
-id: CO_322:0000496:1
-name: no infestation
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000496 ! 1-5 weevdmginc scale
-
-[Term]
-id: CO_322:0000496:2
-name: slightly (20%) infested
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000496 ! 1-5 weevdmginc scale
-
-[Term]
-id: CO_322:0000496:3
-name: moderately (50% ) infested
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000496 ! 1-5 weevdmginc scale
-
-[Term]
-id: CO_322:0000496:4
-name: Significantly (70%) infested
-namespace: MaizeScale
-synonym: "4" EXACT []
-is_a: CO_322:0000496 ! 1-5 weevdmginc scale
-
-[Term]
-id: CO_322:0000496:5
-name: severly infested
-namespace: MaizeScale
-synonym: "5" EXACT []
-is_a: CO_322:0000496 ! 1-5 weevdmginc scale
 
 [Term]
 id: CO_322:0000503
@@ -3645,65 +2993,18 @@ relationship: scale_of CO_322:0000296 ! silkgrwr - computation
 [Term]
 id: CO_322:0000504
 name: 0-1 absent-present scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "0= absent ; 1= present ; " []
 is_a: CO_322:Nominal ! Nominal
 relationship: scale_of CO_322:0000176 ! fungdis - estimation
 
 [Term]
-id: CO_322:0000504:0
-name: absent
-namespace: MaizeScale
-synonym: "0" EXACT []
-is_a: CO_322:0000504 ! 0-1 absent-present scale
-
-[Term]
-id: CO_322:0000504:1
-name: present
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000504 ! 0-1 absent-present scale
-
-[Term]
 id: CO_322:0000507
 name: 1-5 tassel blasting severity scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= no blasting ; 2=  low to moderate level of blasting ; 3= moderate level of blasting ; 3= moderate to high level of blasting ; 5= very high level of blasting ; " []
 is_a: CO_322:Ordinal ! Ordinal
 relationship: scale_of CO_322:0000370 ! tslblastsev - estimation
-
-[Term]
-id: CO_322:0000507:1
-name: no blasting
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000507 ! 1-5 tassel blasting severity scale
-
-[Term]
-id: CO_322:0000507:2
-name: low to moderate level of blasting
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000507 ! 1-5 tassel blasting severity scale
-
-[Term]
-id: CO_322:0000507:3
-name: moderate level of blasting
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000507 ! 1-5 tassel blasting severity scale
-
-[Term]
-id: CO_322:0000507:4
-name: moderate to high level of blasting
-namespace: MaizeScale
-synonym: "4" EXACT []
-is_a: CO_322:0000507 ! 1-5 tassel blasting severity scale
-
-[Term]
-id: CO_322:0000507:5
-name: very high level of blasting
-namespace: MaizeScale
-synonym: "5" EXACT []
-is_a: CO_322:0000507 ! 1-5 tassel blasting severity scale
 
 [Term]
 id: CO_322:0000508
@@ -3714,15 +3015,15 @@ relationship: scale_of CO_322:0000238 ! aba - measurement
 
 [Term]
 id: CO_322:0000510
-name: ¡C day
-namespace: MaizeScale
+name: ∞C day
+namespace: MAIZEScale
 is_a: CO_322:Numerical ! Numerical
 relationship: scale_of CO_322:0000260 ! growing degree days to anthesis - computation
 relationship: scale_of CO_322:0000262 ! growing degree days to maturity - computation
 
 [Term]
 id: CO_322:0000511
-name: Mpa
+name: mpa
 namespace: MaizeScale
 is_a: CO_322:Numerical ! Numerical
 relationship: scale_of CO_322:0000363 ! oa  - measurement
@@ -3730,7 +3031,7 @@ relationship: scale_of CO_322:0000365 ! op - measurement
 
 [Term]
 id: CO_322:0000512
-name: uF
+name: uf
 namespace: MaizeScale
 is_a: CO_322:Numerical ! Numerical
 relationship: scale_of CO_322:0000286 ! rootcapac - measurement
@@ -3820,7 +3121,6 @@ namespace: MaizeTrait
 def: "Weight of mature upper ear, including cob and kernels, and at a defined moisture content, although often this is not provided." []
 synonym: "EW" EXACT []
 is_a: CO_322:Agronomical_traits ! Agronomical_traits
-xref: maizeGDB:65408
 
 [Term]
 id: CO_322:0000526
@@ -3838,8 +3138,6 @@ def: "Whole-grain oil content." []
 synonym: "GOil" EXACT []
 synonym: "Whole-grain oil content" EXACT []
 is_a: CO_322:Quality_traits ! Quality_traits
-xref: GRINDesc:89051
-xref: maizeGDB:62174
 
 [Term]
 id: CO_322:0000537
@@ -3920,7 +3218,6 @@ namespace: MaizeTrait
 def: "Plant vigor." []
 synonym: "PVig" EXACT []
 is_a: CO_322:Agronomical_traits ! Agronomical_traits
-xref: GRINDesc:89041
 
 [Term]
 id: CO_322:0000549
@@ -3953,7 +3250,6 @@ namespace: MaizeTrait
 def: "Common smut (Ustilago maydis, syn. U. zeae)incidence." []
 synonym: "CSmutInc" EXACT []
 is_a: CO_322:Biotic_stress_traits ! Biotic_stress_traits
-xref: GRINDesc:89021
 
 [Term]
 id: CO_322:0000557
@@ -3982,30 +3278,10 @@ relationship: method_of CO_322:0000020 ! ear position
 [Term]
 id: CO_322:0000560
 name: 1-3 ear position scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= low ear position ; 2= ear around mid-plant ; 3= high ear position ; " []
 is_a: CO_322:Ordinal ! Ordinal
 relationship: scale_of CO_322:0000559 ! epo - estimation
-
-[Term]
-id: CO_322:0000560:1
-name: low ear position
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000560 ! 1-3 ear position scale
-
-[Term]
-id: CO_322:0000560:2
-name: ear around mid-plant
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000560 ! 1-3 ear position scale
-
-[Term]
-id: CO_322:0000560:3
-name: high ear position
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000560 ! 1-3 ear position scale
 
 [Term]
 id: CO_322:0000561
@@ -4418,84 +3694,24 @@ relationship: method_of CO_322:0000544 ! tassel opening
 [Term]
 id: CO_322:0000640
 name: 1-5 leaf color scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= light green ; 2= green ; 3= dark green ; 4= reddish ; 5= purple ; " []
 is_a: CO_322:Nominal ! Nominal
 relationship: scale_of CO_322:0000630 ! lcol - estimation
 
 [Term]
-id: CO_322:0000640:1
-name: light green
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000640 ! 1-5 leaf color scale
-
-[Term]
-id: CO_322:0000640:2
-name: green
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000640 ! 1-5 leaf color scale
-
-[Term]
-id: CO_322:0000640:3
-name: dark green
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000640 ! 1-5 leaf color scale
-
-[Term]
-id: CO_322:0000640:4
-name: reddish
-namespace: MaizeScale
-synonym: "4" EXACT []
-is_a: CO_322:0000640 ! 1-5 leaf color scale
-
-[Term]
-id: CO_322:0000640:5
-name: purple
-namespace: MaizeScale
-synonym: "5" EXACT []
-is_a: CO_322:0000640 ! 1-5 leaf color scale
-
-[Term]
 id: CO_322:0000641
 name: 1-4 leaf erectness scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= erect ; 2= semi erect ; 3= semi horizontal ; 4= drooping ; " []
 is_a: CO_322:Ordinal ! Ordinal
 relationship: scale_of CO_322:0000631 ! lerect - estimation
 
 [Term]
-id: CO_322:0000641:1
-name: erect
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000641 ! 1-4 leaf erectness scale
-
-[Term]
-id: CO_322:0000641:2
-name: semi erect
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000641 ! 1-4 leaf erectness scale
-
-[Term]
-id: CO_322:0000641:3
-name: semi horizontal
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000641 ! 1-4 leaf erectness scale
-
-[Term]
-id: CO_322:0000641:4
-name: drooping
-namespace: MaizeScale
-synonym: "4" EXACT []
-is_a: CO_322:0000641 ! 1-4 leaf erectness scale
-
-[Term]
 id: CO_322:0000642
 name: 1-5 anthocyanin coloration scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= absent ; 2= weak ; 3= medium ; 4= strong ; 5= very strong ; " []
 is_a: CO_322:Ordinal ! Ordinal
 relationship: scale_of CO_322:0000632 ! silkancol - estimation
 relationship: scale_of CO_322:0000634 ! tslancol - estimation
@@ -4504,268 +3720,57 @@ relationship: scale_of CO_322:0000945 ! tslglbancol - estimation
 relationship: scale_of CO_322:0000948 ! tslglancol - estimation
 
 [Term]
-id: CO_322:0000642:1
-name: absent
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000642 ! 1-5 anthocyanin coloration scale
-
-[Term]
-id: CO_322:0000642:2
-name: weak
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000642 ! 1-5 anthocyanin coloration scale
-
-[Term]
-id: CO_322:0000642:3
-name: medium
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000642 ! 1-5 anthocyanin coloration scale
-
-[Term]
-id: CO_322:0000642:4
-name: strong
-namespace: MaizeScale
-synonym: "4" EXACT []
-is_a: CO_322:0000642 ! 1-5 anthocyanin coloration scale
-
-[Term]
-id: CO_322:0000642:5
-name: very strong
-namespace: MaizeScale
-synonym: "5" EXACT []
-is_a: CO_322:0000642 ! 1-5 anthocyanin coloration scale
-
-[Term]
 id: CO_322:0000643
 name: 1-5 standard germination scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= excellent germination (90-100%) ; 2= good germination (70-89%) ; 3= intermediate germination (30-69%) ; 4= poor germination (11-29%) ; 5= very poor germination (0-10%) ; " []
 is_a: CO_322:Ordinal ! Ordinal
 relationship: scale_of CO_322:0000633 ! stdgerm - estimation
 
 [Term]
-id: CO_322:0000643:1
-name: excellent germination (90-100%)
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000643 ! 1-5 standard germination scale
-
-[Term]
-id: CO_322:0000643:2
-name: good germination (70-89%)
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000643 ! 1-5 standard germination scale
-
-[Term]
-id: CO_322:0000643:3
-name: intermediate germination (30-69%)
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000643 ! 1-5 standard germination scale
-
-[Term]
-id: CO_322:0000643:4
-name: poor germination (11-29%)
-namespace: MaizeScale
-synonym: "4" EXACT []
-is_a: CO_322:0000643 ! 1-5 standard germination scale
-
-[Term]
-id: CO_322:0000643:5
-name: very poor germination (0-10%)
-namespace: MaizeScale
-synonym: "5" EXACT []
-is_a: CO_322:0000643 ! 1-5 standard germination scale
-
-[Term]
 id: CO_322:0000645
 name: 1-3 tassel density scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= lax ; 2= medium ; 3= dense ; " []
 is_a: CO_322:Ordinal ! Ordinal
 relationship: scale_of CO_322:0000635 ! tslden - estimation
 
 [Term]
-id: CO_322:0000645:1
-name: lax
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000645 ! 1-3 tassel density scale
-
-[Term]
-id: CO_322:0000645:2
-name: medium
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000645 ! 1-3 tassel density scale
-
-[Term]
-id: CO_322:0000645:3
-name: dense
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000645 ! 1-3 tassel density scale
-
-[Term]
 id: CO_322:0000646
 name: 1-5 tassel exertion scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= very short ; 2= short ; 3= medium ; 4= long ; 5= very long ; " []
 is_a: CO_322:Ordinal ! Ordinal
 relationship: scale_of CO_322:0000636 ! tslexer - estimation
 
 [Term]
-id: CO_322:0000646:1
-name: very short
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000646 ! 1-5 tassel exertion scale
-
-[Term]
-id: CO_322:0000646:2
-name: short
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000646 ! 1-5 tassel exertion scale
-
-[Term]
-id: CO_322:0000646:3
-name: medium
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000646 ! 1-5 tassel exertion scale
-
-[Term]
-id: CO_322:0000646:4
-name: long
-namespace: MaizeScale
-synonym: "4" EXACT []
-is_a: CO_322:0000646 ! 1-5 tassel exertion scale
-
-[Term]
-id: CO_322:0000646:5
-name: very long
-namespace: MaizeScale
-synonym: "5" EXACT []
-is_a: CO_322:0000646 ! 1-5 tassel exertion scale
-
-[Term]
 id: CO_322:0000647
 name: 1-5 tassel opening scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= very compact ; 2= compact ; 3= semi open ; 4= open ; 5= postrate ; " []
 is_a: CO_322:Ordinal ! Ordinal
 relationship: scale_of CO_322:0000637 ! tslopen - estimation
 
 [Term]
-id: CO_322:0000647:1
-name: very compact
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000647 ! 1-5 tassel opening scale
-
-[Term]
-id: CO_322:0000647:2
-name: compact
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000647 ! 1-5 tassel opening scale
-
-[Term]
-id: CO_322:0000647:3
-name: semi open
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000647 ! 1-5 tassel opening scale
-
-[Term]
-id: CO_322:0000647:4
-name: open
-namespace: MaizeScale
-synonym: "4" EXACT []
-is_a: CO_322:0000647 ! 1-5 tassel opening scale
-
-[Term]
-id: CO_322:0000647:5
-name: postrate
-namespace: MaizeScale
-synonym: "5" EXACT []
-is_a: CO_322:0000647 ! 1-5 tassel opening scale
-
-[Term]
 id: CO_322:0000648
 name: 1-3 plant uniformity scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= 100% ; 2= 95% ; 3= mixed ; " []
 is_a: CO_322:Ordinal ! Ordinal
 relationship: scale_of CO_322:0000625 ! punif - estimation
 
 [Term]
-id: CO_322:0000648:1
-name: 100%
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000648 ! 1-3 plant uniformity scale
-
-[Term]
-id: CO_322:0000648:2
-name: 95%
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000648 ! 1-3 plant uniformity scale
-
-[Term]
-id: CO_322:0000648:3
-name: mixed
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000648 ! 1-3 plant uniformity scale
-
-[Term]
 id: CO_322:0000649
 name: 1-5 vigor scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= very  vigorous ; 2= vigorous ; 3= normal ; 4= weak ; 5= very weak ; " []
 is_a: CO_322:Ordinal ! Ordinal
 relationship: scale_of CO_322:0000626 ! pvig - estimation
 relationship: scale_of CO_322:0000626 ! pvig - estimation
 
 [Term]
-id: CO_322:0000649:1
-name: very  vigorous
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000649 ! 1-5 vigor scale
-
-[Term]
-id: CO_322:0000649:2
-name: vigorous
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000649 ! 1-5 vigor scale
-
-[Term]
-id: CO_322:0000649:3
-name: normal
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000649 ! 1-5 vigor scale
-
-[Term]
-id: CO_322:0000649:4
-name: weak
-namespace: MaizeScale
-synonym: "4" EXACT []
-is_a: CO_322:0000649 ! 1-5 vigor scale
-
-[Term]
-id: CO_322:0000649:5
-name: very weak
-namespace: MaizeScale
-synonym: "5" EXACT []
-is_a: CO_322:0000649 ! 1-5 vigor scale
-
-[Term]
 id: CO_322:0000650
-name: AleuCol_E_1to5
+name: aleucol_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000190 ! aleurone color
@@ -4792,7 +3797,7 @@ relationship: method_of CO_322:0000651 ! anther anthocyanin coloration
 
 [Term]
 id: CO_322:0000653
-name: AntAnCol_E_1to5
+name: antancol_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000642 ! 1-5 anthocyanin coloration scale
@@ -4801,7 +3806,7 @@ relationship: variable_of CO_322:0000652 ! antancol - estimation
 
 [Term]
 id: CO_322:0000654
-name: AflavERSev_E_1to5
+name: aflaversev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000072 ! aspergillus flavus ear rot severity
@@ -4810,7 +3815,7 @@ relationship: variable_of CO_322:0000251 ! aflaversev - estimation
 
 [Term]
 id: CO_322:0000655
-name: AspERSev_E_1to5
+name: aspersev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000234 ! 1-5 disease scoring scale
@@ -4819,7 +3824,7 @@ relationship: variable_of CO_322:0000521 ! aspersev - estimation
 
 [Term]
 id: CO_322:0000656
-name: BHskCovInc_Cmp_pct
+name: bhskcovinc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000150 ! ear bad husk cover incidence
@@ -4828,7 +3833,7 @@ relationship: variable_of CO_322:0000555 ! bhskcovinc - computation
 
 [Term]
 id: CO_322:0000657
-name: BHskCovInc_Ct_plntPlot
+name: bhskcovinc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000150 ! ear bad husk cover incidence
@@ -4845,7 +3850,7 @@ relationship: method_of CO_322:0000150 ! ear bad husk cover incidence
 
 [Term]
 id: CO_322:0000659
-name: BHskCovInc_E_pct
+name: bhskcovinc_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000150 ! ear bad husk cover incidence
@@ -4854,7 +3859,7 @@ relationship: variable_of CO_322:0000658 ! bhskcovinc - estimation
 
 [Term]
 id: CO_322:0000660
-name: CSmutSev_E_1to5
+name: csmutsev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000082 ! common smut severity
@@ -4863,7 +3868,7 @@ relationship: variable_of CO_322:0000477 ! 1-5 damage scoring scale
 
 [Term]
 id: CO_322:0000661
-name: EAsp_E_1to5
+name: easp_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000018 ! ear aspect
@@ -4872,7 +3877,7 @@ relationship: variable_of CO_322:0000396 ! 1-5 rating scale
 
 [Term]
 id: CO_322:0000662
-name: EDia_M_cm
+name: edia_m_cm
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000170 ! ear diameter
@@ -4881,7 +3886,7 @@ relationship: variable_of CO_322:0000348 ! cm
 
 [Term]
 id: CO_322:0000663
-name: EDmg_E_1to5
+name: edmg_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000165 ! ear damage
@@ -4908,34 +3913,14 @@ relationship: method_of CO_322:0000664 ! ear shape
 [Term]
 id: CO_322:0000666
 name: 1-3 ear shape scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= conical ; 2= conical-cylindrical ; 3= cylindrical ; " []
 is_a: CO_322:Nominal ! Nominal
 relationship: scale_of CO_322:0000665 ! eshape - estimation
 
 [Term]
-id: CO_322:0000666:1
-name: conical
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000666 ! 1-3 ear shape scale
-
-[Term]
-id: CO_322:0000666:2
-name: conical-cylindrical
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000666 ! 1-3 ear shape scale
-
-[Term]
-id: CO_322:0000666:3
-name: cylindrical
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000666 ! 1-3 ear shape scale
-
-[Term]
 id: CO_322:0000667
-name: EShape_E_1to3
+name: eshape_e_1to3
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000664 ! ear shape
@@ -4944,7 +3929,7 @@ relationship: variable_of CO_322:0000666 ! 1-3 ear shape scale
 
 [Term]
 id: CO_322:0000668
-name: EGrw_M_cm
+name: egrw_m_cm
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000145 ! ear growth
@@ -4953,7 +3938,7 @@ relationship: variable_of CO_322:0000348 ! cm
 
 [Term]
 id: CO_322:0000669
-name: EGrwR_Cmp_cmday
+name: egrwr_cmp_cmday
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000016 ! ear growth rate
@@ -4962,7 +3947,7 @@ relationship: variable_of CO_322:0000503 ! cm/day
 
 [Term]
 id: CO_322:0000670
-name: EH_M_cm
+name: eh_m_cm
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000017 ! ear height
@@ -4980,7 +3965,7 @@ relationship: scale_of CO_322:0000988 ! en - counting
 
 [Term]
 id: CO_322:0000672
-name: EHvst_Ct_earPlot
+name: ehvst_ct_earplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000523 ! ear harvested number
@@ -4989,7 +3974,7 @@ relationship: variable_of CO_322:0000671 ! ear/plot
 
 [Term]
 id: CO_322:0000673
-name: ELng_M_cm
+name: elng_m_cm
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000015 ! ear length
@@ -4998,7 +3983,7 @@ relationship: variable_of CO_322:0000349 ! elng - measurement
 
 [Term]
 id: CO_322:0000674
-name: EN_Ct_earplnt
+name: en_ct_earplnt
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000021 ! ear number
@@ -5007,14 +3992,14 @@ relationship: variable_of CO_322:0000356 ! ear/plant
 
 [Term]
 id: CO_322:0000675
-name: Ear position ratio
+name: ear position ratio
 namespace: MaizeScale
 is_a: CO_322:Numerical ! Numerical
 relationship: scale_of CO_322:0000225 ! epo - computation
 
 [Term]
 id: CO_322:0000676
-name: EPo_Cmp_ratio
+name: epo_cmp_ratio
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000020 ! ear position
@@ -5023,7 +4008,7 @@ relationship: variable_of CO_322:0000675 ! Ear position ratio
 
 [Term]
 id: CO_322:0000677
-name: EPo_E_1to3
+name: epo_e_1to3
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000020 ! ear position
@@ -5032,7 +4017,7 @@ relationship: variable_of CO_322:0000560 ! 1-3 ear position scale
 
 [Term]
 id: CO_322:0000678
-name: ERInc_Cmp_pct
+name: erinc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000068 ! ear rot incidence
@@ -5041,7 +4026,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000679
-name: ERInc_Ct_earPlot
+name: erinc_ct_earplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000068 ! ear rot incidence
@@ -5058,7 +4043,7 @@ relationship: method_of CO_322:0000068 ! ear rot incidence
 
 [Term]
 id: CO_322:0000681
-name: ERInc_E_pct
+name: erinc_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000068 ! ear rot incidence
@@ -5069,13 +4054,13 @@ relationship: variable_of CO_322:0000680 ! erinc - estimation
 id: CO_322:0000682
 name: earw field weight - measurement
 namespace: MaizeMethod
-def: "Harvest all ears in a plot (or row), put them in the nylon bag and  dry at 60-70¡C for 1-2 days, then measure and record the weight of dried ears." []
+def: "Harvest all ears in a plot (or row), put them in the nylon bag and  dry at 60-70∞C for 1-2 days, then measure and record the weight of dried ears." []
 is_a: CO_322:Measurement ! Measurement
 relationship: method_of CO_322:0000524 ! ear weight
 
 [Term]
 id: CO_322:0000683
-name: EW_DW_kgPlot
+name: ew_dw_kgplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000358 ! kg/plot
@@ -5084,7 +4069,7 @@ relationship: variable_of CO_322:0000682 ! earw field weight - measurement
 
 [Term]
 id: CO_322:0000684
-name: EW_FW_kgPlot
+name: ew_fw_kgplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000358 ! kg/plot
@@ -5109,7 +4094,7 @@ relationship: method_of CO_322:0000685 ! earworm damage
 
 [Term]
 id: CO_322:0000687
-name: EWormDmg_M_cm
+name: ewormdmg_m_cm
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000348 ! cm
@@ -5118,7 +4103,7 @@ relationship: variable_of CO_322:0000686 ! ewormdmg - measurement
 
 [Term]
 id: CO_322:0000688
-name: EWormInc_Cmp_pct
+name: eworminc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000153 ! earworm incidence
@@ -5127,7 +4112,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000689
-name: EWormInc_Ct_plntPlot
+name: eworminc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000153 ! earworm incidence
@@ -5136,7 +4121,7 @@ relationship: variable_of CO_322:0000585 ! eworminc - counting
 
 [Term]
 id: CO_322:0000690
-name: FgramERSev_E_1to5
+name: fgramersev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000070 ! fusarium graminearum ear rot severity
@@ -5145,7 +4130,7 @@ relationship: variable_of CO_322:0000253 ! fgramersev - estimation
 
 [Term]
 id: CO_322:0000691
-name: FmonERSev_E_1to5
+name: fmonersev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000071 ! fusarium moniliforme ear rot severity
@@ -5154,7 +4139,7 @@ relationship: variable_of CO_322:0000255 ! fmonersev - estimation
 
 [Term]
 id: CO_322:0000692
-name: FusERSev_E_1to5
+name: fusersev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000069 ! fusarium ear rot severity
@@ -5163,7 +4148,7 @@ relationship: variable_of CO_322:0000234 ! 1-5 disease scoring scale
 
 [Term]
 id: CO_322:0000693
-name: GRArr_E_1to4
+name: grarr_e_1to4
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000166 ! grain row arrangement
@@ -5172,7 +4157,7 @@ relationship: variable_of CO_322:0000194 ! 1-4 grain row arrangement scale
 
 [Term]
 id: CO_322:0000694
-name: GRN_Ct_rowear
+name: grn_ct_rowear
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000167 ! grain row number
@@ -5181,7 +4166,7 @@ relationship: variable_of CO_322:0000515 ! row/ear
 
 [Term]
 id: CO_322:0000695
-name: HskCov_E_1to5
+name: hskcov_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000149 ! ear husk cover
@@ -5190,7 +4175,7 @@ relationship: variable_of CO_322:0000396 ! 1-5 rating scale
 
 [Term]
 id: CO_322:0000696
-name: PERSev_E_1to5
+name: persev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000074 ! penicillium ear rot severity
@@ -5199,7 +4184,7 @@ relationship: variable_of CO_322:0000257 ! persev - estimation
 
 [Term]
 id: CO_322:0000697
-name: Shell_Cmp_pct
+name: shell_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000350 ! %
@@ -5208,14 +4193,14 @@ relationship: variable_of CO_322:0000609 ! shell - computation
 
 [Term]
 id: CO_322:0000699
-name: Ear shelling ratio
+name: ear shelling ratio
 namespace: MaizeScale
 is_a: CO_322:Numerical ! Numerical
 relationship: scale_of CO_322:0000609 ! shell - computation
 
 [Term]
 id: CO_322:0000700
-name: Shell_Cmp_ratio
+name: shell_cmp_ratio
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000526 ! ear shelling ratio
@@ -5224,7 +4209,7 @@ relationship: variable_of CO_322:0000699 ! Ear shelling ratio
 
 [Term]
 id: CO_322:0000701
-name: SmaySev_E_1to5
+name: smaysev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000073 ! stenocarpella ear rot severity
@@ -5233,7 +4218,7 @@ relationship: variable_of CO_322:0000259 ! smaysev - estimation
 
 [Term]
 id: CO_322:0000702
-name: ELLng_M_cm
+name: ellng_m_cm
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000019 ! ear leaf length
@@ -5242,7 +4227,7 @@ relationship: variable_of CO_322:0000348 ! cm
 
 [Term]
 id: CO_322:0000703
-name: ELW_M_g
+name: elw_m_g
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000112 ! ear leaf weight
@@ -5251,7 +4236,7 @@ relationship: variable_of CO_322:0000302 ! g
 
 [Term]
 id: CO_322:0000704
-name: ELChl_M_CCI
+name: elchl_m_cci
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000105 ! ear leaf chlorophyll content
@@ -5261,55 +4246,14 @@ relationship: variable_of CO_322:0000378 ! CCI
 [Term]
 id: CO_322:0000705
 name: 1-6 endosperm color scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= white ; 2= cream ; 3= pale yellow ; 4= yellow ; 5= orange ; 6= white cap ; " []
 is_a: CO_322:Nominal ! Nominal
 relationship: scale_of CO_322:0000366 ! endocol - estimation
 
 [Term]
-id: CO_322:0000705:1
-name: white
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000705 ! 1-6 endosperm color scale
-
-[Term]
-id: CO_322:0000705:2
-name: cream
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000705 ! 1-6 endosperm color scale
-
-[Term]
-id: CO_322:0000705:3
-name: pale yellow
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000705 ! 1-6 endosperm color scale
-
-[Term]
-id: CO_322:0000705:4
-name: yellow
-namespace: MaizeScale
-synonym: "4" EXACT []
-is_a: CO_322:0000705 ! 1-6 endosperm color scale
-
-[Term]
-id: CO_322:0000705:5
-name: orange
-namespace: MaizeScale
-synonym: "5" EXACT []
-is_a: CO_322:0000705 ! 1-6 endosperm color scale
-
-[Term]
-id: CO_322:0000705:6
-name: white cap
-namespace: MaizeScale
-synonym: "6" EXACT []
-is_a: CO_322:0000705 ! 1-6 endosperm color scale
-
-[Term]
 id: CO_322:0000706
-name: EndoCol_E_1to6
+name: endocol_e_1to6
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000186 ! endosperm color
@@ -5318,7 +4262,7 @@ relationship: variable_of CO_322:0000705 ! 1-6 endosperm color scale
 
 [Term]
 id: CO_322:0000707
-name: EndoHard_E_1to5
+name: endohard_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000041 ! endosperm hardness
@@ -5327,7 +4271,7 @@ relationship: variable_of CO_322:0000478 ! 1-5 endosperm hardness scale
 
 [Term]
 id: CO_322:0000708
-name: EndoLys_M_pct
+name: endolys_m_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000109 ! endosperm lysine content
@@ -5336,7 +4280,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000709
-name: EndoProt_M_pct
+name: endoprot_m_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000123 ! endosperm protein content
@@ -5345,7 +4289,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000710
-name: EndoTrp_M_pct
+name: endotrp_m_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000106 ! endosperm tryptophan content
@@ -5354,7 +4298,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000711
-name: Aflatox_M_ppb
+name: aflatox_m_ppb
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000210 ! ppb
@@ -5363,7 +4307,7 @@ relationship: variable_of CO_322:0000216 ! aflatox - measurement
 
 [Term]
 id: CO_322:0000712
-name: GCol_E_1to9
+name: gcol_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000146 ! grain color
@@ -5372,7 +4316,7 @@ relationship: variable_of CO_322:0000318 ! 1-9 grain color scale
 
 [Term]
 id: CO_322:0000713
-name: GLng_M_mm
+name: glng_m_mm
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000172 ! grain length
@@ -5381,7 +4325,7 @@ relationship: variable_of CO_322:0000264 ! glng - measurement
 
 [Term]
 id: CO_322:0000714
-name: GMoi_Cmp_pct
+name: gmoi_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000033 ! grain moisture
@@ -5398,7 +4342,7 @@ relationship: method_of CO_322:0000033 ! grain moisture
 
 [Term]
 id: CO_322:0000716
-name: GMoi_NIRS_pct
+name: gmoi_nirs_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000033 ! grain moisture
@@ -5407,7 +4351,7 @@ relationship: variable_of CO_322:0000715 ! nirs moi - measurement
 
 [Term]
 id: CO_322:0000717
-name: GN_Cmp_grnplnt
+name: gn_cmp_grnplnt
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000010 ! grain number
@@ -5416,7 +4360,7 @@ relationship: variable_of CO_322:0000519 ! grain/plant
 
 [Term]
 id: CO_322:0000718
-name: GTex_E_1to5
+name: gtex_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000039 ! grain texture
@@ -5425,7 +4369,7 @@ relationship: variable_of CO_322:0000480 ! 1-5 grain texture scale
 
 [Term]
 id: CO_322:0000719
-name: GThk_M_mm
+name: gthk_m_mm
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000184 ! grain thickness
@@ -5434,7 +4378,7 @@ relationship: variable_of CO_322:0000368 ! gthk - measurement
 
 [Term]
 id: CO_322:0000720
-name: GTyp_E_1to11
+name: gtyp_e_1to11
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000168 ! grain type
@@ -5443,7 +4387,7 @@ relationship: variable_of CO_322:0000324 ! 1-11 grain type scale
 
 [Term]
 id: CO_322:0000721
-name: GUpSSh_E_1to6
+name: gupssh_e_1to6
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000178 ! grain upper surface shape
@@ -5461,7 +4405,7 @@ relationship: scale_of CO_322:0000980 ! gw fw - measurement
 
 [Term]
 id: CO_322:0000723
-name: GW_DW_g1000grn
+name: gw_dw_g1000grn
 namespace: MaizeVariable
 synonym: "TGW, TKW, 1000KW" EXACT []
 is_a: CO_322:Variable ! Variable
@@ -5480,7 +4424,7 @@ relationship: scale_of CO_322:0000980 ! gw fw - measurement
 
 [Term]
 id: CO_322:0000725
-name: GW_DW_g100grn
+name: gw_dw_g100grn
 namespace: MaizeVariable
 synonym: "100KW" EXACT []
 is_a: CO_322:Variable ! Variable
@@ -5499,7 +4443,7 @@ relationship: scale_of CO_322:0000980 ! gw fw - measurement
 
 [Term]
 id: CO_322:0000727
-name: GW_DW_g200grn
+name: gw_dw_g200grn
 namespace: MaizeVariable
 synonym: "200KW" EXACT []
 is_a: CO_322:Variable ! Variable
@@ -5509,7 +4453,7 @@ relationship: variable_of CO_322:0000726 ! g/200grain
 
 [Term]
 id: CO_322:0000728
-name: GWid_M_mm
+name: gwid_m_mm
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000175 ! grain width
@@ -5527,7 +4471,7 @@ relationship: scale_of CO_322:0000745 ! fw gy - computation
 
 [Term]
 id: CO_322:0000730
-name: GY_Adj_kgha
+name: gy_adj_kgha
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000005 ! grain yield
@@ -5536,7 +4480,7 @@ relationship: variable_of CO_322:0000729 ! kg/ha
 
 [Term]
 id: CO_322:0000731
-name: GY_Adj_tha
+name: gy_adj_tha
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000005 ! grain yield
@@ -5547,7 +4491,7 @@ relationship: variable_of CO_322:0000622 ! t/ha
 id: CO_322:0000732
 name: dw gy - measurement
 namespace: MaizeMethod
-def: "Shell the grains (kernels) from the ears harvested per plot and put grains in a paper bag and  dry at 60-70¡C for 1-2 days, then measure and record the weight of dried grain." []
+def: "Shell the grains (kernels) from the ears harvested per plot and put grains in a paper bag and  dry at 60-70∞C for 1-2 days, then measure and record the weight of dried grain." []
 is_a: CO_322:Measurement ! Measurement
 relationship: method_of CO_322:0000005 ! grain yield
 
@@ -5563,7 +4507,7 @@ relationship: scale_of CO_322:0000926 ! shellcobw - measurement (duplicate)
 
 [Term]
 id: CO_322:0000734
-name: GY_DW_gPlot
+name: gy_dw_gplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000005 ! grain yield
@@ -5580,7 +4524,7 @@ relationship: method_of CO_322:0000005 ! grain yield
 
 [Term]
 id: CO_322:0000737
-name: GY_DW_kgha
+name: gy_dw_kgha
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000005 ! grain yield
@@ -5591,13 +4535,13 @@ relationship: variable_of CO_322:0000735 ! dry weight basis gy - computation
 id: CO_322:0000738
 name: dw gy - measurement
 namespace: MaizeMethod
-def: "Shell the grains (kernels) from the ears harvested per plot and put grains in a paper bag and  dry at 60-70¡C for 1-2 days, then measure and record the weight of dried grain." []
+def: "Shell the grains (kernels) from the ears harvested per plot and put grains in a paper bag and  dry at 60-70∞C for 1-2 days, then measure and record the weight of dried grain." []
 is_a: CO_322:Measurement ! Measurement
 relationship: method_of CO_322:0000005 ! grain yield
 
 [Term]
 id: CO_322:0000740
-name: GY_DW_kgPlot
+name: gy_dw_kgplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000005 ! grain yield
@@ -5614,7 +4558,7 @@ relationship: method_of CO_322:0000005 ! grain yield
 
 [Term]
 id: CO_322:0000742
-name: GY_DW_tha
+name: gy_dw_tha
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000005 ! grain yield
@@ -5623,7 +4567,7 @@ relationship: variable_of CO_322:0000741 ! dw gy - computation
 
 [Term]
 id: CO_322:0000744
-name: GY_FW_gPlot
+name: gy_fw_gplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000005 ! grain yield
@@ -5640,7 +4584,7 @@ relationship: method_of CO_322:0000005 ! grain yield
 
 [Term]
 id: CO_322:0000747
-name: GY_FW_kgha
+name: gy_fw_kgha
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000005 ! grain yield
@@ -5649,7 +4593,7 @@ relationship: variable_of CO_322:0000745 ! fw gy - computation
 
 [Term]
 id: CO_322:0000749
-name: GY_FW_kgPlot
+name: gy_fw_kgplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000005 ! grain yield
@@ -5666,7 +4610,7 @@ relationship: method_of CO_322:0000005 ! grain yield
 
 [Term]
 id: CO_322:0000751
-name: GY_FW_tha
+name: gy_fw_tha
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000005 ! grain yield
@@ -5683,14 +4627,14 @@ relationship: method_of CO_322:0000005 ! grain yield
 
 [Term]
 id: CO_322:0000753
-name: Rank number
+name: rank number
 namespace: MaizeScale
 is_a: CO_322:Numerical ! Numerical
 relationship: scale_of CO_322:0000752 ! gyrank - computation
 
 [Term]
 id: CO_322:0000754
-name: GY_Rank_number
+name: gy_rank_number
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000005 ! grain yield
@@ -5707,7 +4651,7 @@ relationship: method_of CO_322:0000005 ! grain yield
 
 [Term]
 id: CO_322:0000756
-name: GY_RelChk_pct
+name: gy_relchk_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000005 ! grain yield
@@ -5716,7 +4660,7 @@ relationship: variable_of CO_322:0000755 ! relative to check - computation
 
 [Term]
 id: CO_322:0000757
-name: GY_RGY_pct
+name: gy_rgy_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000005 ! grain yield
@@ -5725,7 +4669,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000758
-name: LGBDmg_E_1to5
+name: lgbdmg_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000127 ! large grain borer damage
@@ -5734,7 +4678,7 @@ relationship: variable_of CO_322:0000477 ! 1-5 damage scoring scale
 
 [Term]
 id: CO_322:0000759
-name: StdGerm_E_1to5
+name: stdgerm_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000540 ! standard germination
@@ -5743,7 +4687,7 @@ relationship: variable_of CO_322:0000643 ! 1-5 standard germination scale
 
 [Term]
 id: CO_322:0000760
-name: WeevInc_E_1to5
+name: weevinc_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000129 ! maize weevil incidence
@@ -5752,7 +4696,7 @@ relationship: variable_of CO_322:0000496 ! 1-5 weevdmginc scale
 
 [Term]
 id: CO_322:0000761
-name: WeevN_Ct_weevil
+name: weevn_ct_weevil
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000130 ! maize weevil number in grain
@@ -5761,7 +4705,7 @@ relationship: variable_of CO_322:0000518 ! weevil
 
 [Term]
 id: CO_322:0000762
-name: BCLSSev_E_1to5
+name: bclssev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000051 ! bacterial leaf stripe severity
@@ -5770,7 +4714,7 @@ relationship: variable_of CO_322:0000317 ! bclssev - estimation
 
 [Term]
 id: CO_322:0000763
-name: BLSBSev_E_1to5
+name: blsbsev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000084 ! banded leaf and sheath blight severity
@@ -5779,7 +4723,7 @@ relationship: variable_of CO_322:0000305 ! blsbsev - estimation
 
 [Term]
 id: CO_322:0000764
-name: BmaySev_E_1to5
+name: bmaysev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000057 ! maydis leaf blight severity
@@ -5788,7 +4732,7 @@ relationship: variable_of CO_322:0000249 ! bmaysev - estimation
 
 [Term]
 id: CO_322:0000765
-name: BwSpotSev_E_1to5
+name: bwspotsev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000086 ! brown spot severity
@@ -5797,7 +4741,7 @@ relationship: variable_of CO_322:0000309 ! bwspotsev - estimation
 
 [Term]
 id: CO_322:0000766
-name: Chl_M_CCI
+name: chl_m_cci
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000003 ! chlorophyll content
@@ -5806,7 +4750,7 @@ relationship: variable_of CO_322:0000378 ! CCI
 
 [Term]
 id: CO_322:0000767
-name: CLSSev_E_1to5
+name: clssev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000089 ! curvularia leaf spot severity
@@ -5815,7 +4759,7 @@ relationship: variable_of CO_322:0000243 ! clssev - estimation
 
 [Term]
 id: CO_322:0000768
-name: CRustSev_E_1to5
+name: crustsev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000085 ! common rust severity
@@ -5824,7 +4768,7 @@ relationship: variable_of CO_322:0000265 ! crustsev - estimation
 
 [Term]
 id: CO_322:0000769
-name: DMSev_E_1to5
+name: dmsev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000075 ! downy mildew severity
@@ -5833,7 +4777,7 @@ relationship: variable_of CO_322:0000234 ! 1-5 disease scoring scale
 
 [Term]
 id: CO_322:0000770
-name: EturcSev_E_1to5
+name: eturcsev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000092 ! turcicum leaf blight severity
@@ -5842,7 +4786,7 @@ relationship: variable_of CO_322:0000261 ! eturcsev - estimation
 
 [Term]
 id: CO_322:0000771
-name: GLSSev_E_1to5
+name: glssev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000088 ! gray leaf spot severity
@@ -5867,7 +4811,7 @@ relationship: method_of CO_322:0000772 ! leaf ash content
 
 [Term]
 id: CO_322:0000774
-name: LAsh_M_pct
+name: lash_m_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000350 ! %
@@ -5884,7 +4828,7 @@ relationship: method_of CO_322:0000772 ! leaf ash content
 
 [Term]
 id: CO_322:0000777
-name: LAsh_NIRS_pct
+name: lash_nirs_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000350 ! %
@@ -5893,7 +4837,7 @@ relationship: variable_of CO_322:0000776 ! nirs lash - measurement
 
 [Term]
 id: CO_322:0000778
-name: LCol_E_1to5
+name: lcol_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000537 ! leaf color
@@ -5902,7 +4846,7 @@ relationship: variable_of CO_322:0000640 ! 1-5 leaf color scale
 
 [Term]
 id: CO_322:0000779
-name: LErect_E_1to4
+name: lerect_e_1to4
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000538 ! leaf erectness
@@ -5911,7 +4855,7 @@ relationship: variable_of CO_322:0000641 ! 1-4 leaf erectness scale
 
 [Term]
 id: CO_322:0000780
-name: LLng_M_cm
+name: llng_m_cm
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000025 ! leaf length
@@ -5920,7 +4864,7 @@ relationship: variable_of CO_322:0000348 ! cm
 
 [Term]
 id: CO_322:0000781
-name: LRollSev_E_1to5
+name: lrollsev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000160 ! leaf rolling severity
@@ -5929,7 +4873,7 @@ relationship: variable_of CO_322:0000482 ! 1-5 leaf rolling severity scale
 
 [Term]
 id: CO_322:0000782
-name: LWid_M_cm
+name: lwid_m_cm
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000026 ! leaf width
@@ -5938,7 +4882,7 @@ relationship: variable_of CO_322:0000348 ! cm
 
 [Term]
 id: CO_322:0000783
-name: PLSSev_E_1to5
+name: plssev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000090 ! phaeosphaeria leaf spot severity
@@ -5947,7 +4891,7 @@ relationship: variable_of CO_322:0000247 ! plssev - estimation
 
 [Term]
 id: CO_322:0000784
-name: PpolySev_E_1to5
+name: ppolysev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000055 ! polysora rust severity
@@ -5956,7 +4900,7 @@ relationship: variable_of CO_322:0000263 ! ppolysev - estimation
 
 [Term]
 id: CO_322:0000785
-name: RustSev_E_1to5
+name: rustsev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000054 ! rust severity
@@ -5965,7 +4909,7 @@ relationship: variable_of CO_322:0000234 ! 1-5 disease scoring scale
 
 [Term]
 id: CO_322:0000786
-name: SCond_M_mmolm2s
+name: scond_m_mmolm2s
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000134 ! stomatal conductance
@@ -5974,7 +4918,7 @@ relationship: variable_of CO_322:0000513 ! mmol /m2/s
 
 [Term]
 id: CO_322:0000787
-name: Sen_E_0to10
+name: sen_e_0to10
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000012 ! senescence
@@ -5983,7 +4927,7 @@ relationship: variable_of CO_322:0000320 ! 0-10 senescence scale
 
 [Term]
 id: CO_322:0000788
-name: Sen_E_pct
+name: sen_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000012 ! senescence
@@ -5992,7 +4936,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000789
-name: TRustSev_E_1to5
+name: trustsev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000056 ! tropical rust severity
@@ -6001,7 +4945,7 @@ relationship: variable_of CO_322:0000269 ! trustsev - estimation
 
 [Term]
 id: CO_322:0000790
-name: TSCSev_E_1to5
+name: tscsev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000091 ! tar spot complex severity
@@ -6010,7 +4954,7 @@ relationship: variable_of CO_322:0000234 ! 1-5 disease scoring scale
 
 [Term]
 id: CO_322:0000791
-name: PericCol_E_1to5
+name: periccol_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000192 ! pericarp color
@@ -6019,7 +4963,7 @@ relationship: variable_of CO_322:0000485 ! 1-5 pericarp color scale
 
 [Term]
 id: CO_322:0000792
-name: ALBInc_Cmp_pct
+name: albinc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000058 ! anthracnose leaf blight incidence
@@ -6028,7 +4972,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000793
-name: ALBInc_Ct_plntPlot
+name: albinc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000058 ! anthracnose leaf blight incidence
@@ -6037,13 +4981,13 @@ relationship: variable_of CO_322:0000580 ! albinc - counting
 
 [Term]
 id: CO_322:0000794
-name: Ant_Cmp_Cday
+name: ant_cmp_cday
 namespace: MaizeVariable
 synonym: "AnthesisGDU" EXACT []
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000030 ! anthesis time
 relationship: variable_of CO_322:0000260 ! growing degree days to anthesis - computation
-relationship: variable_of CO_322:0000510 ! ¡C day
+relationship: variable_of CO_322:0000510 ! ∞C day
 
 [Term]
 id: CO_322:0000795
@@ -6065,7 +5009,7 @@ relationship: scale_of CO_322:0000905 ! silking date - estimation
 
 [Term]
 id: CO_322:0000797
-name: Ant_Date_ymd
+name: ant_date_ymd
 namespace: MaizeVariable
 synonym: "AD" EXACT []
 is_a: CO_322:Variable ! Variable
@@ -6075,7 +5019,7 @@ relationship: variable_of CO_322:0000796 ! yyyymmdd
 
 [Term]
 id: CO_322:0000798
-name: Ant_DT_day
+name: ant_dt_day
 namespace: MaizeVariable
 synonym: "DTA" EXACT []
 is_a: CO_322:Variable ! Variable
@@ -6085,7 +5029,7 @@ relationship: variable_of CO_322:0000352 ! day
 
 [Term]
 id: CO_322:0000799
-name: AphDmg_E_1to5
+name: aphdmg_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000128 ! aphid damage
@@ -6094,7 +5038,7 @@ relationship: variable_of CO_322:0000477 ! 1-5 damage scoring scale
 
 [Term]
 id: CO_322:0000800
-name: ASI_Cmp_day
+name: asi_cmp_day
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000001 ! anthesis silking interval
@@ -6103,7 +5047,7 @@ relationship: variable_of CO_322:0000352 ! day
 
 [Term]
 id: CO_322:0000801
-name: AstriInc_Cmp_pct
+name: astriinc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000060 ! black bundle incidence
@@ -6112,7 +5056,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000802
-name: AstriInc_Ct_plntPlot
+name: astriinc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000060 ! black bundle incidence
@@ -6121,7 +5065,7 @@ relationship: variable_of CO_322:0000582 ! astriinc - counting
 
 [Term]
 id: CO_322:0000803
-name: AWormDmg_E_1to5
+name: awormdmg_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000154 ! army worm damage
@@ -6130,7 +5074,7 @@ relationship: variable_of CO_322:0000477 ! 1-5 damage scoring scale
 
 [Term]
 id: CO_322:0000804
-name: BactSRInc_Cmp_pct
+name: bactsrinc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000052 ! bacterial stalk rot incidence
@@ -6139,7 +5083,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000805
-name: BactSRInc_Ct_plntPlot
+name: bactsrinc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000052 ! bacterial stalk rot incidence
@@ -6148,7 +5092,7 @@ relationship: variable_of CO_322:0000581 ! bactsrinc - counting
 
 [Term]
 id: CO_322:0000806
-name: BSDMInc_Cmp_pct
+name: bsdminc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000078 ! brown stripe downy mildew incidence
@@ -6157,7 +5101,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000807
-name: BSDMInc_Ct_plntPlot
+name: bsdminc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000078 ! brown stripe downy mildew incidence
@@ -6174,7 +5118,7 @@ is_a: CO_322:Biotic_stress_traits ! Biotic_stress_traits
 
 [Term]
 id: CO_322:0000809
-name: BusseolaDmg_E_1to5
+name: busseoladmg_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000329 ! busseolainc - counting
@@ -6183,7 +5127,7 @@ relationship: variable_of CO_322:0000808 ! busseola damage
 
 [Term]
 id: CO_322:0000810
-name: BusseolaInc_Ct_plntPlot
+name: busseolainc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000152 ! busseola incidence
@@ -6192,7 +5136,7 @@ relationship: variable_of CO_322:0000354 ! plant/plot
 
 [Term]
 id: CO_322:0000811
-name: CharRInc_Cmp_pct
+name: charrinc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000062 ! charcoal rot incidence
@@ -6201,7 +5145,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000812
-name: CharRInc_Ct_plntPlot
+name: charrinc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000062 ! charcoal rot incidence
@@ -6210,7 +5154,7 @@ relationship: variable_of CO_322:0000584 ! charrinc - counting
 
 [Term]
 id: CO_322:0000813
-name: ChiloDmg_E_1to5
+name: chilodmg_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000155 ! chilo damage
@@ -6219,7 +5163,7 @@ relationship: variable_of CO_322:0000477 ! 1-5 damage scoring scale
 
 [Term]
 id: CO_322:0000814
-name: CSCInc_Cmp_pct
+name: cscinc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000049 ! corn stunt incidence
@@ -6228,7 +5172,7 @@ relationship: variable_of CO_322:0000558 ! cscinc - computation
 
 [Term]
 id: CO_322:0000815
-name: CSCInc_Ct_plntPlot
+name: cscinc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000049 ! corn stunt incidence
@@ -6237,7 +5181,7 @@ relationship: variable_of CO_322:0000354 ! plant/plot
 
 [Term]
 id: CO_322:0000816
-name: CSCMSev_E_1to5
+name: cscmsev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000053 ! maize bushy stunt severity
@@ -6246,7 +5190,7 @@ relationship: variable_of CO_322:0000321 ! cscmsev - estimation
 
 [Term]
 id: CO_322:0000817
-name: CSmutInc_Cmp_pct
+name: csmutinc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000350 ! %
@@ -6255,7 +5199,7 @@ relationship: variable_of CO_322:0000557 ! csmutinc - computation
 
 [Term]
 id: CO_322:0000818
-name: CSmutInc_Ct_plntPlot
+name: csmutinc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000354 ! plant/plot
@@ -6264,7 +5208,7 @@ relationship: variable_of CO_322:0001031 ! csmutinc - counting
 
 [Term]
 id: CO_322:0000819
-name: CSSSev_E_1to5
+name: csssev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000234 ! 1-5 disease scoring scale
@@ -6273,16 +5217,16 @@ relationship: variable_of CO_322:0000489 ! csssev - estimation
 
 [Term]
 id: CO_322:0000820
-name: CT_M_C
+name: ct_m_c
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000142 ! canopy temperature
-relationship: variable_of CO_322:0000332 ! ¡C
+relationship: variable_of CO_322:0000332 ! ∞C
 relationship: variable_of CO_322:0000395 ! ct - measurement
 
 [Term]
 id: CO_322:0000821
-name: CTMInc_Cmp_pct
+name: ctminc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000081 ! crazy top downy mildew incidence
@@ -6291,7 +5235,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000822
-name: CTMInc_Ct_plntPlot
+name: ctminc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000081 ! crazy top downy mildew incidence
@@ -6300,7 +5244,7 @@ relationship: variable_of CO_322:0000572 ! ctminc - counting
 
 [Term]
 id: CO_322:0000823
-name: DiabroticaDmg_E_1to5
+name: diabroticadmg_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000156 ! diabrotica damage
@@ -6309,7 +5253,7 @@ relationship: variable_of CO_322:0000477 ! 1-5 damage scoring scale
 
 [Term]
 id: CO_322:0000824
-name: DiatraeaDmg_E_1to5
+name: diatraeadmg_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000157 ! diatraea damage
@@ -6318,7 +5262,7 @@ relationship: variable_of CO_322:0000477 ! 1-5 damage scoring scale
 
 [Term]
 id: CO_322:0000825
-name: DMJInc_Cmp_pct
+name: dmjinc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000079 ! java downy mildew incidence
@@ -6327,7 +5271,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000826
-name: DMJInc_Ct_plntPlot
+name: dmjinc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000079 ! java downy mildew incidence
@@ -6336,7 +5280,7 @@ relationship: variable_of CO_322:0000573 ! dmjinc - counting
 
 [Term]
 id: CO_322:0000827
-name: DMSInc_Cmp_pct
+name: dmsinc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000080 ! sorghum downy mildew incidence
@@ -6345,7 +5289,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000828
-name: DMSInc_Ct_plntPlot
+name: dmsinc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000080 ! sorghum downy mildew incidence
@@ -6362,7 +5306,7 @@ is_a: CO_322:Biotic_stress_traits ! Biotic_stress_traits
 
 [Term]
 id: CO_322:0000830
-name: DMSSev_E_1to5
+name: dmssev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000234 ! 1-5 disease scoring scale
@@ -6371,7 +5315,7 @@ relationship: variable_of CO_322:0000829 ! sorghum downy mildew severity
 
 [Term]
 id: CO_322:0000831
-name: DMVInc_Cmp_pct
+name: dmvinc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000099 ! maize dwarf mosaic virus incidence
@@ -6380,7 +5324,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000832
-name: DMVInc_Ct_plntPlot
+name: dmvinc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000099 ! maize dwarf mosaic virus incidence
@@ -6397,7 +5341,7 @@ relationship: method_of CO_322:0000143 ! ear leaf senescence time
 
 [Term]
 id: CO_322:0000835
-name: ELSen_Date_ymd
+name: elsen_date_ymd
 namespace: MaizeVariable
 synonym: "ELSenD" EXACT []
 is_a: CO_322:Variable ! Variable
@@ -6407,7 +5351,7 @@ relationship: variable_of CO_322:0000833 ! ear leaf senescence date - computatio
 
 [Term]
 id: CO_322:0000836
-name: ELSen_DT_day
+name: elsen_dt_day
 namespace: MaizeVariable
 synonym: "DTELSen" EXACT []
 is_a: CO_322:Variable ! Variable
@@ -6417,7 +5361,7 @@ relationship: variable_of CO_322:0000352 ! day
 
 [Term]
 id: CO_322:0000837
-name: FgramSRInc_Cmp_pct
+name: fgramsrinc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000065 ! fusarium graminearum stalk rot incidence
@@ -6426,7 +5370,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000838
-name: FgramSRInc_Ct_plntPlot
+name: fgramsrinc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000065 ! fusarium graminearum stalk rot incidence
@@ -6435,7 +5379,7 @@ relationship: variable_of CO_322:0000563 ! fgramsrinc - counting
 
 [Term]
 id: CO_322:0000839
-name: FmonSRInc_Cmp_pct
+name: fmonsrinc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000064 ! fusarium moniliforme stalk rot incidence
@@ -6444,7 +5388,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000840
-name: FmonSRInc_Ct_plntPlot
+name: fmonsrinc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000064 ! fusarium moniliforme stalk rot incidence
@@ -6471,7 +5415,7 @@ relationship: method_of CO_322:0000841 ! fusarium moniliforme stalk rot severity
 
 [Term]
 id: CO_322:0000843
-name: FmonSRSev_E_1to5
+name: fmonsrsev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000234 ! 1-5 disease scoring scale
@@ -6480,7 +5424,7 @@ relationship: variable_of CO_322:0000842 ! fmonsrsev - estimation
 
 [Term]
 id: CO_322:0000844
-name: FungDis_E_0to1
+name: fungdis_e_0to1
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000046 ! fungal disease presence
@@ -6489,14 +5433,14 @@ relationship: variable_of CO_322:0000504 ! 0-1 absent-present scale
 
 [Term]
 id: CO_322:0000845
-name: Text
+name: text
 namespace: MaizeScale
 is_a: CO_322:Character ! Character
 relationship: scale_of CO_322:0000176 ! fungdis - estimation
 
 [Term]
 id: CO_322:0000846
-name: FungDis_E_text
+name: fungdis_e_text
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000046 ! fungal disease presence
@@ -6505,7 +5449,7 @@ relationship: variable_of CO_322:0000845 ! Text
 
 [Term]
 id: CO_322:0000847
-name: FusSRInc_Cmp_pct
+name: fussrinc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000063 ! fusarium stalk rot incidence
@@ -6514,7 +5458,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000848
-name: FusSRInc_Ct_plntPlot
+name: fussrinc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000063 ! fusarium stalk rot incidence
@@ -6523,7 +5467,7 @@ relationship: variable_of CO_322:0000562 ! fussrinc - counting
 
 [Term]
 id: CO_322:0000849
-name: GWLostWeev_Cmp_pct
+name: gwlostweev_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000131 ! grain weight loss by maize weevil
@@ -6532,7 +5476,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000850
-name: HSmutInc_Cmp_pct
+name: hsmutinc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000083 ! head smut incidence
@@ -6541,7 +5485,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000851
-name: HSmutInc_Ct_plntPlot
+name: hsmutinc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000083 ! head smut incidence
@@ -6568,7 +5512,7 @@ relationship: method_of CO_322:0000852 ! head smut severity
 
 [Term]
 id: CO_322:0000854
-name: HSmutSev_E_1to5
+name: hsmutsev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000234 ! 1-5 disease scoring scale
@@ -6577,7 +5521,7 @@ relationship: variable_of CO_322:0000853 ! hsmutsev - estimation
 
 [Term]
 id: CO_322:0000855
-name: LateWiltInc_Cmp_pct
+name: latewiltinc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000161 ! late wilt incidence
@@ -6586,7 +5530,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000856
-name: LateWiltInc_Ct_plntPlot
+name: latewiltinc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000161 ! late wilt incidence
@@ -6611,7 +5555,7 @@ relationship: method_of CO_322:0000857 ! lodging incidence
 
 [Term]
 id: CO_322:0000859
-name: LodgInc_E_1to5
+name: lodginc_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000477 ! 1-5 damage scoring scale
@@ -6620,13 +5564,13 @@ relationship: variable_of CO_322:0000858 ! lodginc - estimation
 
 [Term]
 id: CO_322:0000860
-name: Mat_Cmp_Cday
+name: mat_cmp_cday
 namespace: MaizeVariable
 synonym: "MaturityGDU" EXACT []
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000032 ! maturity time
 relationship: variable_of CO_322:0000262 ! growing degree days to maturity - computation
-relationship: variable_of CO_322:0000510 ! ¡C day
+relationship: variable_of CO_322:0000510 ! ∞C day
 
 [Term]
 id: CO_322:0000861
@@ -6638,7 +5582,7 @@ relationship: method_of CO_322:0000032 ! maturity time
 
 [Term]
 id: CO_322:0000863
-name: Mat_Date_ymd
+name: mat_date_ymd
 namespace: MaizeVariable
 synonym: "MD" EXACT []
 is_a: CO_322:Variable ! Variable
@@ -6648,7 +5592,7 @@ relationship: variable_of CO_322:0000861 ! maturity date - estimation
 
 [Term]
 id: CO_322:0000864
-name: Mat_DT_day
+name: mat_dt_day
 namespace: MaizeVariable
 synonym: "DTM" EXACT []
 is_a: CO_322:Variable ! Variable
@@ -6658,7 +5602,7 @@ relationship: variable_of CO_322:0000352 ! day
 
 [Term]
 id: CO_322:0000865
-name: MCob_Cmp_pct
+name: mcob_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000151 ! multiple cob incidence
@@ -6667,7 +5611,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000866
-name: MCob_Ct_plntPlot
+name: mcob_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000151 ! multiple cob incidence
@@ -6676,7 +5620,7 @@ relationship: variable_of CO_322:0000571 ! mcob - counting
 
 [Term]
 id: CO_322:0000867
-name: MLNSev_E_1to5
+name: mlnsev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000182 ! maize lethal necrosis severity
@@ -6685,7 +5629,7 @@ relationship: variable_of CO_322:0000236 ! mlnsev - estimation
 
 [Term]
 id: CO_322:0000868
-name: MRCVInc_Cmp_pct
+name: mrcvinc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000094 ! mal de rio cuarto virus incidence
@@ -6694,7 +5638,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000869
-name: MRCVInc_Ct_plntPlot
+name: mrcvinc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000094 ! mal de rio cuarto virus incidence
@@ -6703,7 +5647,7 @@ relationship: variable_of CO_322:0000590 ! mrcvinc - counting
 
 [Term]
 id: CO_322:0000870
-name: MRDVInc_Cmp_pct
+name: mrdvinc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000097 ! maize rough dwarf virus incidence
@@ -6712,7 +5656,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000871
-name: MRDVInc_Ct_plntPlot
+name: mrdvinc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000097 ! maize rough dwarf virus incidence
@@ -6721,7 +5665,7 @@ relationship: variable_of CO_322:0000588 ! mrdvinc - counting
 
 [Term]
 id: CO_322:0000872
-name: MRFVInc_Cmp_pct
+name: mrfvinc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000095 ! maize rayado fino virus incidence
@@ -6730,7 +5674,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000873
-name: MRFVInc_Ct_plntPlot
+name: mrfvinc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000095 ! maize rayado fino virus incidence
@@ -6739,7 +5683,7 @@ relationship: variable_of CO_322:0000587 ! mrfvinc - counting
 
 [Term]
 id: CO_322:0000874
-name: MSTVInc_Cmp_pct
+name: mstvinc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000098 ! maize stripe virus incidence
@@ -6748,7 +5692,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000875
-name: MSTVInc_Ct_plntPlot
+name: mstvinc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000098 ! maize stripe virus incidence
@@ -6757,7 +5701,7 @@ relationship: variable_of CO_322:0000589 ! mstvinc - counting
 
 [Term]
 id: CO_322:0000876
-name: MSVInc_Cmp_pct
+name: msvinc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000100 ! maize streak virus incidence
@@ -6766,7 +5710,7 @@ relationship: variable_of CO_322:0000568 ! msvinc - computation
 
 [Term]
 id: CO_322:0000877
-name: MSVInc_Ct_plntPlot
+name: msvinc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000100 ! maize streak virus incidence
@@ -6783,7 +5727,7 @@ is_a: CO_322:Biotic_stress_traits ! Biotic_stress_traits
 
 [Term]
 id: CO_322:0000879
-name: MSVSev_E_1to5
+name: msvsev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000234 ! 1-5 disease scoring scale
@@ -6792,7 +5736,7 @@ relationship: variable_of CO_322:0000878 ! maize streak virus severity
 
 [Term]
 id: CO_322:0000880
-name: NDVI_M_idx
+name: ndvi_m_idx
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000132 ! normalized difference vegetation index
@@ -6801,7 +5745,7 @@ relationship: variable_of CO_322:0000372 ! index
 
 [Term]
 id: CO_322:0000881
-name: OA_M_Mpa
+name: oa_m_mpa
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000117 ! osmotic adjustment
@@ -6810,7 +5754,7 @@ relationship: variable_of CO_322:0000511 ! Mpa
 
 [Term]
 id: CO_322:0000882
-name: OP_M_Mpa
+name: op_m_mpa
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000118 ! osmotic potential
@@ -6819,7 +5763,7 @@ relationship: variable_of CO_322:0000511 ! Mpa
 
 [Term]
 id: CO_322:0000883
-name: PAsp_E_1to5
+name: pasp_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000011 ! plant aspect
@@ -6828,7 +5772,7 @@ relationship: variable_of CO_322:0000396 ! 1-5 rating scale
 
 [Term]
 id: CO_322:0000884
-name: PDMInc_Cmp_pct
+name: pdminc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000076 ! philippine downy mildew incidence
@@ -6837,7 +5781,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000885
-name: PDMInc_Ct_plntPlot
+name: pdminc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000076 ! philippine downy mildew incidence
@@ -6846,7 +5790,7 @@ relationship: variable_of CO_322:0000576 ! pdminc - counting
 
 [Term]
 id: CO_322:0000886
-name: PHTslB_M_cm
+name: phtslb_m_cm
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000007 ! plant height to insertion of first tassel branch
@@ -6855,7 +5799,7 @@ relationship: variable_of CO_322:0000348 ! cm
 
 [Term]
 id: CO_322:0000887
-name: PHvst_Ct_plntPlot
+name: phvst_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000354 ! plant/plot
@@ -6864,7 +5808,7 @@ relationship: variable_of CO_322:0000593 ! phvst - counting
 
 [Term]
 id: CO_322:0000888
-name: PRI_M_idx
+name: pri_m_idx
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000140 ! photochemical radiation index
@@ -6873,7 +5817,7 @@ relationship: variable_of CO_322:0000372 ! index
 
 [Term]
 id: CO_322:0000889
-name: PsacchInc_Cmp_pct
+name: psacchinc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000077 ! sugarcane downy mildew incidence
@@ -6882,7 +5826,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000890
-name: PsacchInc_Ct_plntPlot
+name: psacchinc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000077 ! sugarcane downy mildew incidence
@@ -6891,7 +5835,7 @@ relationship: variable_of CO_322:0000577 ! psacchinc - counting
 
 [Term]
 id: CO_322:0000891
-name: PStand_Ct_plntPlot
+name: pstand_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000008 ! plant stand
@@ -6900,7 +5844,7 @@ relationship: variable_of CO_322:0000354 ! plant/plot
 
 [Term]
 id: CO_322:0000892
-name: PUnif_E_1to3
+name: punif_e_1to3
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000545 ! plant uniformity
@@ -6909,7 +5853,7 @@ relationship: variable_of CO_322:0000648 ! 1-3 plant uniformity scale
 
 [Term]
 id: CO_322:0000893
-name: PVig_E_1to5
+name: pvig_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000546 ! plant vigor
@@ -6918,7 +5862,7 @@ relationship: variable_of CO_322:0000649 ! 1-5 vigor scale
 
 [Term]
 id: CO_322:0000894
-name: PytSRInc_Cmp_pct
+name: pytsrinc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000067 ! pythium stalk rot incidence
@@ -6927,7 +5871,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000895
-name: PytSRInc_Ct_plntPlot
+name: pytsrinc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000067 ! pythium stalk rot incidence
@@ -6936,7 +5880,7 @@ relationship: variable_of CO_322:0000574 ! pytsrinc - counting
 
 [Term]
 id: CO_322:0000896
-name: RLodgInc_Cmp_pct
+name: rlodginc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000034 ! root lodging incidence
@@ -6945,7 +5889,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000897
-name: RLodgInc_Ct_plntPlot
+name: rlodginc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000034 ! root lodging incidence
@@ -6962,7 +5906,7 @@ relationship: method_of CO_322:0000034 ! root lodging incidence
 
 [Term]
 id: CO_322:0000899
-name: RLodgInc_E_pct
+name: rlodginc_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000034 ! root lodging incidence
@@ -6971,7 +5915,7 @@ relationship: variable_of CO_322:0000898 ! rlodginc - estimation
 
 [Term]
 id: CO_322:0000900
-name: SCMVInc_Cmp_pct
+name: scmvinc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000101 ! sugarcane mosaic virus incidence
@@ -6980,7 +5924,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000901
-name: SCMVInc_Ct_plntPlot
+name: scmvinc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000101 ! sugarcane mosaic virus incidence
@@ -6989,7 +5933,7 @@ relationship: variable_of CO_322:0000578 ! scmvinc - counting
 
 [Term]
 id: CO_322:0000902
-name: SdlngDisInc_Cmp_pct
+name: sdlngdisinc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000093 ! seedling disease incidence
@@ -7006,7 +5950,7 @@ relationship: method_of CO_322:0000093 ! seedling disease incidence
 
 [Term]
 id: CO_322:0000904
-name: SdlngDisInc_Ct_plntPlot
+name: sdlngdisinc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000093 ! seedling disease incidence
@@ -7023,7 +5967,7 @@ relationship: method_of CO_322:0000031 ! silking time
 
 [Term]
 id: CO_322:0000907
-name: Silk_Date_ymd
+name: silk_date_ymd
 namespace: MaizeVariable
 synonym: "SD" EXACT []
 is_a: CO_322:Variable ! Variable
@@ -7033,7 +5977,7 @@ relationship: variable_of CO_322:0000905 ! silking date - estimation
 
 [Term]
 id: CO_322:0000908
-name: Silk_DT_day
+name: silk_dt_day
 namespace: MaizeVariable
 synonym: "DTS" EXACT []
 is_a: CO_322:Variable ! Variable
@@ -7043,7 +5987,7 @@ relationship: variable_of CO_322:0000352 ! day
 
 [Term]
 id: CO_322:0000909
-name: SLodgInc_Cmp_pct
+name: slodginc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000035 ! stem lodging incidence
@@ -7052,7 +5996,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000910
-name: SLodgInc_Ct_plntPlot
+name: slodginc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000035 ! stem lodging incidence
@@ -7069,7 +6013,7 @@ relationship: method_of CO_322:0000035 ! stem lodging incidence
 
 [Term]
 id: CO_322:0000912
-name: SlodgInc_E_pct
+name: slodginc_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000035 ! stem lodging incidence
@@ -7078,7 +6022,7 @@ relationship: variable_of CO_322:0000911 ! slodginc - estimation
 
 [Term]
 id: CO_322:0000913
-name: SRInc_Cmp_pct
+name: srinc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000061 ! stalk rot incidence
@@ -7087,7 +6031,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000914
-name: SRInc_Ct_plntPlot
+name: srinc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000061 ! stalk rot incidence
@@ -7096,7 +6040,7 @@ relationship: variable_of CO_322:0000579 ! srinc - counting
 
 [Term]
 id: CO_322:0000915
-name: StBorDmg_E_1to5
+name: stbordmg_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000159 ! stem borer damage
@@ -7105,7 +6049,7 @@ relationship: variable_of CO_322:0000477 ! 1-5 damage scoring scale
 
 [Term]
 id: CO_322:0000916
-name: StenSRInc_Cmp_pct
+name: stensrinc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000066 ! stenocarpella stalk rot incidence
@@ -7114,7 +6058,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000917
-name: StenSRInc_Ct_plntPlot
+name: stensrinc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000066 ! stenocarpella stalk rot incidence
@@ -7123,7 +6067,7 @@ relationship: variable_of CO_322:0000591 ! stensrinc - counting
 
 [Term]
 id: CO_322:0000918
-name: SteWiltInc_Cmp_pct
+name: stewiltinc_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000050 ! stewarts wilt incidence
@@ -7132,7 +6076,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000919
-name: SteWiltInc_Ct_plntPlot
+name: stewiltinc_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000050 ! stewarts wilt incidence
@@ -7141,7 +6085,7 @@ relationship: variable_of CO_322:0000592 ! stewiltinc - counting
 
 [Term]
 id: CO_322:0000920
-name: StrigaDmg_E_1to5
+name: strigadmg_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000158 ! striga damage
@@ -7150,7 +6094,7 @@ relationship: variable_of CO_322:0000477 ! 1-5 damage scoring scale
 
 [Term]
 id: CO_322:0000921
-name: Tillering_Ct_tllrplnt
+name: tillering_ct_tllrplnt
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000059 ! tillering
@@ -7159,7 +6103,7 @@ relationship: variable_of CO_322:0000514 ! tiller/plant
 
 [Term]
 id: CO_322:0000922
-name: WI_M_idx
+name: wi_m_idx
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000141 ! water index
@@ -7168,7 +6112,7 @@ relationship: variable_of CO_322:0000385 ! wi - measurement
 
 [Term]
 id: CO_322:0000923
-name: RootCapac_M_uF
+name: rootcapac_m_uf
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000102 ! root capacitance
@@ -7177,7 +6121,7 @@ relationship: variable_of CO_322:0000512 ! uF
 
 [Term]
 id: CO_322:0000924
-name: ShtPub_E_1to3
+name: shtpub_e_1to3
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000163 ! sheath pubescence
@@ -7203,7 +6147,7 @@ relationship: method_of CO_322:0000925 ! shelled cob weight
 
 [Term]
 id: CO_322:0000928
-name: ShellCobW_FW_gPlot
+name: shellcobw_fw_gplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000733 ! g/plot
@@ -7212,7 +6156,7 @@ relationship: variable_of CO_322:0000926 ! shellcobw - measurement (duplicate)
 
 [Term]
 id: CO_322:0000931
-name: ShellCobW_FW_kgPlot
+name: shellcobw_fw_kgplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000358 ! kg/plot
@@ -7221,7 +6165,7 @@ relationship: variable_of CO_322:0000926 ! shellcobw - measurement (duplicate)
 
 [Term]
 id: CO_322:0000932
-name: SilkAnCol_E_1to5
+name: silkancol_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000539 ! silk anthocyanin coloration
@@ -7230,7 +6174,7 @@ relationship: variable_of CO_322:0000642 ! 1-5 anthocyanin coloration scale
 
 [Term]
 id: CO_322:0000933
-name: SilkGrw_M_cm
+name: silkgrw_m_cm
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000144 ! silk growth
@@ -7239,7 +6183,7 @@ relationship: variable_of CO_322:0000348 ! cm
 
 [Term]
 id: CO_322:0000934
-name: SilkGrwR_Cmp_cmday
+name: silkgrwr_cmp_cmday
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000014 ! silk growth rate
@@ -7248,7 +6192,7 @@ relationship: variable_of CO_322:0000503 ! cm/day
 
 [Term]
 id: CO_322:0000935
-name: SilkLng_M_cm
+name: silklng_m_cm
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000013 ! silk length
@@ -7258,48 +6202,14 @@ relationship: variable_of CO_322:0000348 ! cm
 [Term]
 id: CO_322:0000936
 name: 1-5 stem color scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= green ; 2= sun red ; 3= red ; 4= purple ; 5= brown ; " []
 is_a: CO_322:Nominal ! Nominal
 relationship: scale_of CO_322:0000185 ! stemcol - estimation
 
 [Term]
-id: CO_322:0000936:1
-name: green
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000936 ! 1-5 stem color scale
-
-[Term]
-id: CO_322:0000936:2
-name: sun red
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000936 ! 1-5 stem color scale
-
-[Term]
-id: CO_322:0000936:3
-name: red
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000936 ! 1-5 stem color scale
-
-[Term]
-id: CO_322:0000936:4
-name: purple
-namespace: MaizeScale
-synonym: "4" EXACT []
-is_a: CO_322:0000936 ! 1-5 stem color scale
-
-[Term]
-id: CO_322:0000936:5
-name: brown
-namespace: MaizeScale
-synonym: "5" EXACT []
-is_a: CO_322:0000936 ! 1-5 stem color scale
-
-[Term]
 id: CO_322:0000937
-name: StemCol_E_1to5
+name: stemcol_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000162 ! stem color
@@ -7316,7 +6226,7 @@ is_a: CO_322:Biotic_stress_traits ! Biotic_stress_traits
 
 [Term]
 id: CO_322:0000939
-name: StrigaPN_Ct_plntPlot
+name: strigapn_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000354 ! plant/plot
@@ -7325,7 +6235,7 @@ relationship: variable_of CO_322:0000938 ! striga plant number
 
 [Term]
 id: CO_322:0000940
-name: TslBlastSev_E_1to5
+name: tslblastsev_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000188 ! tassel blasting severity
@@ -7334,7 +6244,7 @@ relationship: variable_of CO_322:0000507 ! 1-5 tassel blasting severity scale
 
 [Term]
 id: CO_322:0000941
-name: TslAnCol_E_1to5
+name: tslancol_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000541 ! tassel anthocyanin coloration
@@ -7343,7 +6253,7 @@ relationship: variable_of CO_322:0000642 ! 1-5 anthocyanin coloration scale
 
 [Term]
 id: CO_322:0000942
-name: TslDen_E_1to3
+name: tslden_e_1to3
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000542 ! tassel density
@@ -7352,7 +6262,7 @@ relationship: variable_of CO_322:0000645 ! 1-3 tassel density scale
 
 [Term]
 id: CO_322:0000943
-name: TslExer_E_1to5
+name: tslexer_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000543 ! tassel exertion
@@ -7379,7 +6289,7 @@ relationship: method_of CO_322:0000944 ! tassel glumes base anthocyanin colorati
 
 [Term]
 id: CO_322:0000946
-name: TslGlBAnCol_E_1to5
+name: tslglbancol_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000642 ! 1-5 anthocyanin coloration scale
@@ -7406,7 +6316,7 @@ relationship: method_of CO_322:0000947 ! tassel glumes anthocyanin coloration
 
 [Term]
 id: CO_322:0000949
-name: TslGlAnCol_E_1to5
+name: tslglancol_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000642 ! 1-5 anthocyanin coloration scale
@@ -7415,7 +6325,7 @@ relationship: variable_of CO_322:0000948 ! tslglancol - estimation
 
 [Term]
 id: CO_322:0000950
-name: TslOpen_E_1to5
+name: tslopen_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000544 ! tassel opening
@@ -7424,7 +6334,7 @@ relationship: variable_of CO_322:0000647 ! 1-5 tassel opening scale
 
 [Term]
 id: CO_322:0000951
-name: TslSiz_E_1to3
+name: tslsiz_e_1to3
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000038 ! tassel size
@@ -7433,7 +6343,7 @@ relationship: variable_of CO_322:0000239 ! tslsiz - estimation
 
 [Term]
 id: CO_322:0000952
-name: TslTyp_E_1to3
+name: tsltyp_e_1to3
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000164 ! tassel branching type
@@ -7442,7 +6352,7 @@ relationship: variable_of CO_322:0000456 ! 1-3 tassel branching type scale
 
 [Term]
 id: CO_322:0000953
-name: TslBN_Ct_branch
+name: tslbn_ct_branch
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000028 ! tassel branch number
@@ -7451,7 +6361,7 @@ relationship: variable_of CO_322:0000517 ! branch
 
 [Term]
 id: CO_322:0000954
-name: TslBW_DW_g
+name: tslbw_dw_g
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000027 ! tassel branch weight
@@ -7460,7 +6370,7 @@ relationship: variable_of CO_322:0000302 ! g
 
 [Term]
 id: CO_322:0000955
-name: UpESh_E_1to4
+name: upesh_e_1to4
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000171 ! uppermost ear shape
@@ -7469,7 +6379,7 @@ relationship: variable_of CO_322:0000487 ! 1-4 ear shape scale
 
 [Term]
 id: CO_322:0000956
-name: GAsh_M_pct
+name: gash_m_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000137 ! grain ash content
@@ -7486,7 +6396,7 @@ relationship: method_of CO_322:0000137 ! grain ash content
 
 [Term]
 id: CO_322:0000958
-name: GAsh_NIRS_pct
+name: gash_nirs_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000137 ! grain ash content
@@ -7495,7 +6405,7 @@ relationship: variable_of CO_322:0000957 ! nirs gash - measurement
 
 [Term]
 id: CO_322:0000959
-name: GIron_M_ppm
+name: giron_m_ppm
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000110 ! grain iron content
@@ -7504,7 +6414,7 @@ relationship: variable_of CO_322:0000387 ! giron - measurement
 
 [Term]
 id: CO_322:0000960
-name: GLys_M_pct
+name: glys_m_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000108 ! grain lysine content
@@ -7513,7 +6423,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0000961
-name: GOil_M_pct
+name: goil_m_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000350 ! %
@@ -7530,7 +6440,7 @@ relationship: method_of CO_322:0000533 ! grain oil content
 
 [Term]
 id: CO_322:0000963
-name: GOil_NIRS_pct
+name: goil_nirs_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000350 ! %
@@ -7539,7 +6449,7 @@ relationship: variable_of CO_322:0000962 ! nirs goil - measurement
 
 [Term]
 id: CO_322:0000964
-name: GProt_Cmp_pct
+name: gprot_cmp_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000122 ! grain protein content
@@ -7556,7 +6466,7 @@ relationship: method_of CO_322:0000122 ! grain protein content
 
 [Term]
 id: CO_322:0000966
-name: GProt_NIRS_pct
+name: gprot_nirs_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000122 ! grain protein content
@@ -7565,7 +6475,7 @@ relationship: variable_of CO_322:0000965 ! nirs gprot- measurement
 
 [Term]
 id: CO_322:0000967
-name: GStarch_M_pct
+name: gstarch_m_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000126 ! grain starch content
@@ -7574,7 +6484,7 @@ relationship: variable_of CO_322:0000391 ! gstarch - measurement
 
 [Term]
 id: CO_322:0000968
-name: GTrp_M_pct
+name: gtrp_m_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000103 ! grain tryptophan content
@@ -7591,7 +6501,7 @@ relationship: method_of CO_322:0000103 ! grain tryptophan content
 
 [Term]
 id: CO_322:0000970
-name: GTrp_NIRS_pct
+name: gtrp_nirs_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000103 ! grain tryptophan content
@@ -7600,7 +6510,7 @@ relationship: variable_of CO_322:0000969 ! nirs gtrp- measurement
 
 [Term]
 id: CO_322:0000971
-name: GVitA_M_µgg
+name: gvita_m_μgg
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000125 ! grain provitamina content
@@ -7609,7 +6519,7 @@ relationship: variable_of CO_322:0000597 ! ug/g
 
 [Term]
 id: CO_322:0000972
-name: GZinc_M_ppm
+name: gzinc_m_ppm
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000111 ! grain zinc content
@@ -7618,7 +6528,7 @@ relationship: variable_of CO_322:0000393 ! gzinc  - measurement
 
 [Term]
 id: CO_322:0000973
-name: YLChl_M_CCI
+name: ylchl_m_cci
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000024 ! young leaf chlorophyll content
@@ -7627,7 +6537,7 @@ relationship: variable_of CO_322:0000378 ! CCI
 
 [Term]
 id: CO_322:0000974
-name: GABA_M_ugg
+name: gaba_m_ugg
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000113 ! grain abscisic acid content
@@ -7636,7 +6546,7 @@ relationship: variable_of CO_322:0000597 ! ug/g
 
 [Term]
 id: CO_322:0000975
-name: GGlucose_M_pct
+name: gglucose_m_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000115 ! grain glucose content
@@ -7645,7 +6555,7 @@ relationship: variable_of CO_322:0000357 ! glucose - measurement
 
 [Term]
 id: CO_322:0000976
-name: RProl_M_ugg
+name: rprol_m_ugg
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000119 ! root proline content
@@ -7654,7 +6564,7 @@ relationship: variable_of CO_322:0000597 ! ug/g
 
 [Term]
 id: CO_322:0000977
-name: GSucrose_M_pct
+name: gsucrose_m_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000120 ! grain sucrose content
@@ -7692,7 +6602,8 @@ relationship: method_of CO_322:0000133 ! grain weight
 [Term]
 id: CO_322:0000981
 name: 1-9 disease scoring scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= no infection ; 2= very low infection ; 3= low infection ; 4= low to medium infection ; 5= medium infection ; 6= medium to high infection ; 7= high infection ; 8= very high infection ; 9= severe infection ; " []
 is_a: CO_322:Ordinal ! Ordinal
 relationship: scale_of CO_322:0000187 ! tscsev - estimation
 relationship: scale_of CO_322:0000226 ! dmsev - estimation
@@ -7725,72 +6636,10 @@ relationship: scale_of CO_322:0000842 ! fmonsrsev - estimation
 relationship: scale_of CO_322:0000853 ! hsmutsev - estimation
 
 [Term]
-id: CO_322:0000981:1
-name: no infection
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000981 ! 1-9 disease scoring scale
-
-[Term]
-id: CO_322:0000981:2
-name: very low infection
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000981 ! 1-9 disease scoring scale
-
-[Term]
-id: CO_322:0000981:3
-name: low infection
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000981 ! 1-9 disease scoring scale
-
-[Term]
-id: CO_322:0000981:4
-name: low to medium infection
-namespace: MaizeScale
-synonym: "4" EXACT []
-is_a: CO_322:0000981 ! 1-9 disease scoring scale
-
-[Term]
-id: CO_322:0000981:5
-name: medium infection
-namespace: MaizeScale
-synonym: "5" EXACT []
-is_a: CO_322:0000981 ! 1-9 disease scoring scale
-
-[Term]
-id: CO_322:0000981:6
-name: medium to high infection
-namespace: MaizeScale
-synonym: "6" EXACT []
-is_a: CO_322:0000981 ! 1-9 disease scoring scale
-
-[Term]
-id: CO_322:0000981:7
-name: high infection
-namespace: MaizeScale
-synonym: "7" EXACT []
-is_a: CO_322:0000981 ! 1-9 disease scoring scale
-
-[Term]
-id: CO_322:0000981:8
-name: very high infection
-namespace: MaizeScale
-synonym: "8" EXACT []
-is_a: CO_322:0000981 ! 1-9 disease scoring scale
-
-[Term]
-id: CO_322:0000981:9
-name: severe infection
-namespace: MaizeScale
-synonym: "9" EXACT []
-is_a: CO_322:0000981 ! 1-9 disease scoring scale
-
-[Term]
 id: CO_322:0000982
 name: 1-9 anthocyanin coloration scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= absent or very weak ; 2= very weak to weak ; 3= weak ; 4= weak to medium ; 5= medium ; 6= medium to strong ; 7= strong ; 8= strong to very strong ; 9= very strong ; " []
 is_a: CO_322:Ordinal ! Ordinal
 relationship: scale_of CO_322:0000652 ! antancol - estimation
 relationship: scale_of CO_322:0000945 ! tslglbancol - estimation
@@ -7798,90 +6647,14 @@ relationship: scale_of CO_322:0000948 ! tslglancol - estimation
 relationship: scale_of CO_322:0001084 ! cobglancol - estimation
 
 [Term]
-id: CO_322:0000982:1
-name: absent or very weak
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000982 ! 1-9 anthocyanin coloration scale
-
-[Term]
-id: CO_322:0000982:2
-name: very weak to weak
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000982 ! 1-9 anthocyanin coloration scale
-
-[Term]
-id: CO_322:0000982:3
-name: weak
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000982 ! 1-9 anthocyanin coloration scale
-
-[Term]
-id: CO_322:0000982:4
-name: weak to medium
-namespace: MaizeScale
-synonym: "4" EXACT []
-is_a: CO_322:0000982 ! 1-9 anthocyanin coloration scale
-
-[Term]
-id: CO_322:0000982:5
-name: medium
-namespace: MaizeScale
-synonym: "5" EXACT []
-is_a: CO_322:0000982 ! 1-9 anthocyanin coloration scale
-
-[Term]
-id: CO_322:0000982:6
-name: medium to strong
-namespace: MaizeScale
-synonym: "6" EXACT []
-is_a: CO_322:0000982 ! 1-9 anthocyanin coloration scale
-
-[Term]
-id: CO_322:0000982:7
-name: strong
-namespace: MaizeScale
-synonym: "7" EXACT []
-is_a: CO_322:0000982 ! 1-9 anthocyanin coloration scale
-
-[Term]
-id: CO_322:0000982:8
-name: strong to very strong
-namespace: MaizeScale
-synonym: "8" EXACT []
-is_a: CO_322:0000982 ! 1-9 anthocyanin coloration scale
-
-[Term]
-id: CO_322:0000982:9
-name: very strong
-namespace: MaizeScale
-synonym: "9" EXACT []
-is_a: CO_322:0000982 ! 1-9 anthocyanin coloration scale
-
-[Term]
 id: CO_322:0000983
 name: 1-2  absent-present scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= absent ; 2= present ; " []
 is_a: CO_322:Ordinal ! Ordinal
 relationship: scale_of CO_322:0000652 ! antancol - estimation
 relationship: scale_of CO_322:0000945 ! tslglbancol - estimation
 relationship: scale_of CO_322:0000948 ! tslglancol - estimation
-
-[Term]
-id: CO_322:0000983:1
-name: absent
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000983 ! 1-2  absent-present scale
-
-[Term]
-id: CO_322:0000983:2
-name: present
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000983 ! 1-2  absent-present scale
 
 [Term]
 id: CO_322:0000984
@@ -7910,7 +6683,7 @@ relationship: scale_of CO_322:0000238 ! aba - measurement
 
 [Term]
 id: CO_322:0000987
-name: ng/µg
+name: ng/μg
 namespace: MaizeScale
 is_a: CO_322:Numerical ! Numerical
 relationship: scale_of CO_322:0000377 ! sucrose - measurement
@@ -7926,7 +6699,7 @@ relationship: method_of CO_322:0000021 ! ear number
 
 [Term]
 id: CO_322:0000989
-name: EN_Ct_earPlot
+name: en_ct_earplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000021 ! ear number
@@ -7952,48 +6725,14 @@ relationship: method_of CO_322:0000990 ! grain viability
 [Term]
 id: CO_322:0000992
 name: 1-5 seed viability scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= ; 2= ; 3= ; 4= ; 5= ; " []
 is_a: CO_322:Ordinal ! Ordinal
 relationship: scale_of CO_322:0000991 ! gviablty - measurement
 
 [Term]
-id: CO_322:0000992:1
-name: 
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0000992 ! 1-5 seed viability scale
-
-[Term]
-id: CO_322:0000992:2
-name: 
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0000992 ! 1-5 seed viability scale
-
-[Term]
-id: CO_322:0000992:3
-name: 
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0000992 ! 1-5 seed viability scale
-
-[Term]
-id: CO_322:0000992:4
-name: 
-namespace: MaizeScale
-synonym: "4" EXACT []
-is_a: CO_322:0000992 ! 1-5 seed viability scale
-
-[Term]
-id: CO_322:0000992:5
-name: 
-namespace: MaizeScale
-synonym: "5" EXACT []
-is_a: CO_322:0000992 ! 1-5 seed viability scale
-
-[Term]
 id: CO_322:0000993
-name: GViablty_M_1to5
+name: gviablty_m_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000990 ! grain viability
@@ -8007,7 +6746,6 @@ namespace: MaizeTrait
 def: "Plant height from the base to the top part (in reproductive stages to the top of the tassel)." []
 synonym: "PH" EXACT []
 is_a: CO_322:Agronomical_traits ! Agronomical_traits
-xref: maizeGDB:64851
 
 [Term]
 id: CO_322:0000995
@@ -8019,7 +6757,7 @@ relationship: method_of CO_322:0000994 ! plant height
 
 [Term]
 id: CO_322:0000996
-name: PH_M_cm
+name: ph_m_cm
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000348 ! cm
@@ -8044,7 +6782,7 @@ relationship: method_of CO_322:0000997 ! plant height to ligule of the flag leaf
 
 [Term]
 id: CO_322:0000999
-name: PHFL_M_cm
+name: phfl_m_cm
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000348 ! cm
@@ -8060,7 +6798,7 @@ relationship: scale_of CO_322:0000252 ! egrwr - computation
 
 [Term]
 id: CO_322:0001001
-name: EGrwR_Cmp_gplntday
+name: egrwr_cmp_gplntday
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000016 ! ear growth rate
@@ -8069,7 +6807,7 @@ relationship: variable_of CO_322:0001000 ! g/plant/day
 
 [Term]
 id: CO_322:0001002
-name: EW_FW_gPlot
+name: ew_fw_gplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000524 ! ear weight
@@ -8086,7 +6824,7 @@ relationship: method_of CO_322:0000524 ! ear weight
 
 [Term]
 id: CO_322:0001004
-name: EW_M_gear
+name: ew_m_gear
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000302 ! g
@@ -8118,7 +6856,7 @@ relationship: scale_of CO_322:0001006 ! gtw - computation
 
 [Term]
 id: CO_322:0001008
-name: GTW_M_lbbsh
+name: gtw_m_lbbsh
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0001005 ! grain test weight
@@ -8127,7 +6865,7 @@ relationship: variable_of CO_322:0001007 ! lb/bsh
 
 [Term]
 id: CO_322:0001009
-name: GW_Adj_g1000grn
+name: gw_adj_g1000grn
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000133 ! grain weight
@@ -8136,7 +6874,7 @@ relationship: variable_of CO_322:0000979 ! gw adjusted - computation
 
 [Term]
 id: CO_322:0001010
-name: GW_Adj_g100grn
+name: gw_adj_g100grn
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000133 ! grain weight
@@ -8145,7 +6883,7 @@ relationship: variable_of CO_322:0000979 ! gw adjusted - computation
 
 [Term]
 id: CO_322:0001011
-name: GW_Adj_g200grn
+name: gw_adj_g200grn
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000133 ! grain weight
@@ -8154,7 +6892,7 @@ relationship: variable_of CO_322:0000979 ! gw adjusted - computation
 
 [Term]
 id: CO_322:0001012
-name: GW_FW_g200grn
+name: gw_fw_g200grn
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000133 ! grain weight
@@ -8163,7 +6901,7 @@ relationship: variable_of CO_322:0000980 ! gw fw - measurement
 
 [Term]
 id: CO_322:0001013
-name: GW_FW_g1000grn
+name: gw_fw_g1000grn
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000133 ! grain weight
@@ -8172,7 +6910,7 @@ relationship: variable_of CO_322:0000980 ! gw fw - measurement
 
 [Term]
 id: CO_322:0001014
-name: GW_FW_g100grn
+name: gw_fw_g100grn
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000133 ! grain weight
@@ -8188,7 +6926,7 @@ relationship: scale_of CO_322:0000608 ! fw gy - measurement
 
 [Term]
 id: CO_322:0001016
-name: GY_FW_lbPlot
+name: gy_fw_lbplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000005 ! grain yield
@@ -8206,7 +6944,7 @@ is_a: CO_322:Agronomical_traits ! Agronomical_traits
 
 [Term]
 id: CO_322:0001018
-name: SdlngVig_E_1to5
+name: sdlngvig_e_1to5
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000626 ! pvig - estimation
@@ -8215,7 +6953,7 @@ relationship: variable_of CO_322:0001017 ! seedling vigor
 
 [Term]
 id: CO_322:0001019
-name: AspERSev_E_1to9
+name: aspersev_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000520 ! aspergillus ear rot severity
@@ -8224,7 +6962,7 @@ relationship: variable_of CO_322:0000981 ! 1-9 disease scoring scale
 
 [Term]
 id: CO_322:0001020
-name: AspERSev_E_pct
+name: aspersev_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000350 ! %
@@ -8233,7 +6971,7 @@ relationship: variable_of CO_322:0000521 ! aspersev - estimation
 
 [Term]
 id: CO_322:0001021
-name: AflavERSev_E_1to9
+name: aflaversev_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000072 ! aspergillus flavus ear rot severity
@@ -8242,7 +6980,7 @@ relationship: variable_of CO_322:0000981 ! 1-9 disease scoring scale
 
 [Term]
 id: CO_322:0001022
-name: AflavERSev_E_pct
+name: aflaversev_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000072 ! aspergillus flavus ear rot severity
@@ -8251,7 +6989,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0001023
-name: BCLSSev_E_1to9
+name: bclssev_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000051 ! bacterial leaf stripe severity
@@ -8260,7 +6998,7 @@ relationship: variable_of CO_322:0000981 ! 1-9 disease scoring scale
 
 [Term]
 id: CO_322:0001024
-name: BCLSSev_E_pct
+name: bclssev_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000051 ! bacterial leaf stripe severity
@@ -8269,7 +7007,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0001025
-name: BLSBSev_E_1to9
+name: blsbsev_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000084 ! banded leaf and sheath blight severity
@@ -8278,7 +7016,7 @@ relationship: variable_of CO_322:0000981 ! 1-9 disease scoring scale
 
 [Term]
 id: CO_322:0001026
-name: BLSBSev_E_pct
+name: blsbsev_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000084 ! banded leaf and sheath blight severity
@@ -8287,7 +7025,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0001027
-name: BwSpotSev_E_1to9
+name: bwspotsev_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000086 ! brown spot severity
@@ -8296,7 +7034,7 @@ relationship: variable_of CO_322:0000981 ! 1-9 disease scoring scale
 
 [Term]
 id: CO_322:0001028
-name: BwSpotSev_E_pct
+name: bwspotsev_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000086 ! brown spot severity
@@ -8305,7 +7043,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0001029
-name: CRustSev_E_1to9
+name: crustsev_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000085 ! common rust severity
@@ -8314,7 +7052,7 @@ relationship: variable_of CO_322:0000981 ! 1-9 disease scoring scale
 
 [Term]
 id: CO_322:0001030
-name: CRustSev_E_pct
+name: crustsev_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000085 ! common rust severity
@@ -8331,7 +7069,7 @@ relationship: method_of CO_322:0000556 ! common smut incidence
 
 [Term]
 id: CO_322:0001032
-name: CSmutSev_E_pct
+name: csmutsev_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000082 ! common smut severity
@@ -8340,7 +7078,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0001033
-name: CSmutSev_E_1to9
+name: csmutsev_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000082 ! common smut severity
@@ -8349,7 +7087,7 @@ relationship: variable_of CO_322:0000981 ! 1-9 disease scoring scale
 
 [Term]
 id: CO_322:0001034
-name: CSSSev_E_1to9
+name: csssev_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000488 ! corn stunt spiroplasma severity
@@ -8358,7 +7096,7 @@ relationship: variable_of CO_322:0000981 ! 1-9 disease scoring scale
 
 [Term]
 id: CO_322:0001035
-name: CSSSev_E_pct
+name: csssev_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000350 ! %
@@ -8367,7 +7105,7 @@ relationship: variable_of CO_322:0000489 ! csssev - estimation
 
 [Term]
 id: CO_322:0001036
-name: CLSSev_E_pct
+name: clssev_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000089 ! curvularia leaf spot severity
@@ -8376,7 +7114,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0001037
-name: CLSSev_E_1to9
+name: clssev_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000089 ! curvularia leaf spot severity
@@ -8385,7 +7123,7 @@ relationship: variable_of CO_322:0000981 ! 1-9 disease scoring scale
 
 [Term]
 id: CO_322:0001038
-name: DMSev_E_1to9
+name: dmsev_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000075 ! downy mildew severity
@@ -8394,7 +7132,7 @@ relationship: variable_of CO_322:0000981 ! 1-9 disease scoring scale
 
 [Term]
 id: CO_322:0001039
-name: DMSev_E_pct
+name: dmsev_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000075 ! downy mildew severity
@@ -8403,7 +7141,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0001040
-name: FusERSev_E_1to9
+name: fusersev_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000069 ! fusarium ear rot severity
@@ -8412,7 +7150,7 @@ relationship: variable_of CO_322:0000981 ! 1-9 disease scoring scale
 
 [Term]
 id: CO_322:0001041
-name: FusERSev_E_pct
+name: fusersev_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000069 ! fusarium ear rot severity
@@ -8421,7 +7159,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0001042
-name: FgramERSev_E_1to9
+name: fgramersev_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000070 ! fusarium graminearum ear rot severity
@@ -8430,7 +7168,7 @@ relationship: variable_of CO_322:0000981 ! 1-9 disease scoring scale
 
 [Term]
 id: CO_322:0001043
-name: FgramERSev_E_pct
+name: fgramersev_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000070 ! fusarium graminearum ear rot severity
@@ -8439,7 +7177,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0001044
-name: FmonERSev_E_1to9
+name: fmonersev_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000071 ! fusarium moniliforme ear rot severity
@@ -8448,7 +7186,7 @@ relationship: variable_of CO_322:0000981 ! 1-9 disease scoring scale
 
 [Term]
 id: CO_322:0001045
-name: FmonERSev_E_pct
+name: fmonersev_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000071 ! fusarium moniliforme ear rot severity
@@ -8457,7 +7195,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0001046
-name: FmonSRSev_E_pct
+name: fmonsrsev_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000350 ! %
@@ -8466,7 +7204,7 @@ relationship: variable_of CO_322:0000842 ! fmonsrsev - estimation
 
 [Term]
 id: CO_322:0001047
-name: FmonSRSev_E_1to9
+name: fmonsrsev_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000841 ! fusarium moniliforme stalk rot severity
@@ -8475,7 +7213,7 @@ relationship: variable_of CO_322:0000981 ! 1-9 disease scoring scale
 
 [Term]
 id: CO_322:0001048
-name: GLSSev_E_pct
+name: glssev_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000088 ! gray leaf spot severity
@@ -8484,7 +7222,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0001049
-name: GLSSev_E_1to9
+name: glssev_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000088 ! gray leaf spot severity
@@ -8493,7 +7231,7 @@ relationship: variable_of CO_322:0000981 ! 1-9 disease scoring scale
 
 [Term]
 id: CO_322:0001050
-name: HSmutSev_E_1to9
+name: hsmutsev_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000852 ! head smut severity
@@ -8502,7 +7240,7 @@ relationship: variable_of CO_322:0000981 ! 1-9 disease scoring scale
 
 [Term]
 id: CO_322:0001051
-name: HSmutSev_E_pct
+name: hsmutsev_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000350 ! %
@@ -8511,7 +7249,7 @@ relationship: variable_of CO_322:0000853 ! hsmutsev - estimation
 
 [Term]
 id: CO_322:0001052
-name: CSCMSev_E_1to9
+name: cscmsev_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000053 ! maize bushy stunt severity
@@ -8520,13 +7258,12 @@ relationship: variable_of CO_322:0000981 ! 1-9 disease scoring scale
 
 [Term]
 id: CO_322:0001053
-name: CSCMSev_E_pct
+name: cscmsev_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000053 ! maize bushy stunt severity
 relationship: variable_of CO_322:0000321 ! cscmsev - estimation
 relationship: variable_of CO_322:0000350 ! %
-xref: GRINDesc:89063
 
 [Term]
 id: CO_322:0001054
@@ -8546,7 +7283,7 @@ relationship: method_of CO_322:0001054 ! maize dwarf mosaic virus severity
 
 [Term]
 id: CO_322:0001056
-name: DMVSev_Ct_plntPlot
+name: dmvsev_ct_plntplot
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000234 ! 1-5 disease scoring scale
@@ -8555,7 +7292,7 @@ relationship: variable_of CO_322:0001055 ! dmvsev - estimation
 
 [Term]
 id: CO_322:0001057
-name: MLNSev_E_1to9
+name: mlnsev_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000182 ! maize lethal necrosis severity
@@ -8564,7 +7301,7 @@ relationship: variable_of CO_322:0000981 ! 1-9 disease scoring scale
 
 [Term]
 id: CO_322:0001058
-name: MLNSev_E_pct
+name: mlnsev_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000182 ! maize lethal necrosis severity
@@ -8573,7 +7310,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0001059
-name: MSVSev_E_1to9
+name: msvsev_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000273 ! msvsev - estimation
@@ -8582,7 +7319,7 @@ relationship: variable_of CO_322:0000981 ! 1-9 disease scoring scale
 
 [Term]
 id: CO_322:0001060
-name: MSVSev_E_pct
+name: msvsev_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000273 ! msvsev - estimation
@@ -8591,7 +7328,7 @@ relationship: variable_of CO_322:0000878 ! maize streak virus severity
 
 [Term]
 id: CO_322:0001061
-name: BmaySev_E_1to9
+name: bmaysev_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000057 ! maydis leaf blight severity
@@ -8600,7 +7337,7 @@ relationship: variable_of CO_322:0000981 ! 1-9 disease scoring scale
 
 [Term]
 id: CO_322:0001062
-name: BmaySev_E_pct
+name: bmaysev_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000057 ! maydis leaf blight severity
@@ -8609,7 +7346,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0001063
-name: PERSev_E_1to9
+name: persev_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000074 ! penicillium ear rot severity
@@ -8618,7 +7355,7 @@ relationship: variable_of CO_322:0000981 ! 1-9 disease scoring scale
 
 [Term]
 id: CO_322:0001064
-name: PERSev_E_pct
+name: persev_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000074 ! penicillium ear rot severity
@@ -8627,7 +7364,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0001065
-name: PLSSev_E_1to9
+name: plssev_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000090 ! phaeosphaeria leaf spot severity
@@ -8636,7 +7373,7 @@ relationship: variable_of CO_322:0000981 ! 1-9 disease scoring scale
 
 [Term]
 id: CO_322:0001066
-name: PLSSev_E_pct
+name: plssev_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000090 ! phaeosphaeria leaf spot severity
@@ -8645,7 +7382,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0001067
-name: PpolySev_E_1to9
+name: ppolysev_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000055 ! polysora rust severity
@@ -8654,7 +7391,7 @@ relationship: variable_of CO_322:0000981 ! 1-9 disease scoring scale
 
 [Term]
 id: CO_322:0001068
-name: PpolySev_E_pct
+name: ppolysev_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000055 ! polysora rust severity
@@ -8663,7 +7400,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0001069
-name: RustSev_E_1to9
+name: rustsev_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000054 ! rust severity
@@ -8672,7 +7409,7 @@ relationship: variable_of CO_322:0000981 ! 1-9 disease scoring scale
 
 [Term]
 id: CO_322:0001070
-name: RustSev_E_pct
+name: rustsev_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000054 ! rust severity
@@ -8681,7 +7418,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0001071
-name: DMSSev_E_1to9
+name: dmssev_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000522 ! dmssev - estimation
@@ -8690,7 +7427,7 @@ relationship: variable_of CO_322:0000981 ! 1-9 disease scoring scale
 
 [Term]
 id: CO_322:0001072
-name: DMSSev_E_pct
+name: dmssev_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000350 ! %
@@ -8699,7 +7436,7 @@ relationship: variable_of CO_322:0000829 ! sorghum downy mildew severity
 
 [Term]
 id: CO_322:0001073
-name: SmaySev_E_1to9
+name: smaysev_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000073 ! stenocarpella ear rot severity
@@ -8708,7 +7445,7 @@ relationship: variable_of CO_322:0000981 ! 1-9 disease scoring scale
 
 [Term]
 id: CO_322:0001074
-name: SmaySev_E_pct
+name: smaysev_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000073 ! stenocarpella ear rot severity
@@ -8717,7 +7454,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0001075
-name: TSCSev_E_1to9
+name: tscsev_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000091 ! tar spot complex severity
@@ -8726,7 +7463,7 @@ relationship: variable_of CO_322:0000981 ! 1-9 disease scoring scale
 
 [Term]
 id: CO_322:0001076
-name: TSCSev_E_pct
+name: tscsev_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000091 ! tar spot complex severity
@@ -8735,7 +7472,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0001077
-name: TRustSev_E_1to9
+name: trustsev_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000056 ! tropical rust severity
@@ -8744,7 +7481,7 @@ relationship: variable_of CO_322:0000981 ! 1-9 disease scoring scale
 
 [Term]
 id: CO_322:0001078
-name: TRustSev_E_pct
+name: trustsev_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000056 ! tropical rust severity
@@ -8753,7 +7490,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0001079
-name: EturcSev_E_1to9
+name: eturcsev_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000092 ! turcicum leaf blight severity
@@ -8762,7 +7499,7 @@ relationship: variable_of CO_322:0000981 ! 1-9 disease scoring scale
 
 [Term]
 id: CO_322:0001080
-name: EturcSev_E_pct
+name: eturcsev_e_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000092 ! turcicum leaf blight severity
@@ -8771,7 +7508,7 @@ relationship: variable_of CO_322:0000350 ! %
 
 [Term]
 id: CO_322:0001081
-name: AntAnCol_E_1to9
+name: antancol_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000651 ! anther anthocyanin coloration
@@ -8780,7 +7517,7 @@ relationship: variable_of CO_322:0000982 ! 1-9 anthocyanin coloration scale
 
 [Term]
 id: CO_322:0001082
-name: AntAnCol_E_1to2
+name: antancol_e_1to2
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000651 ! anther anthocyanin coloration
@@ -8805,14 +7542,12 @@ relationship: method_of CO_322:0001083 ! cob glumes anthocyanin coloration
 
 [Term]
 id: CO_322:0001085
-name: CobGlAnCol_E_1to9
+name: cobglancol_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000982 ! 1-9 anthocyanin coloration scale
 relationship: variable_of CO_322:0001083 ! cob glumes anthocyanin coloration
 relationship: variable_of CO_322:0001084 ! cobglancol - estimation
-xref: GRINDesc:89035
-xref: maizeGDB:67275
 
 [Term]
 id: CO_322:0001086
@@ -8833,34 +7568,14 @@ relationship: method_of CO_322:0001086 ! cob glumes color
 [Term]
 id: CO_322:0001088
 name: 1-3 cob color scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= white ; 2= light purple ; 3= dark purple ; " []
 is_a: CO_322:Ordinal ! Ordinal
 relationship: scale_of CO_322:0001087 ! cobglcol - estimation
 
 [Term]
-id: CO_322:0001088:1
-name: white
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0001088 ! 1-3 cob color scale
-
-[Term]
-id: CO_322:0001088:2
-name: light purple
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0001088 ! 1-3 cob color scale
-
-[Term]
-id: CO_322:0001088:3
-name: dark purple
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0001088 ! 1-3 cob color scale
-
-[Term]
 id: CO_322:0001089
-name: CobGlCol_E_1to3
+name: cobglcol_e_1to3
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0001086 ! cob glumes color
@@ -8869,7 +7584,7 @@ relationship: variable_of CO_322:0001088 ! 1-3 cob color scale
 
 [Term]
 id: CO_322:0001090
-name: ELng_M_mm
+name: elng_m_mm
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000015 ! ear length
@@ -8894,7 +7609,7 @@ relationship: method_of CO_322:0001091 ! ear width
 
 [Term]
 id: CO_322:0001093
-name: EWid_M_mm
+name: ewid_m_mm
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000206 ! mm
@@ -8904,55 +7619,14 @@ relationship: variable_of CO_322:0001092 ! ewid - measurement
 [Term]
 id: CO_322:0001094
 name: 1-6 grain upper surface shape scale
-namespace: MaizeScale
+namespace: MAIZEScale
+def: "1= shrunken ; 2= indented ; 3= level ; 4= rounded ; 5= pointed ; 6= strongly pointed ; " []
 is_a: CO_322:Nominal ! Nominal
 relationship: scale_of CO_322:0000360 ! gupssh - estimation
 
 [Term]
-id: CO_322:0001094:1
-name: shrunken
-namespace: MaizeScale
-synonym: "1" EXACT []
-is_a: CO_322:0001094 ! 1-6 grain upper surface shape scale
-
-[Term]
-id: CO_322:0001094:2
-name: indented
-namespace: MaizeScale
-synonym: "2" EXACT []
-is_a: CO_322:0001094 ! 1-6 grain upper surface shape scale
-
-[Term]
-id: CO_322:0001094:3
-name: level
-namespace: MaizeScale
-synonym: "3" EXACT []
-is_a: CO_322:0001094 ! 1-6 grain upper surface shape scale
-
-[Term]
-id: CO_322:0001094:4
-name: rounded
-namespace: MaizeScale
-synonym: "4" EXACT []
-is_a: CO_322:0001094 ! 1-6 grain upper surface shape scale
-
-[Term]
-id: CO_322:0001094:5
-name: pointed
-namespace: MaizeScale
-synonym: "5" EXACT []
-is_a: CO_322:0001094 ! 1-6 grain upper surface shape scale
-
-[Term]
-id: CO_322:0001094:6
-name: strongly pointed
-namespace: MaizeScale
-synonym: "6" EXACT []
-is_a: CO_322:0001094 ! 1-6 grain upper surface shape scale
-
-[Term]
 id: CO_322:0001095
-name: TslGlAnCol_E_1to9
+name: tslglancol_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000947 ! tassel glumes anthocyanin coloration
@@ -8961,7 +7635,7 @@ relationship: variable_of CO_322:0000982 ! 1-9 anthocyanin coloration scale
 
 [Term]
 id: CO_322:0001096
-name: TslGlAnCol_E_1to2
+name: tslglancol_e_1to2
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000947 ! tassel glumes anthocyanin coloration
@@ -8970,7 +7644,7 @@ relationship: variable_of CO_322:0000983 ! 1-2  absent-present scale
 
 [Term]
 id: CO_322:0001097
-name: TslGlBAnCol_E_1to9
+name: tslglbancol_e_1to9
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000944 ! tassel glumes base anthocyanin coloration
@@ -8979,7 +7653,7 @@ relationship: variable_of CO_322:0000982 ! 1-9 anthocyanin coloration scale
 
 [Term]
 id: CO_322:0001098
-name: TslGlBAnCol_E_1to2
+name: tslglbancol_e_1to2
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000944 ! tassel glumes base anthocyanin coloration
@@ -8996,7 +7670,7 @@ is_a: CO_322:Physiological_traits ! Physiological_traits
 
 [Term]
 id: CO_322:0001100
-name: CSucrose_M_umolg
+name: csucrose_m_umolg
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000377 ! sucrose - measurement
@@ -9005,7 +7679,7 @@ relationship: variable_of CO_322:0001099 ! cob sucrose content
 
 [Term]
 id: CO_322:0001101
-name: GABA_M_pgg
+name: gaba_m_pgg
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000113 ! grain abscisic acid content
@@ -9021,7 +7695,7 @@ relationship: scale_of CO_322:0000357 ! glucose - measurement
 
 [Term]
 id: CO_322:0001103
-name: GGlucose_M_ugmg
+name: gglucose_m_ugmg
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000357 ! glucose - measurement
@@ -9038,7 +7712,7 @@ is_a: CO_322:Physiological_traits ! Physiological_traits
 
 [Term]
 id: CO_322:0001105
-name: GProline_M_mgg
+name: gproline_m_mgg
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000369 ! proline - measurement
@@ -9047,7 +7721,7 @@ relationship: variable_of CO_322:0001104 ! grain proline content
 
 [Term]
 id: CO_322:0001106
-name: GSucrose_M_umolg
+name: gsucrose_m_umolg
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000120 ! grain sucrose content
@@ -9056,7 +7730,7 @@ relationship: variable_of CO_322:0000984 ! umol/g
 
 [Term]
 id: CO_322:0001107
-name: GSugar_M_pct
+name: gsugar_m_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000114 ! grain sugar content
@@ -9073,7 +7747,7 @@ is_a: CO_322:Physiological_traits ! Physiological_traits
 
 [Term]
 id: CO_322:0001109
-name: LABA_M_ngg
+name: laba_m_ngg
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000238 ! aba - measurement
@@ -9090,7 +7764,7 @@ is_a: CO_322:Physiological_traits ! Physiological_traits
 
 [Term]
 id: CO_322:0001111
-name: LProline_M_ugg
+name: lproline_m_ugg
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000369 ! proline - measurement
@@ -9099,7 +7773,7 @@ relationship: variable_of CO_322:0001110 ! leaf proline content
 
 [Term]
 id: CO_322:0001112
-name: LSucrose_M_umolg
+name: lsucrose_m_umolg
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000377 ! sucrose - measurement
@@ -9108,7 +7782,7 @@ relationship: variable_of CO_322:0000984 ! umol/g
 
 [Term]
 id: CO_322:0001113
-name: LSucrose_M_mgg
+name: lsucrose_m_mgg
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000377 ! sucrose - measurement
@@ -9125,7 +7799,7 @@ is_a: CO_322:Physiological_traits ! Physiological_traits
 
 [Term]
 id: CO_322:0001115
-name: RABA_M_ngg
+name: raba_m_ngg
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000238 ! aba - measurement
@@ -9142,7 +7816,7 @@ is_a: CO_322:Physiological_traits ! Physiological_traits
 
 [Term]
 id: CO_322:0001117
-name: RGlucose_M_ngug
+name: rglucose_m_ngug
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000377 ! sucrose - measurement
@@ -9159,7 +7833,7 @@ is_a: CO_322:Physiological_traits ! Physiological_traits
 
 [Term]
 id: CO_322:0001119
-name: RSucrose_M_ngug
+name: rsucrose_m_ngug
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000377 ! sucrose - measurement
@@ -9185,7 +7859,7 @@ relationship: method_of CO_322:0001120 ! grain nitrogen content
 
 [Term]
 id: CO_322:0001122
-name: GNC_M_pct
+name: gnc_m_pct
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000350 ! %
@@ -9194,124 +7868,124 @@ relationship: variable_of CO_322:0001121 ! gnc - measurement
 
 [Term]
 id: CO_322:Abiotic_stress_traits
-name: Abiotic_stress_traits
+name: abiotic_stress_traits
 namespace: MaizeTrait
 is_a: CO_322:Trait ! Trait
 
 [Term]
 id: CO_322:Agronomical_traits
-name: Agronomical_traits
+name: agronomical_traits
 namespace: MaizeTrait
 is_a: CO_322:Trait ! Trait
 
 [Term]
 id: CO_322:Biotic_stress_traits
-name: Biotic_stress_traits
+name: biotic_stress_traits
 namespace: MaizeTrait
 is_a: CO_322:Trait ! Trait
 
 [Term]
 id: CO_322:Character
-name: Character
+name: character
 namespace: MaizeScale
 is_a: CO_322:Scale ! Scale
 
 [Term]
 id: CO_322:Computation
-name: Computation
+name: computation
 namespace: MaizeMethod
 is_a: CO_322:Method ! Method
 
 [Term]
 id: CO_322:Counting
-name: Counting
+name: counting
 namespace: MaizeMethod
 is_a: CO_322:Method ! Method
 
 [Term]
 id: CO_322:Date
-name: Date
+name: date
 namespace: MaizeScale
 is_a: CO_322:Scale ! Scale
 
 [Term]
 id: CO_322:Estimation
-name: Estimation
+name: estimation
 namespace: MaizeMethod
 is_a: CO_322:Method ! Method
 
 [Term]
 id: CO_322:Measurement
-name: Measurement
+name: measurement
 namespace: MaizeMethod
 is_a: CO_322:Method ! Method
 
 [Term]
 id: CO_322:Method
-name: Method
+name: method
 namespace: MaizeMethod
 
 [Term]
 id: CO_322:Morphological_traits
-name: Morphological_traits
+name: morphological_traits
 namespace: MaizeTrait
 is_a: CO_322:Trait ! Trait
 
 [Term]
 id: CO_322:Nominal
-name: Nominal
+name: nominal
 namespace: MaizeScale
 is_a: CO_322:Scale ! Scale
 
 [Term]
 id: CO_322:Numerical
-name: Numerical
+name: numerical
 namespace: MaizeScale
 is_a: CO_322:Scale ! Scale
 
 [Term]
 id: CO_322:Ordinal
-name: Ordinal
+name: ordinal
 namespace: MaizeScale
 is_a: CO_322:Scale ! Scale
 
 [Term]
 id: CO_322:Phenological_traits
-name: Phenological_traits
+name: phenological_traits
 namespace: MaizeTrait
 is_a: CO_322:Trait ! Trait
 
 [Term]
 id: CO_322:Physiological_traits
-name: Physiological_traits
+name: physiological_traits
 namespace: MaizeTrait
 is_a: CO_322:Trait ! Trait
 
 [Term]
 id: CO_322:Quality_traits
-name: Quality_traits
+name: quality_traits
 namespace: MaizeTrait
 is_a: CO_322:Trait ! Trait
 
 [Term]
 id: CO_322:Scale
-name: Scale
+name: scale
 namespace: MaizeScale
 
 [Term]
 id: CO_322:Time
-name: Time
+name: time
 namespace: MaizeScale
 is_a: CO_322:Scale ! Scale
 
 [Term]
 id: CO_322:Trait
-name: Trait
+name: trait
 namespace: MaizeTrait
 
 [Term]
 id: CO_322:Variable
-name: Variable
+name: variable
 namespace: MaizeVariable
 
 [Typedef]
@@ -9325,3 +7999,4 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
+
