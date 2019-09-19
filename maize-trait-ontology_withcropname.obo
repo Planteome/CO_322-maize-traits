@@ -565,7 +565,7 @@ id: CO_322:0000093
 name: maize seedling disease incidence trait
 def: "Seedling disease incidence." [CO:curators]
 synonym: "SdlngDisInc" EXACT []
-is_a: TO:0000179
+is_a: TO:0000112 ! disease resistance
 
 [Term]
 id: CO_322:0000094
