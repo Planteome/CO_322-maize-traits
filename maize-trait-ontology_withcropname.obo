@@ -3272,7 +3272,7 @@ is_a: CO_322:0000015 ! ear length
 
 [Term]
 id: CO_322:0000674
-name: maize en_ct_earplnt variable
+name: maize en_cmp_earplnt variable
 relationship: variable_of CO_322:0000021 ! ear number
 relationship: variable_of CO_322:0000203 ! en - computation
 relationship: variable_of CO_322:0000356 ! ear/plant

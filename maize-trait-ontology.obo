@@ -3983,7 +3983,7 @@ relationship: variable_of CO_322:0000349 ! elng - measurement
 
 [Term]
 id: CO_322:0000674
-name: en_ct_earplnt
+name: en_cmp_earplnt
 namespace: MaizeVariable
 is_a: CO_322:Variable ! Variable
 relationship: variable_of CO_322:0000021 ! ear number
