@@ -45,7 +45,7 @@ name: maize grain number trait
 def: "Grain number." [CO:curators]
 synonym: "GN" EXACT []
 synonym: "Kernel number" EXACT []
-is_a: TO:0000894
+is_a: TO:0002759 ! grain number trait
 xref: MaizeGDB_QTL:99383
 
 [Term]
