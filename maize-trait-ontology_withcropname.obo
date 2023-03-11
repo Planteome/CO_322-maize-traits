@@ -744,7 +744,7 @@ name: maize grain protein content trait
 def: "Whole-grain protein content." [CO:curators]
 synonym: "GProt" EXACT []
 synonym: "Whole-grain protein content" EXACT []
-is_a: TO:0000598
+is_a: TO:0001136 ! grain protein content
 xref: GRINDesc:89052
 xref: MaizeGDB_QTL:62407
 
@@ -753,7 +753,7 @@ id: CO_322:0000123
 name: maize endosperm protein content trait
 def: "Protein content in grain endosperm." [CO:curators]
 synonym: "EndoProt" EXACT []
-is_a: TO:0000490
+is_a: TO:0001136 ! grain protein content
 
 [Term]
 id: CO_322:0000125
