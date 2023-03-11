@@ -753,7 +753,7 @@ id: CO_322:0000123
 name: maize endosperm protein content trait
 def: "Protein content in grain endosperm." [CO:curators]
 synonym: "EndoProt" EXACT []
-is_a: TO:0001136 ! grain protein content
+is_a: TO:0002653 ! endosperm storage protein content
 
 [Term]
 id: CO_322:0000125
