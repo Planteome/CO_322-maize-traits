@@ -248,7 +248,7 @@ id: CO_322:0000046
 name: maize fungal disease presence trait
 def: "The trait is scored for the response to the diseases caused by several fungi." [CO:curators]
 synonym: "FungDis" EXACT []
-is_a: TO:0000439
+is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_322:0000049
@@ -291,36 +291,36 @@ id: CO_322:0000054
 name: maize rust severity trait
 def: "Multiple rust pathogens severity." [CO:curators]
 synonym: "RustSev" EXACT []
-is_a: TO:0000439
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_322:0000055
 name: maize polysora rust severity trait
-def: "Polysora rust (in lowlands Puccinia polysora) severity." [CO:curators]
+def: "Polysora rust (in lowlands Puccinia polysora) severity." [CO:curators, NCBITaxon:684837]
 synonym: "PpolySev" EXACT []
-is_a: TO:0000439
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_322:0000056
 name: maize tropical rust severity trait
-def: "Tropical rust (Physopella zeae) severity." [CO:curators]
+def: "Tropical rust (Physopella zeae) severity." [CO:curators, NCBITaxon:73169]
 synonym: "TRustSev" EXACT []
-is_a: TO:0000439
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_322:0000057
 name: maize maydis leaf blight severity trait
-def: "Maydis leaf blight (Bipolaris maydis = Helminthosporium maydis) severity." [CO:curators]
+def: "Maydis leaf blight (Bipolaris maydis = Helminthosporium maydis) severity." [CO:curators, NCBITaxon:5016]
 synonym: "BmaySev" EXACT []
 synonym: "Southern corn leaf blight severity" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_322:0000058
 name: maize anthracnose leaf blight incidence trait
-def: "Anthracnose (Colletotrichum graminicola) incidence." [CO:curators]
+def: "Anthracnose (Colletotrichum graminicola) incidence." [CO:curators, NCBITaxon:31870]
 synonym: "ALBInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_322:0000059
@@ -333,9 +333,9 @@ xref: GRINDesc:89044
 [Term]
 id: CO_322:0000060
 name: maize black bundle incidence trait
-def: "Black bundle (Acremonium strictum) incidence." [CO:curators]
+def: "Black bundle Acremonium strictum (Sarocladium strictum) incidence." [CO:curators, NCBITaxon:5046 ]
 synonym: "AstriInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_322:0000061
@@ -347,172 +347,173 @@ is_a: TO:0000439
 [Term]
 id: CO_322:0000062
 name: maize charcoal rot incidence trait
-def: "Charcoal rot or (Macrophomina phaseolina) incidence." [CO:curators]
+def: "Charcoal rot or (Macrophomina phaseolina) incidence." [CO:curators, NCBITaxon:35725]
 synonym: "CharRInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_322:0000063
 name: maize fusarium stalk rot incidence trait
-def: "Fusarium stalk rot incidence." [CO:curators]
+def: "Fusarium stalk rot incidence." [CO:curators, NCBITaxon:5506]
 synonym: "FusSRInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_322:0000064
 name: maize fusarium moniliforme stalk rot incidence trait
-def: "Fusarium moniliforme stalk rot incidence." [CO:curators]
+def: "Fusarium moniliforme stalk rot incidence." [CO:curators, NCBITaxon:117187]
 synonym: "FmonSRInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_322:0000065
 name: maize fusarium graminearum stalk rot incidence trait
-def: "Fusarium graminearum stalk rot incidence." [CO:curators]
+def: "Fusarium graminearum stalk rot incidence." [CO:curators, NCBITaxon:5518]
 synonym: "FgramSRInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_322:0000066
 name: maize stenocarpella stalk rot incidence trait
-def: "Stenocarpella (=Diplodia) stalk rot incidence." [CO:curators]
+def: "Stenocarpella (=Diplodia) stalk rot incidence." [CO:curators, NCBITaxon:66735]
 synonym: "StenSRInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 xref: GRINDesc:89024
 
 [Term]
 id: CO_322:0000067
 name: maize pythium stalk rot incidence trait
-def: "Pythium stalk rot (Pythium spp.) incidence." [CO:curators]
+def: "Pythium stalk rot (Pythium spp.) incidence." [CO:curators, NCBITaxon:4797]
 synonym: "PytSRInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0001144 !	Oomycete disease response
 
 [Term]
 id: CO_322:0000068
 name: maize ear rot incidence trait
 def: "Ear rot incidence." [CO:curators]
+comment: May be Diplodia, Gibberella, Fusarium, and Trichoderma species.
 synonym: "ERInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_322:0000069
 name: maize fusarium ear rot severity trait
-def: "Fusarium ear rot severity." [CO:curators]
+def: "Fusarium ear rot severity." [CO:curators, NCBITaxon:5506]
 synonym: "FusERSev" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_322:0000070
 name: maize fusarium graminearum ear rot severity trait
-def: "Fusarium graminearum ear rot severity." [CO:curators]
+def: "Fusarium graminearum ear rot severity." [CO:curators, NCBITaxon:5518]
 synonym: "FgramERSev" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_322:0000071
 name: maize fusarium moniliforme ear rot severity trait
-def: "Fusarium moniliforme ear rot severity." [CO:curators]
+def: "Fusarium moniliforme ear rot severity." [CO:curators, NCBITaxon:117187]
 synonym: "FmonERSev" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_322:0000072
 name: maize aspergillus flavus ear rot severity trait
-def: "Aspergillus flavus ear rot severity." [CO:curators]
+def: "Aspergillus flavus ear rot severity." [CO:curators, NCBITaxon:5059]
 synonym: "AflavERSev" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_322:0000073
 name: maize stenocarpella ear rot severity trait
-def: "Stenocarpella (=Diplodia) ear rot severity." [CO:curators]
+def: "Stenocarpella (=Diplodia) ear rot severity." [CO:curators, NCBITaxon:66735]
 synonym: "SmaySev" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 xref: GRINDesc:89066
 
 [Term]
 id: CO_322:0000074
 name: maize penicillium ear rot severity trait
-def: "Penicillium ear rot severity." [CO:curators]
+def: "Penicillium ear rot severity." [CO:curators,NCBITaxon:5073]
 synonym: "PERSev" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_322:0000075
 name: maize downy mildew severity trait
 def: "Downy mildews (several species of the genera Peronosclerospora, Sclerospora, and Sclerophthora) severity." [CO:curators]
 synonym: "DMSev" EXACT []
-is_a: TO:0000439
+is_a: TO:0001144 ! Oomycete disease response
 
 [Term]
 id: CO_322:0000076
 name: maize philippine downy mildew incidence trait
-def: "Philippine downy mildew (Peronosclerospora philippinensis) incidence." [CO:curators]
+def: "Philippine downy mildew (Peronosclerospora philippinensis) incidence." [CO:curators, NCBITaxon:886948]
 synonym: "PDMInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0001144 ! Oomycete disease response
 
 [Term]
 id: CO_322:0000077
 name: maize sugarcane downy mildew incidence trait
-def: "Sugarcane downy mildew (Peronosclerospora sacchari) incidence." [CO:curators]
+def: "Sugarcane downy mildew (Peronosclerospora sacchari) incidence." [CO:curators, NCBITaxon:467161]
 synonym: "PsacchInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0001144 ! Oomycete disease response
 
 [Term]
 id: CO_322:0000078
 name: maize brown stripe downy mildew incidence trait
-def: "Brown stripe downy mildew (Sclerophthora rayssiae var. zeae) incidence." [CO:curators]
+def: "Brown stripe downy mildew (Sclerophthora rayssiae var. zeae) incidence." [CO:curators, NCBITaxon:467175]
 synonym: "BSDMInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0001144 ! Oomycete disease response
 
 [Term]
 id: CO_322:0000079
 name: maize java downy mildew incidence trait
-def: "Java downy mildew (Peronosclerospora maydis) incidence." [CO:curators]
+def: "Java downy mildew (Peronosclerospora maydis) incidence." [CO:curators, NCBITaxon:886949]
 synonym: "DMJInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0001144 ! Oomycete disease response
 
 [Term]
 id: CO_322:0000080
 name: maize sorghum downy mildew incidence trait
-def: "Sorghum downy mildew (Peronosclerospora sorghi) incidence." [CO:curators]
+def: "Sorghum downy mildew (Peronosclerospora sorghi) incidence." [CO:curators, NCBITaxon:230839]
 synonym: "DMSInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0001144 ! Oomycete disease response
 
 [Term]
 id: CO_322:0000081
 name: maize crazy top downy mildew incidence trait
-def: "Crazy top (Sclerophthora macrospora) incidence." [CO:curators]
+def: "Crazy top (Sclerophthora macrospora) incidence." [CO:curators, NCBITaxon:467176]
 synonym: "CTMInc" EXACT []
 is_a: TO:0000439
 
 [Term]
 id: CO_322:0000082
 name: maize common smut severity trait
-def: "Common smut (Ustilago maydis, syn. U. zeae) severity." [CO:curators]
+def: "Common smut (Ustilago maydis, syn. U. zeae) severity." [CO:curators, NCBITaxon:5270]
 synonym: "CSmutSev" EXACT []
-is_a: TO:0000439
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_322:0000083
 name: maize head smut incidence trait
-def: "Head smut (Sphacelotheca reiliana) incidence." [CO:curators]
+def: "Head smut (Sphacelotheca reiliana) incidence." [CO:curators, NCBITaxon:72563]
 synonym: "HSmutInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_322:0000084
 name: maize banded leaf and sheath blight severity trait
-def: "Banded leaf and sheath blight (Rhizoctonia solani f. sp. sasakii) severity." [CO:curators]
+def: "Banded leaf and sheath blight (Rhizoctonia solani f. sp. sasakii) severity." [CO:curators, NCBITaxon:456999]
 synonym: "BLSBSev" EXACT []
-is_a: TO:0000439
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_322:0000085
 name: maize common rust severity trait
-def: "Severity of common rust ( Puccinia sorghi)." [CO:curators]
+def: "Severity of common rust ( Puccinia sorghi)." [CO:curators, NCBITaxon:27349]
 synonym: "CRustSev" EXACT []
-is_a: TO:0000439
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 xref: GRINDesc:89019
 
 [Term]
@@ -520,44 +521,44 @@ id: CO_322:0000086
 name: maize brown spot severity trait
 def: "Brown spot (Physoderma maydis) severity." [CO:curators]
 synonym: "BwSpotSev" EXACT []
-is_a: TO:0000439
+is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_322:0000088
 name: maize gray leaf spot severity trait
-def: "Gray leaf spot (Cercospora zeae-maydis) severity." [CO:curators]
+def: "Gray leaf spot (Cercospora zeae-maydis) severity." [CO:curators, NCBITaxon:135779]
 synonym: "GLSSev" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 xref: GRINDesc:89060
 
 [Term]
 id: CO_322:0000089
 name: maize curvularia leaf spot severity trait
-def: "Curvularia leaf spot (Curvularia spp.) severity." [CO:curators]
+def: "Curvularia leaf spot (Curvularia spp.) severity." [CO:curators, NCBITaxon:5502]
 synonym: "CLSSev" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_322:0000090
 name: maize phaeosphaeria leaf spot severity trait
-def: "Phaeosphaeria leaf spot (Phaeosphaeria maydis) severity." [CO:curators]
+def: "Phaeosphaeria leaf spot (Phaeosphaeria maydis) severity." [CO:curators, NCBITaxon:55067]
 synonym: "PLSSev" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_322:0000091
 name: maize tar spot complex severity trait
-def: "Tar spot complex (Phyllachora maydis, Monographella maydis) severity." [CO:curators]
+def: "Tar spot complex (Phyllachora maydis, Monographella maydis) severity." [CO:curators, NCBITaxon:1825666]
 synonym: "TSCSev" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_322:0000092
 name: maize turcicum leaf blight severity trait
-def: "Turcicum leaf blight (Exserohilum turcicum = Helminthosporium turcicum) severity." [CO:curators]
+def: "Turcicum leaf blight (Exserohilum turcicum = Helminthosporium turcicum) severity." [CO:curators, NCBITaxon:93612]
 synonym: "EturcSev" EXACT []
 synonym: "Northern corn leaf blight severity" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 xref: GRINDesc:89009
 
 [Term]
@@ -776,9 +777,9 @@ xref: MaizeGDB_QTL:69890
 [Term]
 id: CO_322:0000127
 name: maize large grain borer damage trait
-def: "Large grain borer (Prostephanus truncatus) damage." [CO:curators]
+def: "Large grain borer (Prostephanus truncatus) damage." [CO:curators, NCBITaxon:101470]
 synonym: "LGBDmg" EXACT []
-is_a: TO:0000439
+is_a: TO:0000261 ! insect damage response trait
 
 [Term]
 id: CO_322:0000128
@@ -941,16 +942,16 @@ is_a: TO:0000261
 [Term]
 id: CO_322:0000156
 name: maize diabrotica damage trait
-def: "Plant damage caused by Diabrotica species." [CO:curators]
+def: "Plant damage caused by Diabrotica species." [CO:curators; NCBITaxon:50385]
 synonym: "DiabroticaDmg" EXACT []
-is_a: TO:0000439
+is_a: TO:0005010 ! rootworm response
 
 [Term]
 id: CO_322:0000157
 name: maize diatraea damage trait
 def: "Plant damage caused by Diatraea species." [CO:curators]
 synonym: "DiatraeaDmg" EXACT []
-is_a: TO:0000261
+is_a: TO:0005010 ! rootworm response
 
 [Term]
 id: CO_322:0000158
@@ -964,7 +965,7 @@ id: CO_322:0000159
 name: maize stem borer damage trait
 def: "Stem borer damage includes different stem borers such as Chilo partellus, Sesamia spp. and Spodoptera." [CO:curators]
 synonym: "StBorDmg" EXACT []
-is_a: TO:0000439
+is_a: TO:0000261 ! insect damage response trait
 xref: GRINDesc:89014
 
 [Term]
@@ -979,7 +980,7 @@ id: CO_322:0000161
 name: maize late wilt incidence trait
 def: "Late wilt (Cephalosporium maydis) incidence." [CO:curators]
 synonym: "LateWiltInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_322:0000162
@@ -1007,7 +1008,7 @@ id: CO_322:0000165
 name: maize ear damage trait
 def: "Ear damage caused by ear rot and/or insects, etc." [CO:curators]
 synonym: "EDmg" EXACT []
-is_a: TO:0000439
+is_a: TO:0000179 ! biotic plant stress trait
 
 [Term]
 id: CO_322:0000166
@@ -2559,9 +2560,9 @@ relationship: scale_of CO_322:0000345 ! gn - computation
 [Term]
 id: CO_322:0000520
 name: maize aspergillus ear rot severity trait
-def: "Aspergillus ear rot severity." [CO:curators]
+def: "Aspergillus ear rot severity (Aspergillus flavus)." [CO:curators, NCBITaxon:5059]
 synonym: "AspERSev" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_322:0000521
@@ -2701,9 +2702,9 @@ relationship: method_of CO_322:0000150 ! ear bad husk cover incidence
 [Term]
 id: CO_322:0000556
 name: maize common smut incidence trait
-def: "Common smut (Ustilago maydis, syn. U. zeae)incidence." [CO:curators]
+def: "Common smut (Ustilago maydis, syn. U. zeae) incidence." [CO:curators, NCBITaxon:5270]
 synonym: "CSmutInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 xref: GRINDesc:89021
 
 [Term]
@@ -4416,7 +4417,7 @@ id: CO_322:0000829
 name: maize sorghum downy mildew severity trait
 def: "Sorghum downy mildew (Peronosclerospora sorghi) severity." [CO:curators]
 synonym: "DMSSev" EXACT []
-is_a: TO:0000439
+is_a: TO:0001144 ! Oomycete disease response
 
 [Term]
 id: CO_322:0000830
@@ -4501,9 +4502,9 @@ is_a: CO_322:0000064 ! fusarium moniliforme stalk rot incidence
 [Term]
 id: CO_322:0000841
 name: maize fusarium moniliforme stalk rot severity trait
-def: "Fusarium moniliforme stalk rot severity." [CO:curators]
+def: "Fusarium moniliforme stalk rot severity." [CO:curators, NCBITaxon:117187]
 synonym: "FmonSRSev" EXACT []
-is_a: TO:0000439
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_322:0000842
@@ -4585,9 +4586,9 @@ is_a: CO_322:0000083 ! head smut incidence
 [Term]
 id: CO_322:0000852
 name: maize head smut severity trait
-def: "Head smut (Sphacelotheca reiliana) severity." [CO:curators]
+def: "Head smut (Sphacelotheca reiliana) severity." [CO:curators, NCBITaxon:72563]
 synonym: "HSmutSev" EXACT []
-is_a: TO:0000439
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_322:0000853
