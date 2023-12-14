@@ -814,6 +814,7 @@ id: CO_322:0000132
 name: maize normalized difference vegetation index trait
 def: "Canopy normalized difference vegetation index." [CO:curators]
 synonym: "NDVI" EXACT []
+is_a: TO:0000249 ! leaf senescence trait
 
 [Term]
 id: CO_322:0000133
@@ -858,7 +859,7 @@ id: CO_322:0000142
 name: maize canopy temperature trait
 def: "Canopy temperature." [CO:curators]
 synonym: "CT" EXACT []
-is_a: TO:0000157
+is_a: TO:0000157 ! canopy temperature
 
 [Term]
 id: CO_322:0000143
@@ -879,6 +880,7 @@ id: CO_322:0000145
 name: maize ear growth trait
 def: "Difference between the ear length (cm) measured at zero day pollen shedding and 7 days after pollen shedding." [CO:curators]
 synonym: "EGrw" EXACT []
+
 
 [Term]
 id: CO_322:0000146
@@ -958,7 +960,7 @@ id: CO_322:0000158
 name: maize striga damage trait
 def: "Damage of Striga hermonthica plants on maize plants." [CO:curators]
 synonym: "StrigaDmg" EXACT []
-is_a: TO:0000347
+is_a: TO:0000444 ! parasitic weed response
 
 [Term]
 id: CO_322:0000159
@@ -5147,7 +5149,7 @@ id: CO_322:0000925
 name: maize shelled cob weight trait
 def: "Weight of shelled cob." [CO:curators]
 synonym: "ShellCobW" EXACT []
-is_a: TO:0000922
+is_a: TO:0000922 ! cob weight
 
 [Term]
 id: CO_322:0000926
@@ -5222,6 +5224,8 @@ id: CO_322:0000938
 name: maize striga plant number
 def: "Number of Striga hermonthica plants." [CO:curators]
 synonym: "StrigaPN" EXACT []
+is_a: TO:0000444 ! parasitic weed response
+
 
 [Term]
 id: CO_322:0000939
@@ -5268,7 +5272,7 @@ id: CO_322:0000944
 name: maize tassel glumes base anthocyanin coloration trait
 def: "Anthocyanin coloration at base of tassel glumes." [CO:curators]
 synonym: "TslGlBCol" EXACT []
-is_a: TO:0000795
+is_a: TO:0000795 ! tassel inflorescence color
 
 [Term]
 id: CO_322:0000945
@@ -5291,7 +5295,7 @@ id: CO_322:0000947
 name: maize tassel glumes anthocyanin coloration trait
 def: "Anthocyanin coloration of tassel glumes excluding the bases of the glumes." [CO:curators]
 synonym: "TslGlCol" EXACT []
-is_a: TO:0000795
+is_a: TO:0000795 ! tassel inflorescence color
 
 [Term]
 id: CO_322:0000948
@@ -5530,7 +5534,7 @@ id: CO_322:0000978
 name: maize leaf sucrose content trait
 def: "Sucrose content in the leaf" [CO:curators]
 synonym: "LSucrose" EXACT []
-is_a: TO:0000328
+is_a: TO:0000328 ! sucrose content
 
 [Term]
 id: CO_322:0000979
@@ -5640,7 +5644,7 @@ id: CO_322:0000990
 name: maize grain viability trait
 def: "Grain or seed viability." [CO:curators]
 synonym: "GViablty" EXACT []
-is_a: TO:0000345
+is_a: TO:0000162 ! grain quality trait
 
 [Term]
 id: CO_322:0000991
@@ -5666,7 +5670,7 @@ id: CO_322:0000994
 name: maize plant height trait
 def: "Plant height from the base to the top part (in reproductive stages to the top of the tassel)." [CO:curators]
 synonym: "PH" EXACT []
-is_a: TO:0000207
+is_a: TO:0000207 ! plant height
 xref: MaizeGDB_QTL:64851
 
 [Term]
@@ -5688,7 +5692,7 @@ id: CO_322:0000997
 name: maize plant height to ligule of the flag leaf trait
 def: "Plant height from the base to the ligule of the flag leaf." [CO:curators]
 synonym: "PHFL" EXACT []
-is_a: TO:0002748
+is_a: TO:0000207 ! plant height
 
 [Term]
 id: CO_322:0000998
@@ -5832,7 +5836,7 @@ name: maize seedling vigor trait
 def: "Seedling vigor." [CO:curators]
 synonym: "Early vigor" EXACT []
 synonym: "SdlngVig" EXACT []
-is_a: TO:0000280
+is_a: TO:0000280 ! seedling vigor
 
 [Term]
 id: CO_322:0001018
@@ -6638,7 +6642,7 @@ name: maize grain nitrogen content trait
 def: "Whole-grain Nitrogen content." [CO:curators]
 synonym: "GNC" EXACT []
 synonym: "Whole-grain Nitrogen content" EXACT []
-is_a: TO:0020093 ! nitrogen content
+is_a: TO:0003068 ! grain nitrogen content
 
 [Term]
 id: CO_322:0001121
