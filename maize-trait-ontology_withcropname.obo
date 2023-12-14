@@ -81,7 +81,7 @@ id: CO_322:0000015
 name: maize ear length trait
 def: "Ear length." [CO:curators]
 synonym: "ELng" EXACT []
-is_a: TO:0000969
+is_a: TO:0000431 ! ear length
 xref: GRINDesc:89030
 xref: MaizeGDB_QTL:78112
 
@@ -97,7 +97,7 @@ id: CO_322:0000017
 name: maize ear height trait
 def: "Plant height from base to the insertion of the top (uppermost) ear." [CO:curators]
 synonym: "EH" EXACT []
-is_a: TO:0000969
+is_a: TO:0000683 ! ear infructescence position
 xref: GRINDesc:89034
 xref: MaizeGDB_QTL:61369
 
@@ -106,14 +106,14 @@ id: CO_322:0000018
 name: maize ear aspect trait
 def: "Observation of harvested ears based on some morphological and agronomical characters such as ear size, total numbers of ear harvested per plot, ear damaged caused by insects or/and diseases." [CO:curators]
 synonym: "EAsp" EXACT []
-is_a: TO:0000969
+is_a: TO:0000965 ! ear aspect
 
 [Term]
 id: CO_322:0000019
 name: maize ear leaf length trait
 def: "Ear leaf (blade) length." [CO:curators]
 synonym: "ELLng" EXACT []
-is_a: TO:0000817
+is_a: TO:0000817 ! inflorescence bract length
 
 [Term]
 id: CO_322:0000020
@@ -121,14 +121,14 @@ name: maize ear position trait
 def: "Ear position as a ratio of ear height to plant height." [CO:curators]
 synonym: "EPo" EXACT []
 synonym: "plant to ear height ratio" EXACT []
-is_a: TO:0000969
+is_a: TO:0000683 ! ear infructescence position
 
 [Term]
 id: CO_322:0000021
 name: maize ear number trait
 def: "Ear number." [CO:curators]
 synonym: "EN" EXACT []
-is_a: TO:0000969
+is_a: TO:0000443 ! ear infructescence number
 xref: GRINDesc:89038
 
 [Term]
