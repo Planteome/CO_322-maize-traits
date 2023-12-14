@@ -485,7 +485,7 @@ id: CO_322:0000081
 name: maize crazy top downy mildew incidence trait
 def: "Crazy top (Sclerophthora macrospora) incidence." [CO:curators, NCBITaxon:467176]
 synonym: "CTMInc" EXACT []
-is_a: TO:0000439
+is_a: TO:0001144 ! Oomycete disease response
 
 [Term]
 id: CO_322:0000082
