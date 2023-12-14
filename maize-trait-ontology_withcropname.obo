@@ -944,7 +944,7 @@ is_a: TO:0000261
 [Term]
 id: CO_322:0000156
 name: maize diabrotica damage trait
-def: "Plant damage caused by Diabrotica species." [CO:curators; NCBITaxon:50385]
+def: "Plant damage caused by Diabrotica species." [CO:curators, NCBITaxon:50385]
 synonym: "DiabroticaDmg" EXACT []
 is_a: TO:0005010 ! rootworm response
 
