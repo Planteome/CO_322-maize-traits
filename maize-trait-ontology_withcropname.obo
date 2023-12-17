@@ -881,7 +881,6 @@ name: maize ear growth trait
 def: "Difference between the ear length (cm) measured at zero day pollen shedding and 7 days after pollen shedding." [CO:curators]
 synonym: "EGrw" EXACT []
 
-
 [Term]
 id: CO_322:0000146
 name: maize grain color trait
