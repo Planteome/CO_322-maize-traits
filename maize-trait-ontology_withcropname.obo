@@ -6118,7 +6118,6 @@ is_a: CO_322:0000053 ! maize bushy stunt severity
 [Term]
 id: CO_322:0001053
 name: maize cscmsev_e_pct variable
-is_a: TO:0000148
 relationship: variable_of CO_322:0000053 ! maize bushy stunt severity
 relationship: variable_of CO_322:0000321 ! cscmsev - estimation
 relationship: variable_of CO_322:0000350 ! %
