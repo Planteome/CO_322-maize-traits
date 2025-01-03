@@ -6594,7 +6594,7 @@ id: CO_322:0001114
 name: maize root abscisic acid content trait
 def: "Abscisic acid content in the root." [CO:curators]
 synonym: "RABA" EXACT []
-is_a: TO:0000300
+is_a: TO:0002667 ! abscisic acid content
 
 [Term]
 id: CO_322:0001115
